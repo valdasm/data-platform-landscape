@@ -33,7 +33,7 @@ relation:
         - id: generalavailability
           label: Services in General Availability
           prefix: GA
-          tag: General Availability Service
+          tag: GA
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: General Availability Service
@@ -41,7 +41,7 @@ relation:
         - id: preview
           label: Services in Preview
           prefix: Preview
-          tag: Preview Service
+          tag: Preview
           color: '#4470af'
           big_picture_order: 1
           big_picture_label: Preview Service
@@ -70,13 +70,19 @@ membership:
     end_user_label: Gold End User Member
     funding: Gold
     is_large: true
+  Other:
+    name: MSFT Other
+    label: Members
+    end_user_label: End User Member
+    funding: Smth
+    is_large: true
 home:
   header: >
-    <h1>Azure Data Platform Landscape</h1> TTTThe Azure Data Platform Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>Azure Data Platform Landscape</h1> The Azure Data Platform Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
     on the same open source code.
   footer: |
-    Crunchbase data is used under license from Crunchbase to CNCF.
+    Footer
 ads:
   - url: 'https://www.linkedin.com/in/valdasm/'
     image: /images/author.jpg
@@ -106,22 +112,22 @@ big_picture:
         category: Data Ingestion
         cols: 3
         width: 200
-        height: 480
+        height: 400
         top: 0
         left: 0
         color: 'rgb(4,81,49)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Storages
-        cols: 3
+        rows: 3
         width: 400
-        height: 400
+        height: 160
         top: 0
         left: 250
         color: 'rgb(79,121,13)'
         fit_width: true
       - type: VerticalCategory
-        category: Analytics & Reporting
+        category: Predictive Analytics
         cols: 3
         width: 200
         height: 400
@@ -129,42 +135,60 @@ big_picture:
         left: 700
         color: 'rgb(79,121,13)'
         fit_width: true
+      - type: VerticalCategory
+        category: Business Intelligence
+        cols: 3
+        width: 200
+        height: 400
+        top: 0
+        left: 920
+        color: 'rgb(79,121,13)'
+        fit_width: true
+      - type: VerticalCategory
+        category: Data access
+        cols: 3
+        width: 200
+        height: 400
+        top: 0
+        left: 1140
+        color: 'rgb(79,121,13)'
+        fit_width: true
       - type: HorizontalCategory
         category: Data Processing
         rows: 3
         width: 400
         height: 160
-        top: 420
+        top: 180
         left: 250
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
         category: Orchestration
-        rows: 2
+        rows: 1
         width: 900
-        height: 160
-        top: 530
+        height: 100
+        top: 400
         left: 0
         color: 'rgb(7,136,62)'
         fit_width: true
-      # - type: HorizontalCategory
-      #   category: Services available via Marketplace
-      #   rows: 6
-      #   width: 970
-      #   height: 195
-      #   top: 180
-      #   left: 0
-      #   color: 'rgb(126,115,14)'
-      #   fit_width: true
-      # - type: HorizontalCategory
-      #   category: Open source projects
-      #   rows: 4
-      #   width: 650
-      #   height: 150
-      #   top: 390
-      #   left: 0
-      #   color: 'rgb(103,66,18)'
-      #   fit_width: true
+      - type: HorizontalCategory
+        category: Data Governance
+        rows: 1
+        width: 900
+        height: 100
+        top: 520
+        left: 0
+        color: 'rgb(7,136,62)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Data Ops
+        rows: 1
+        width: 900
+        height: 100
+        top: 640
+        left: 0
+        color: 'rgb(7,136,62)'
+        fit_width: true
       - type: LandscapeInfo
         width: 310
         height: 150
@@ -233,7 +257,7 @@ big_picture:
       - type: LandscapeInfo
         width: 300
         height: 200
-        top: 970
+        top: 270
         left: 1280
         children:
           - type: text
@@ -271,6 +295,9 @@ big_picture:
             width: 161
             title: CNCF Logo
     category: Azure Landscape Members  
+
 test:
   header: Azure Data Platform Landscape
+  section: Ingestion
+  logo: twitter.svg
 
