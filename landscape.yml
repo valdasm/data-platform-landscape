@@ -1,0 +1,126 @@
+landscape:
+  - category:
+    name: Data Ingestion
+    subcategories:
+      - subcategory:
+        name: Batch
+        items:
+          - item:
+            name: Azure Data Factory
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+  - category:
+    name: Storages
+    subcategories:
+      - subcategory:
+        name: Staging
+        items:
+          - item:
+            name: Azure Data Lake Storage
+            homepage_url: 'https://www.arangodb.com/'
+            project: generalavailability
+            logo: azure-data-lake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+      - subcategory:
+        name: 'Lake House, Warehouse, etc.'
+        items:
+          - item:
+            name: Azure Synapse Dedicated Pools
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: generalavailability
+            logo: azure-synapse.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Synapse Serverless
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: generalavailability
+            logo: azure-synapse.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Snowflake
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+  - category:
+    name: Data Processing
+    subcategories:
+      - subcategory:
+        name: Batch Data Transformations
+        items:
+          - item:
+            name: Azure Data Factory Mapping Data Flows
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Databricks
+            homepage_url: 'https://azure.microsoft.com/en-us/services/databricks/'
+            project: generalavailability
+            logo: azure-databricks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+      - subcategory:
+        name: Real-time Data Transformations
+        items:
+          - item:
+            name: Azure Stream Analytics
+            homepage_url: 'https://azure.microsoft.com/en-us/services/stream-analytics/'
+            project: generalavailability
+            logo: azure-stream-analytics.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+  - category:
+    name: Orchestration
+    subcategories:
+      - subcategory:
+        name: Data Orchestration
+        items:
+          - item:
+            name: Azure Data Factory Orchestration
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+  - category:
+    name: Analytics & Reporting
+    subcategories:
+      - subcategory:
+        name: Reporting
+        items:
+          - item:
+            name: PowerBI
+            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            project: generalavailability
+            logo: powerbi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+      - subcategory:
+        name: Cubes
+        items:
+          - item:
+            name: Azure Analysis Services
+            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
+            project: generalavailability
+            logo: azure-analysis-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+  - category:
+    name: Azure Landscape Members
+    subcategories:
+      - subcategory:
+        name: Platinum
+        items:
+          - item:
+            name: 8base Company
+            homepage_url: 'https://8base.com'
+            logo: 8base.svg
+            crunchbase: 'https://www.crunchbase.com/organization/1stdibs'
+      - subcategory:
+        name: Gold
+        items:
+          - item:
+            name: Snowflake Inc.
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'

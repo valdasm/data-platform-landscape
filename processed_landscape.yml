@@ -1,0 +1,421 @@
+# THIS FILE IS GENERATED AUTOMATICALLY!
+landscape:
+  - category:
+    name: Data Ingestion
+    subcategories:
+      - subcategory:
+        name: Batch
+        items:
+          - item:
+            name: Azure Data Factory
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-data-factory.svg
+              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+            best_practice_data:
+              badge: false
+              percentage: null
+  - category:
+    name: Storages
+    subcategories:
+      - subcategory:
+        name: Staging
+        items:
+          - item:
+            name: Azure Data Lake Storage
+            homepage_url: 'https://www.arangodb.com/'
+            project: generalavailability
+            logo: azure-data-lake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-data-lake-storage.svg
+              hash: zufiALOm2F9rieaGzfdgJnPgOYo0MDZyEjhoi5VexRU=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: 'Lake House, Warehouse, etc.'
+        items:
+          - item:
+            name: Azure Synapse Dedicated Pools
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: generalavailability
+            logo: azure-synapse.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-synapse-dedicated-pools.svg
+              hash: fqyzqw/9W3bMBuNP9BMzrtedsNQYUjl0aEht22PCwxQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Synapse Serverless
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: generalavailability
+            logo: azure-synapse.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-synapse-serverless.svg
+              hash: fqyzqw/9W3bMBuNP9BMzrtedsNQYUjl0aEht22PCwxQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Snowflake
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase_data:
+              name: Snowflake
+              description: Snowflake is a cloud data platform that provides a data warehouse-as-a-service designed for the cloud.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.snowflake.com/'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/SnowflakeDB'
+              linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
+              acquisitions:
+                - date: '2020-07-20'
+                  acquiree: CryptoNumerics
+                  price: 7100000
+              parents: []
+              ticker: SNOW
+              funding: 1407899110
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 96582393856
+              effective_ticker: SNOW
+            image_data:
+              fileName: snowflake.svg
+              hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-12-22T21:02:10.000Z
+  - category:
+    name: Data Processing
+    subcategories:
+      - subcategory:
+        name: Batch Data Transformations
+        items:
+          - item:
+            name: Azure Data Factory Mapping Data Flows
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-data-factory-mapping-data-flows.svg
+              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Databricks
+            homepage_url: 'https://azure.microsoft.com/en-us/services/databricks/'
+            project: generalavailability
+            logo: azure-databricks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-databricks.svg
+              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Real-time Data Transformations
+        items:
+          - item:
+            name: Azure Stream Analytics
+            homepage_url: 'https://azure.microsoft.com/en-us/services/stream-analytics/'
+            project: generalavailability
+            logo: azure-stream-analytics.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-stream-analytics.svg
+              hash: SjN3tOQQDtCHvWWavY0ioBRwOUenTLM7O1z/saOAPKA=
+            best_practice_data:
+              badge: false
+              percentage: null
+  - category:
+    name: Orchestration
+    subcategories:
+      - subcategory:
+        name: Data Orchestration
+        items:
+          - item:
+            name: Azure Data Factory Orchestration
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-data-factory-orchestration.svg
+              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+            best_practice_data:
+              badge: false
+              percentage: null
+  - category:
+    name: Analytics & Reporting
+    subcategories:
+      - subcategory:
+        name: Reporting
+        items:
+          - item:
+            name: PowerBI
+            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            project: generalavailability
+            logo: powerbi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: power-bi.svg
+              hash: ZP4rRhE6WdB38hYAP0TtbfFj8rMOV7TYZCVqZVOpAU4=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Cubes
+        items:
+          - item:
+            name: Azure Analysis Services
+            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
+            project: generalavailability
+            logo: azure-analysis-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            image_data:
+              fileName: azure-analysis-services.svg
+              hash: lSXVb1jvXcAj2EXQ7dfeGMuceotNo5UZ/UqQ3wH5PjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+  - category:
+    name: Azure Landscape Members
+    subcategories:
+      - subcategory:
+        name: Platinum
+        items:
+          - item:
+            name: 8base Company
+            homepage_url: 'https://8base.com'
+            logo: 8base.svg
+            crunchbase: 'https://www.crunchbase.com/organization/1stdibs'
+            crunchbase_data:
+              name: 1stdibs
+              description: '1stdibs is an internet company that offers a marketplace for rare and desirable objects in furniture, fashion, fine art, and jewelry.'
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'http://www.1stdibs.com'
+              city: New York
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/1stdibs'
+              linkedin: 'https://www.linkedin.com/company/1stdibs-com/'
+              acquisitions:
+                - date: '2012-09-18'
+                  acquiree: Online Galleries
+                - date: '2019-05-07'
+                  acquiree: Design Manager
+              parents: []
+              funding: 253000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: 8base-company.svg
+              hash: R83QK7QeI/c3rlcFWwNOjwtdXRqCXpe35p9YHwxXgdk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-12-21T19:20:03.000Z
+      - subcategory:
+        name: Gold
+        items:
+          - item:
+            name: Snowflake Inc.
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase_data:
+              name: Snowflake
+              description: Snowflake is a cloud data platform that provides a data warehouse-as-a-service designed for the cloud.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.snowflake.com/'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/SnowflakeDB'
+              linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
+              acquisitions:
+                - date: '2020-07-20'
+                  acquiree: CryptoNumerics
+                  price: 7100000
+              parents: []
+              ticker: SNOW
+              funding: 1407899110
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 96582393856
+              effective_ticker: SNOW
+            image_data:
+              fileName: snowflake-inc.svg
+              hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-12-22T21:02:10.000Z
+twitter_options:
+  count: 0
+  since_id: '1333062988635443204'
+updated_at: 2020-12-22T01:04:04.874Z
