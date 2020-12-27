@@ -26,6 +26,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory.svg
               hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
@@ -81,6 +84,60 @@ landscape:
         name: Streaming
         items:
           - item:
+            name: Azure Event Hub Capture
+            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            project: generalavailability
+            logo: azure-event-hub-capture.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-event-hub-capture.svg
+              hash: VRh/7Ood57E15TzBALx2WtBqtBk2UmNFa/VIkGwxB/g=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Confluent Platform
+            homepage_url: 'https://www.confluent.io/'
+            logo: confluent.svg
+            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+            crunchbase_data:
+              name: Confluent
+              description: Confluent offers a streaming platform based on Apache Kafka that enables companies to easily access data as real-time streams.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/confluent'
+              city: Mountain View
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: confluent-platform.svg
+              hash: zXQ/6asf+EbdVrr9Mh+uq8m7RLLS8OIKCgyJaDv5xG4=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Change Data Capture
+        items:
+          - item:
             name: Qlik Attunity Replicate
             homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
             logo: qlik.svg
@@ -124,32 +181,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Azure Event Hub Capture
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
-            project: generalavailability
-            logo: azure-event-hub-capture.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
-              parents: []
-            image_data:
-              fileName: azure-event-hub-capture.svg
-              hash: VRh/7Ood57E15TzBALx2WtBqtBk2UmNFa/VIkGwxB/g=
-            best_practice_data:
-              badge: false
-              percentage: null
   - category:
     name: Storages
     subcategories:
@@ -176,6 +207,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-data-lake-storage.svg
               hash: HwlrlSbRb2GBjlGJgbC9R9QYkAkOTepyEr2XRWN3GGc=
@@ -206,6 +240,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-dedicated-pools.svg
               hash: qADtEssUWSsB1Jo1GBCHS+qiFT8TOYex9zaOVJyO+9M=
@@ -331,6 +368,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-data-explorer.svg
               hash: kJX9mfgF+NtJRfGVjBIgVhjvUI6hCKMV3u6xOpvE3gw=
@@ -357,6 +397,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-sql.svg
               hash: omEkorGIzPkQUgyTXHJvc2Tg9ZNdekMZ68q5yApA5HU=
@@ -383,6 +426,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-cosmos-db.svg
               hash: tvHyr6wVdi0d5ENm00mExaPm5Y+U2egUB6wBVlIS6OM=
@@ -393,7 +439,7 @@ landscape:
     name: Data Processing
     subcategories:
       - subcategory:
-        name: Batch Data Transformations
+        name: Data Transformations
         items:
           - item:
             name: Azure Data Factory Mapping Data Flows
@@ -415,6 +461,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory-mapping-data-flows.svg
               hash: 3lOJVEUjAvB44krBI8WVb31fsGdJyUGbVxXq+fXxktY=
@@ -509,6 +558,9 @@ landscape:
               funding: 1407899110
               stockExchange: nasdaq
               kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1191000000
+              effective_ticker: TLND
             image_data:
               fileName: talend-pipeline-designer.svg
               hash: FlYcvSKXxKjJyx1fRQ+v2rQ5/0AsQ+HkeNTEXkK8FOw=
@@ -560,7 +612,7 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
-        name: Real-time Data Transformations
+        name: Stream Transformations
         items:
           - item:
             name: Azure Stream Analytics
@@ -582,17 +634,42 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-stream-analytics.svg
               hash: SjN3tOQQDtCHvWWavY0ioBRwOUenTLM7O1z/saOAPKA=
             best_practice_data:
               badge: false
               percentage: null
-  - category:
-    name: Orchestration
-    subcategories:
       - subcategory:
-        name: Data Orchestration
+        name: DWH automation
+        items:
+          - item:
+            name: WhereScape RED
+            homepage_url: 'https://www.wherescape.com/'
+            logo: wherescape.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
+            crunchbase_data:
+              name: WhereScape
+              description: 'WhereScape delivers data warehouses right, now.'
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/dremio-corporation'
+              city: Portland
+              region: Oregon
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: where-scape-red.svg
+              hash: OLuigAXDeRkObQFs3S4Zrh7Y85P/Bjau4R9AgltDIZY=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Orchestration
         items:
           - item:
             name: Azure Data Factory Orchestration
@@ -614,6 +691,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory-orchestration.svg
               hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
@@ -643,16 +723,17 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Business Intelligence
+    name: Advanced Analytics
     subcategories:
       - subcategory:
-        name: Reporting
+        name: Development Environment
         items:
           - item:
-            name: PowerBI
-            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
-            project: generalavailability
-            logo: powerbi.svg
+            name: Azure Synapse Analytics workspace
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: preview
+            logo: azure-synapse-serverless.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -668,46 +749,105 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
-              fileName: power-bi.svg
-              hash: ZP4rRhE6WdB38hYAP0TtbfFj8rMOV7TYZCVqZVOpAU4=
+              fileName: azure-synapse-analytics-workspace.svg
+              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Semantics
-        items:
           - item:
-            name: Azure Analysis Services
-            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
-            project: generalavailability
-            logo: azure-analysis-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            name: Databricks Workspaces
+            homepage_url: 'https://mlflow.org/'
+            logo: azure-databricks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/databricks'
             crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
+              name: Databricks
+              description: 'Databricks is a software platform that helps its customers unify their analytics across business, data science, and data engineering.'
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/databricks'
+              city: San Francisco
+              region: California
               country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
+              parents: []
+              kind: private
+            image_data:
+              fileName: databricks-workspaces.svg
+              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SAS Viya
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase_data:
+              name: SAS
+              description: SAS provides advanced business analytics and business intelligent software and services to enable companies to optimize their operations.
+              num_employees_min: 10000
+              num_employees_max: 50000
+              homepage: 'https://www.crunchbase.com/organization/sas'
+              city: Cary
+              region: North Carolina
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: sas-viya.svg
+              hash: kXc0S1X6pdT5iOQqLJlitsI2k3WJfkpEJxPKhPDZG+U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dataiku
+            homepage_url: 'https://www.dataiku.com/'
+            logo: dataiku.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+            crunchbase_data:
+              name: Dataiku
+              description: Dataiku operates as an enterprise artificial intelligence and machine-learning platform.
+              num_employees_min: 200
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/dataiku'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
               parents: []
             image_data:
-              fileName: azure-analysis-services.svg
-              hash: lSXVb1jvXcAj2EXQ7dfeGMuceotNo5UZ/UqQ3wH5PjU=
+              fileName: dataiku.svg
+              hash: F3dSpssbG+aOfufT2eAc97z49SSj0hjNSwlUFGm29m8=
             best_practice_data:
               badge: false
               percentage: null
-  - category:
-    name: Predictive Analytics
-    subcategories:
+          - item:
+            name: Qubole
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase_data:
+              name: Qubole
+              description: 'Qubole is a simple and secure data lake platform for machine learning, streaming, and ad-hoc analytics.'
+              num_employees_min: 200
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/qubole'
+              city: Santa Clara
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: qubole.svg
+              hash: SXp0jTuBBKA91Wn5cm6eSlNh8L7+dPakkiLAwg8fifA=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
-        name: Machine Learning Environment
+        name: Machine Learning tools
         items:
           - item:
             name: MLFlow
@@ -803,6 +943,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-cognitive-services.svg
               hash: fx0oMQhfABA99fb9YwW9u75MRTDpiDHXzmUI0jbEZ8I=
@@ -829,9 +972,123 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-bot-services.svg
               hash: 3x09XYTS8fonzLvVGYzsfmeDSzzR16WNfkND8SilXqg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Data Robot
+            homepage_url: 'https://www.datarobot.com/'
+            logo: data-robot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+            crunchbase_data:
+              name: Data Robot
+              description: DataRobot brings AI technology and ROI enablement services to global enterprises.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/datarobot'
+              city: Boston
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: data-robot.svg
+              hash: 5gSagTDrJgTNxc7OXgbwJF+RUiDfwudBPPeLrzq8AhY=
+            best_practice_data:
+              badge: false
+              percentage: null
+  - category:
+    name: Business Intelligence
+    subcategories:
+      - subcategory:
+        name: Reporting
+        items:
+          - item:
+            name: PowerBI
+            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            project: generalavailability
+            logo: powerbi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: power-bi.svg
+              hash: ZP4rRhE6WdB38hYAP0TtbfFj8rMOV7TYZCVqZVOpAU4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tableau
+            homepage_url: 'https://www.tableau.com/'
+            logo: tableau.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+            crunchbase_data:
+              name: Tableau
+              description: 'Tableau helps global organizations unleash the power of their most valuable assets: their data and their people.'
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/tableau'
+              city: Seattle
+              region: Washington
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: tableau.svg
+              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Semantics
+        items:
+          - item:
+            name: Azure Analysis Services
+            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
+            project: generalavailability
+            logo: azure-analysis-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-analysis-services.svg
+              hash: lSXVb1jvXcAj2EXQ7dfeGMuceotNo5UZ/UqQ3wH5PjU=
             best_practice_data:
               badge: false
               percentage: null
@@ -845,7 +1102,7 @@ landscape:
             name: Azure Synapse Serverless
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
-            project: generalavailability
+            project: preview
             logo: azure-synapse-serverless.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -862,6 +1119,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-serverless.svg
               hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
@@ -913,14 +1173,46 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-api-management-service.svg
               hash: z3lCiFdfL3sIDFCqgxnUKwKi8q5TUeRxLFdDU/yAH5o=
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Azure Function App
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview'
+            project: generalavailability
+            logo: azure-function-app.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-function-app.svg
+              hash: GmycEI1fY/e3i8b7xGQFms0uqowdER6bzSioss30cLk=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
-    name: Data Governance
+    name: Data Management
     subcategories:
       - subcategory:
         name: Access & privacy management
@@ -966,32 +1258,6 @@ landscape:
             image_data:
               fileName: immuta.svg
               hash: D8D4g78xJWX7yBBaDHiFTpBqF+dQSO/P9kqGHIdLzaE=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
-            project: generalavailability
-            logo: azure-active-directory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
-              parents: []
-            image_data:
-              fileName: azure-active-directory.svg
-              hash: Pv/duKr3Igq/unQeUG2uoJvbDZZEMM+nuATd/Hys3xE=
             best_practice_data:
               badge: false
               percentage: null
@@ -1062,9 +1328,62 @@ landscape:
               funding: 1407899110
               stockExchange: nasdaq
               kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1191000000
+              effective_ticker: TLND
             image_data:
               fileName: talend-data-catalog.svg
               hash: FlYcvSKXxKjJyx1fRQ+v2rQ5/0AsQ+HkeNTEXkK8FOw=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Master Data Management
+        items:
+          - item:
+            name: Informatica Master Data Management
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase_data:
+              name: Informatica
+              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.informatica.com/'
+              city: Redwood City
+              region: California
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: informatica-master-data-management.svg
+              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Data Quality
+        items:
+          - item:
+            name: Informatica Data Quality
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase_data:
+              name: Informatica
+              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.informatica.com/'
+              city: Redwood City
+              region: California
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: informatica-data-quality.svg
+              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
             best_practice_data:
               badge: false
               percentage: null
@@ -1093,6 +1412,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-dev-ops.svg
               hash: FbUGjO6yjw889WaqjPmWGfmdRwWdepH9oO9HCRpxoEE=
@@ -1121,6 +1443,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-monitor.svg
               hash: xDl/8GiK00TwhEodNlE2GgySlkr8dltlyGrG4OLkw0s=
@@ -1146,6 +1471,9 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-app-insights.svg
               hash: Nsc96osVmPv/+EiQorQJYA8TOe7Iwb8aiWQ56dqPnco=
@@ -1174,12 +1502,18 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-cost-management.svg
               hash: DQSDswQS7xr88phkl3B/YmtQ+6HZ643WjaSutQkGlwI=
             best_practice_data:
               badge: false
               percentage: null
+  - category:
+    name: Infrastructure
+    subcategories:
       - subcategory:
         name: Security & Networking
         items:
@@ -1202,9 +1536,41 @@ landscape:
               funding: 1000000
               kind: market_cap
               parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
             image_data:
               fileName: azure-security-center.svg
               hash: I6tvu6HNCsX/3G7nCE58rDApxALcGLiJYzFibxNclRM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Active Directory
+            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
+            project: generalavailability
+            logo: azure-active-directory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-active-directory.svg
+              hash: Pv/duKr3Igq/unQeUG2uoJvbDZZEMM+nuATd/Hys3xE=
             best_practice_data:
               badge: false
               percentage: null
@@ -1214,6 +1580,28 @@ landscape:
       - subcategory:
         name: Platinum
         items:
+          - item:
+            name: SAS
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase_data:
+              name: SAS
+              description: SAS provides advanced business analytics and business intelligent software and services to enable companies to optimize their operations.
+              num_employees_min: 10000
+              num_employees_max: 50000
+              homepage: 'https://www.crunchbase.com/organization/sas'
+              city: Cary
+              region: North Carolina
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: sas.svg
+              hash: kXc0S1X6pdT5iOQqLJlitsI2k3WJfkpEJxPKhPDZG+U=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: Talend Inc.
             homepage_url: 'https://www.talend.com/'
@@ -1234,6 +1622,9 @@ landscape:
               funding: 1407899110
               stockExchange: nasdaq
               kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1191000000
+              effective_ticker: TLND
             image_data:
               fileName: talend-inc.svg
               hash: FlYcvSKXxKjJyx1fRQ+v2rQ5/0AsQ+HkeNTEXkK8FOw=
@@ -1323,29 +1714,25 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-12-22T21:02:10.000Z
-      - subcategory:
-        name: Other
-        items:
           - item:
-            name: Fishtown Analytics
-            homepage_url: 'https://www.fishtownanalytics.com/'
-            logo: dbt.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'
+            name: WhereScape
+            homepage_url: 'https://www.wherescape.com/'
+            logo: wherescape.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
             crunchbase_data:
-              name: Fishtown Analytics
-              description: Fishtown Analytics is a developer of an open-source analytics engineering tool.
+              name: WhereScape
+              description: 'WhereScape delivers data warehouses right, now.'
               num_employees_min: 50
               num_employees_max: 100
-              homepage: 'https://www.fishtownanalytics.com/'
-              city: Philadelphia
-              region: Pennsylvania
+              homepage: 'https://www.crunchbase.com/organization/dremio-corporation'
+              city: Portland
+              region: Oregon
               country: United States
-              twitter: null
-              kind: private
+              kind: Private
               parents: []
             image_data:
-              fileName: fishtown-analytics.svg
-              hash: LlqaUDMvJwaNcbi0wuRYPCVpFeNrbpko47SMXhFTHeg=
+              fileName: where-scape.svg
+              hash: OLuigAXDeRkObQFs3S4Zrh7Y85P/Bjau4R9AgltDIZY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1457,6 +1844,142 @@ landscape:
             image_data:
               fileName: dremio-corp.svg
               hash: BfpO7bF4fGOtZG7yV8c9Gq3IBQdER53dgxtpTRnDOkg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Confluent Inc.
+            homepage_url: 'https://www.confluent.io/'
+            logo: confluent.svg
+            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+            crunchbase_data:
+              name: Confluent
+              description: Confluent offers a streaming platform based on Apache Kafka that enables companies to easily access data as real-time streams.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/confluent'
+              city: Mountain View
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: confluent-inc.svg
+              hash: zXQ/6asf+EbdVrr9Mh+uq8m7RLLS8OIKCgyJaDv5xG4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Data Robot Inc.
+            homepage_url: 'https://www.datarobot.com/'
+            logo: data-robot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+            crunchbase_data:
+              name: Data Robot
+              description: DataRobot brings AI technology and ROI enablement services to global enterprises.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/datarobot'
+              city: Boston
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: data-robort.svg
+              hash: 5gSagTDrJgTNxc7OXgbwJF+RUiDfwudBPPeLrzq8AhY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dataiku Inc.
+            homepage_url: 'https://www.dataiku.com/'
+            logo: dataiku.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+            crunchbase_data:
+              name: Dataiku
+              description: Dataiku operates as an enterprise artificial intelligence and machine-learning platform.
+              num_employees_min: 200
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/dataiku'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dataiku.svg
+              hash: F3dSpssbG+aOfufT2eAc97z49SSj0hjNSwlUFGm29m8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Qubole Inc.
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase_data:
+              name: Qubole
+              description: 'Qubole is a simple and secure data lake platform for machine learning, streaming, and ad-hoc analytics.'
+              num_employees_min: 200
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/qubole'
+              city: Santa Clara
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: qubole.svg
+              hash: SXp0jTuBBKA91Wn5cm6eSlNh8L7+dPakkiLAwg8fifA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tableau Corp.
+            homepage_url: 'https://www.tableau.com/'
+            logo: tableau.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+            crunchbase_data:
+              name: Tableau
+              description: 'Tableau helps global organizations unleash the power of their most valuable assets: their data and their people.'
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/tableau'
+              city: Seattle
+              region: Washington
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: tableau-corp.svg
+              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Other
+        items:
+          - item:
+            name: Fishtown Analytics
+            homepage_url: 'https://www.fishtownanalytics.com/'
+            logo: dbt.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'
+            crunchbase_data:
+              name: Fishtown Analytics
+              description: Fishtown Analytics is a developer of an open-source analytics engineering tool.
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.fishtownanalytics.com/'
+              city: Philadelphia
+              region: Pennsylvania
+              country: United States
+              twitter: null
+              kind: private
+              parents: []
+            image_data:
+              fileName: fishtown-analytics.svg
+              hash: LlqaUDMvJwaNcbi0wuRYPCVpFeNrbpko47SMXhFTHeg=
             best_practice_data:
               badge: false
               percentage: null

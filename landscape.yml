@@ -25,6 +25,20 @@ landscape:
         name: Streaming
         items:
           - item:
+            name: Azure Event Hub Capture
+            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            project: generalavailability
+            logo: azure-event-hub-capture.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Confluent Platform
+            homepage_url: 'https://www.confluent.io/'
+            logo: confluent.svg
+            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+      - subcategory:
+        name: Change Data Capture
+        items:
+          - item:
             name: Qlik Attunity Replicate
             homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
             logo: qlik.svg
@@ -34,12 +48,6 @@ landscape:
             homepage_url: 'https://www.informatica.com/'
             logo: informatica.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
-          - item:
-            name: Azure Event Hub Capture
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
-            project: generalavailability
-            logo: azure-event-hub-capture.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Storages
     subcategories:
@@ -98,7 +106,7 @@ landscape:
     name: Data Processing
     subcategories:
       - subcategory:
-        name: Batch Data Transformations
+        name: Data Transformations
         items:
           - item:
             name: Azure Data Factory Mapping Data Flows
@@ -137,7 +145,7 @@ landscape:
             logo: qlik.svg
             crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
       - subcategory:
-        name: Real-time Data Transformations
+        name: Stream Transformations
         items:
           - item:
             name: Azure Stream Analytics
@@ -145,11 +153,16 @@ landscape:
             project: generalavailability
             logo: azure-stream-analytics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-  - category:
-    name: Orchestration
-    subcategories:
       - subcategory:
-        name: Data Orchestration
+        name: DWH automation
+        items:
+          - item:
+            name: WhereScape RED
+            homepage_url: 'https://www.wherescape.com/'
+            logo: wherescape.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
+      - subcategory:
+        name: Orchestration
         items:
           - item:
             name: Azure Data Factory Orchestration
@@ -163,31 +176,40 @@ landscape:
             logo: informatica.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
   - category:
-    name: Business Intelligence
+    name: Advanced Analytics
     subcategories:
       - subcategory:
-        name: Reporting
+        name: Development Environment
         items:
           - item:
-            name: PowerBI
-            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
-            project: generalavailability
-            logo: powerbi.svg
+            name: Azure Synapse Analytics workspace
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: preview
+            logo: azure-synapse-serverless.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-      - subcategory:
-        name: Semantics
-        items:
           - item:
-            name: Azure Analysis Services
-            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
-            project: generalavailability
-            logo: azure-analysis-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-  - category:
-    name: Predictive Analytics
-    subcategories:
+            name: Databricks Workspaces
+            homepage_url: 'https://mlflow.org/'
+            logo: azure-databricks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+          - item:
+            name: SAS Viya
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
+          - item:
+            name: Dataiku
+            homepage_url: 'https://www.dataiku.com/'
+            logo: dataiku.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+          - item:
+            name: Qubole
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
       - subcategory:
-        name: Machine Learning Environment
+        name: Machine Learning tools
         items:
           - item:
             name: MLFlow
@@ -210,6 +232,37 @@ landscape:
             project: generalavailability
             logo: azure-bot-services.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Data Robot
+            homepage_url: 'https://www.datarobot.com/'
+            logo: data-robot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+  - category:
+    name: Business Intelligence
+    subcategories:
+      - subcategory:
+        name: Reporting
+        items:
+          - item:
+            name: PowerBI
+            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            project: generalavailability
+            logo: powerbi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Tableau
+            homepage_url: 'https://www.tableau.com/'
+            logo: tableau.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+      - subcategory:
+        name: Semantics
+        items:
+          - item:
+            name: Azure Analysis Services
+            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
+            project: generalavailability
+            logo: azure-analysis-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Data access
     subcategories:
@@ -220,7 +273,7 @@ landscape:
             name: Azure Synapse Serverless
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
-            project: generalavailability
+            project: preview
             logo: azure-synapse-serverless.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -237,8 +290,14 @@ landscape:
             project: generalavailability
             logo: azure-api-services.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Function App
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview'
+            project: generalavailability
+            logo: azure-function-app.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
-    name: Data Governance
+    name: Data Management
     subcategories:
       - subcategory:
         name: Access & privacy management
@@ -253,12 +312,6 @@ landscape:
             homepage_url: 'https://www.immuta.com/'
             logo: immuta.svg
             crunchbase: 'https://www.crunchbase.com/organization/immuta'
-          - item:
-            name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
-            project: generalavailability
-            logo: azure-active-directory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
         name: Data catalogs
         items:
@@ -277,6 +330,22 @@ landscape:
             homepage_url: 'https://www.talend.com/'
             logo: talend.svg
             crunchbase: 'https://www.crunchbase.com/organization/talend'
+      - subcategory:
+        name: Master Data Management
+        items:
+          - item:
+            name: Informatica Master Data Management
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+      - subcategory:
+        name: Data Quality
+        items:
+          - item:
+            name: Informatica Data Quality
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
   - category:
     name: Data Ops
     subcategories:
@@ -309,6 +378,9 @@ landscape:
             homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
             logo: azure.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+  - category:
+    name: Infrastructure
+    subcategories:
       - subcategory:
         name: Security & Networking
         items:
@@ -317,12 +389,23 @@ landscape:
             homepage_url: 'https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction'
             logo: azure-security-center.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Active Directory
+            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
+            project: generalavailability
+            logo: azure-active-directory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Azure Landscape Members
     subcategories:
       - subcategory:
         name: Platinum
         items:
+          - item:
+            name: SAS
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
           - item:
             name: Talend Inc.
             homepage_url: 'https://www.talend.com/'
@@ -346,14 +429,11 @@ landscape:
             homepage_url: 'https://www.snowflake.com/'
             logo: snowflake.svg
             crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
-      - subcategory:
-        name: Other
-        items:
           - item:
-            name: Fishtown Analytics
-            homepage_url: 'https://www.fishtownanalytics.com/'
-            logo: dbt.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'
+            name: WhereScape
+            homepage_url: 'https://www.wherescape.com/'
+            logo: wherescape.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
           - item:
             name: Matillion Inc.
             homepage_url: 'https://www.matillion.com/'
@@ -379,3 +459,36 @@ landscape:
             homepage_url: 'https://www.dremio.com/'
             logo: dremio.svg
             crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+          - item:
+            name: Confluent Inc.
+            homepage_url: 'https://www.confluent.io/'
+            logo: confluent.svg
+            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+          - item:
+            name: Data Robot Inc.
+            homepage_url: 'https://www.datarobot.com/'
+            logo: data-robot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+          - item:
+            name: Dataiku Inc.
+            homepage_url: 'https://www.dataiku.com/'
+            logo: dataiku.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+          - item:
+            name: Qubole Inc.
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+          - item:
+            name: Tableau Corp.
+            homepage_url: 'https://www.tableau.com/'
+            logo: tableau.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+      - subcategory:
+        name: Other
+        items:
+          - item:
+            name: Fishtown Analytics
+            homepage_url: 'https://www.fishtownanalytics.com/'
+            logo: dbt.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'

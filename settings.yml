@@ -36,24 +36,30 @@ relation:
           tag: GA
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: General Availability Service
+          big_picture_label: GA
           big_picture_color: 'rgb(24,54,114)'
         - id: preview
           label: Services in Preview
           prefix: Preview
           tag: Preview
           color: '#4470af'
-          big_picture_order: 1
-          big_picture_label: Preview Service
+          big_picture_order: 2
+          big_picture_label: Preview
           big_picture_color: 'rgb(44,14,114)'
+        - id: marketplace
+          label: Services in Marketplace
+          prefix: Marketplace
+          tag: Marketplace
+          color: '#4470af'
+          big_picture_order: 3
+          big_picture_label: marketplace
+          big_picture_color: 'rgb(80,80,114)'
     - id: company
       label: Azure Partners
       tag: Company
-      big_picture_order: 3
     - id: member
       label: Open source projects
       tag: open source
-      big_picture_order: 2
     - id: false
       label: Not available on marketplace
       url: 'no'
@@ -94,12 +100,16 @@ ads:
     image: /images/valdas_blog.jpg
     title: Valdas Blog
 presets:
-  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+  - url: /format=card-mode&grouping=category
+    label: Card by categories
+  - url: /project=hosted
     label: Azure native services
-  - url: /license=apache-license-2-0
-    label: Services available in Azure Marketplace
-  - url: /license=apache-license-2-0
-    label: Open source tools
+  - url: /organization=informatica,microsoft
+    label: Azure with Informatica 
+  - url: /organization=snowflake,microsoft
+    label: Azure with Snowflake 
+  - url: /organization=databricks,microsoft
+    label: Azure with Databricks
 big_picture:
   main:
     tab_index: -1
@@ -120,14 +130,14 @@ big_picture:
       - type: HorizontalCategory
         category: Storages
         rows: 3
-        width: 400
-        height: 160
+        width: 450
+        height: 180
         top: 0
-        left: 250
+        left: 225
         color: 'rgb(79,121,13)'
         fit_width: true
       - type: VerticalCategory
-        category: Predictive Analytics
+        category: Advanced Analytics
         cols: 3
         width: 200
         height: 400
@@ -156,14 +166,14 @@ big_picture:
       - type: HorizontalCategory
         category: Data Processing
         rows: 3
-        width: 400
-        height: 160
+        width: 450
+        height: 180
         top: 180
-        left: 250
+        left: 225
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
-        category: Orchestration
+        category: Data Management
         rows: 1
         width: 900
         height: 100
@@ -172,7 +182,7 @@ big_picture:
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
-        category: Data Governance
+        category: Data Ops
         rows: 1
         width: 900
         height: 100
@@ -181,7 +191,7 @@ big_picture:
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
-        category: Data Ops
+        category: Infrastructure
         rows: 1
         width: 900
         height: 100
@@ -298,6 +308,6 @@ big_picture:
 
 test:
   header: Azure Data Platform Landscape
-  section: Ingestion
-  logo: twitter.svg
+  section: Data Ingestion
+  logo: azure-data-factory.svg
 
