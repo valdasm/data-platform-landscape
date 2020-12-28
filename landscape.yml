@@ -358,19 +358,6 @@ landscape:
             logo: azure-devops.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
-        name: Monitoring
-        items:
-          - item:
-            name: Azure Monitor
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
-            logo: azure-monitor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
-            logo: azure-app-insights.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-      - subcategory:
         name: Budget
         items:
           - item:
@@ -394,6 +381,19 @@ landscape:
             homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
             project: generalavailability
             logo: azure-active-directory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            name: Azure Monitor
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            logo: azure-monitor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure App Insights
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            logo: azure-app-insights.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Azure Landscape Members

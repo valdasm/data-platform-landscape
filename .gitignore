@@ -1,3 +1,5 @@
+landscape.js
+.bash_profile
 logs
 *.log*
 
@@ -43,3 +45,4 @@ data.json
 preview.json
 lookup.json
 landscapeapp
+.gitignore

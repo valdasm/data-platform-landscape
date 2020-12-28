@@ -3,7 +3,7 @@ export TWITTER_KEYS=clSBrmFJcMuP0ileQlzkHtINtdsYL0Z7je6uQo6pr6JyZTXV8C
 export TWITTER_KEYS2=shbijmmK6vMvbz5uiDSjoMdQk
 export GITHUB_KEY=acf71df021fddf209fefc7085a811cd2d5761913
 export GITHUB_TOKEN=acf71df021fddf209fefc7085a811cd2d5761913
-export REPOSITORY_URL=https://github.com/valdasm/adp-landscape
+export REPOSITORY_URL=https://github.com/valdasm/data-platform-landscape
 
 function y { export PROJECT_PATH=`pwd` && (cd ../landscapeapp && yarn run "$@")}
 export -f y

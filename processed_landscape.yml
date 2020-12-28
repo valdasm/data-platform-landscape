@@ -1422,65 +1422,6 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
-        name: Monitoring
-        items:
-          - item:
-            name: Azure Monitor
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
-            logo: azure-monitor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
-              parents: []
-            yahoo_finance_data:
-              market_cap: 1684000000000
-              effective_ticker: MSFT
-            image_data:
-              fileName: azure-monitor.svg
-              hash: xDl/8GiK00TwhEodNlE2GgySlkr8dltlyGrG4OLkw0s=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
-            logo: azure-app-insights.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
-              parents: []
-            yahoo_finance_data:
-              market_cap: 1684000000000
-              effective_ticker: MSFT
-            image_data:
-              fileName: azure-app-insights.svg
-              hash: Nsc96osVmPv/+EiQorQJYA8TOe7Iwb8aiWQ56dqPnco=
-            best_practice_data:
-              badge: false
-              percentage: null
-      - subcategory:
         name: Budget
         items:
           - item:
@@ -1571,6 +1512,65 @@ landscape:
             image_data:
               fileName: azure-active-directory.svg
               hash: Pv/duKr3Igq/unQeUG2uoJvbDZZEMM+nuATd/Hys3xE=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            name: Azure Monitor
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            logo: azure-monitor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-monitor.svg
+              hash: xDl/8GiK00TwhEodNlE2GgySlkr8dltlyGrG4OLkw0s=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure App Insights
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            logo: azure-app-insights.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-app-insights.svg
+              hash: Nsc96osVmPv/+EiQorQJYA8TOe7Iwb8aiWQ56dqPnco=
             best_practice_data:
               badge: false
               percentage: null

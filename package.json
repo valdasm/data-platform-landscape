@@ -13,7 +13,8 @@
   "author": "LFDL",
   "license": "Apache-2.0",
   "dependencies": {
-    "interactive-landscape": "1.0.391"
+    "interactive-landscape": "1.0.391",
+    "puppeteer": "5.5.0"
   },
   "keywords": [],
   "repository": {

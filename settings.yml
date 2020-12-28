@@ -101,7 +101,7 @@ ads:
     title: Valdas Blog
 presets:
   - url: /format=card-mode&grouping=category
-    label: Card by categories
+    label: Cards by categories
   - url: /project=hosted
     label: Azure native services
   - url: /organization=informatica,microsoft
@@ -230,12 +230,6 @@ big_picture:
             right: 105
             top: 10
             title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 90
-            right: 10
-            top: 10
-            title: Azure Data Platform Foundation Logo
   extra:
     tab_index: 1
     url: members
@@ -297,17 +291,10 @@ big_picture:
             bottom: 13
             width: 116
             title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            left: 127
-            height: 30
-            bottom: 13
-            width: 161
-            title: CNCF Logo
     category: Azure Landscape Members  
 
 test:
   header: Azure Data Platform Landscape
-  section: Data Ingestion
+  section: Cards by categories
   logo: azure-data-factory.svg
 
