@@ -1,7 +1,7 @@
 global:
   name: Azure Data Platform Landscape
   short_name: ADP_Landscape
-  repo: valdasm/adp-landscape
+  repo: valdasm/data-platform-landscape
   website: 'https://landscape.xxx.org'
   short_domain: l.xx.org
   company_url: 'https://xx.org'
