@@ -21,6 +21,11 @@ landscape:
             homepage_url: 'https://www.informatica.com/'
             logo: informatica.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
+          - item:
+            name: Talend Data Integration
+            homepage_url: 'https://www.talend.com/'
+            logo: talend.svg
+            crunchbase: 'https://www.crunchbase.com/organization/talend'
       - subcategory:
         name: Streaming
         items:
@@ -60,6 +65,17 @@ landscape:
             project: generalavailability
             logo: azure-data-lake.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure SQL
+            homepage_url: 'https://azure.microsoft.com/en-us/services/sql-database/'
+            project: generalavailability
+            logo: azure-sql.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Snowflake Staging
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
       - subcategory:
         name: 'Lake House, Warehouse, etc.'
         items:
@@ -91,12 +107,6 @@ landscape:
             logo: azure-data-explorer.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
-            name: Azure SQL
-            homepage_url: 'https://azure.microsoft.com/en-us/services/sql-database/'
-            project: generalavailability
-            logo: azure-sql.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
             name: Azure Cosmos DB
             homepage_url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/introduction'
             project: generalavailability
@@ -106,7 +116,7 @@ landscape:
     name: Data Processing
     subcategories:
       - subcategory:
-        name: Data Transformations
+        name: ETL/ELT
         items:
           - item:
             name: Azure Data Factory Mapping Data Flows
@@ -144,6 +154,11 @@ landscape:
             homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
             logo: qlik.svg
             crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+          - item:
+            name: Trifacta Wrangler
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
       - subcategory:
         name: Stream Transformations
         items:
@@ -161,20 +176,20 @@ landscape:
             homepage_url: 'https://www.wherescape.com/'
             logo: wherescape.svg
             crunchbase: 'https://www.crunchbase.com/organization/wherescape'
+          - item:
+            name: BimlFlex
+            homepage_url: 'https://varigence.com/bimlflex'
+            logo: biml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/varigence'
       - subcategory:
         name: Orchestration
         items:
           - item:
-            name: Azure Data Factory Orchestration
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
-            project: generalavailability
-            logo: azure-data-factory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Informatica Orchestration
-            homepage_url: 'https://www.informatica.com/'
-            logo: informatica.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            name: Apache Airflow
+            homepage_url: 'https://airflow.apache.org/'
+            repo_url: 'https://github.com/apache/airflow'
+            logo: airflow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
   - category:
     name: Advanced Analytics
     subcategories:
@@ -217,6 +232,12 @@ landscape:
             repo_url: 'https://github.com/mlflow/mlflow'
             logo: mlflow.svg
             crunchbase: 'https://www.crunchbase.com/organization/databricks'
+          - item:
+            name: Azure Machine Learning
+            homepage_url: 'https://azure.microsoft.com/en-us/services/machine-learning/'
+            project: generalavailability
+            logo: azure-ml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
         name: Managed ML offerings
         items:
@@ -254,6 +275,31 @@ landscape:
             homepage_url: 'https://www.tableau.com/'
             logo: tableau.svg
             crunchbase: 'https://www.crunchbase.com/organization/tableau'
+          - item:
+            name: Qlik Sense
+            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            logo: qlik.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+      - subcategory:
+        name: Light data curation
+        items:
+          - item:
+            name: Dremio Workspace
+            homepage_url: 'https://www.dremio.com/'
+            logo: dremio.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+          - item:
+            name: Azure Synapse Workspace
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: preview
+            logo: azure-synapse-serverless.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Snowflake Snowsight
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
       - subcategory:
         name: Semantics
         items:
@@ -281,6 +327,11 @@ landscape:
             homepage_url: 'https://www.dremio.com/'
             logo: dremio.svg
             crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+          - item:
+            name: Denodo
+            homepage_url: 'https://www.denodo.com/en'
+            logo: denodo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
       - subcategory:
         name: APIs
         items:
@@ -296,6 +347,19 @@ landscape:
             project: generalavailability
             logo: azure-function-app.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Talend API Services
+            homepage_url: 'https://www.talend.com/'
+            logo: talend.svg
+            crunchbase: 'https://www.crunchbase.com/organization/talend'
+      - subcategory:
+        name: Application Integration
+        items:
+          - item:
+            name: SnapLogic Platform
+            homepage_url: 'https://www.snaplogic.com/'
+            logo: snaplogic.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snaplogic'
   - category:
     name: Data Management
     subcategories:
@@ -312,6 +376,11 @@ landscape:
             homepage_url: 'https://www.immuta.com/'
             logo: immuta.svg
             crunchbase: 'https://www.crunchbase.com/organization/immuta'
+          - item:
+            name: Okera
+            homepage_url: 'https://www.okera.com/'
+            logo: okera.svg
+            crunchbase: 'https://www.crunchbase.com/organization/okera'
       - subcategory:
         name: Data catalogs
         items:
@@ -379,7 +448,6 @@ landscape:
           - item:
             name: Azure Active Directory
             homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
-            project: generalavailability
             logo: azure-active-directory.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
@@ -399,7 +467,7 @@ landscape:
     name: Azure Landscape Members
     subcategories:
       - subcategory:
-        name: Platinum
+        name: Partner
         items:
           - item:
             name: SAS
@@ -421,9 +489,6 @@ landscape:
             homepage_url: 'https://databricks.com/'
             logo: azure-databricks.svg
             crunchbase: 'https://www.crunchbase.com/organization/databricks'
-      - subcategory:
-        name: Gold
-        items:
           - item:
             name: Snowflake Inc.
             homepage_url: 'https://www.snowflake.com/'
@@ -484,8 +549,28 @@ landscape:
             homepage_url: 'https://www.tableau.com/'
             logo: tableau.svg
             crunchbase: 'https://www.crunchbase.com/organization/tableau'
+          - item:
+            name: Trifacta
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+          - item:
+            name: Denodo Technologies Inc.
+            homepage_url: 'https://www.denodo.com/en'
+            logo: denodo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
+          - item:
+            name: Varigence
+            homepage_url: 'https://varigence.com/bimlflex'
+            logo: biml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/varigence'
+          - item:
+            name: Okera Inc.
+            homepage_url: 'https://www.okera.com/'
+            logo: okera.svg
+            crunchbase: 'https://www.crunchbase.com/organization/okera'
       - subcategory:
-        name: Other
+        name: Non-partner
         items:
           - item:
             name: Fishtown Analytics
