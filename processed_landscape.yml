@@ -31,7 +31,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory.svg
-              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+              hash: XncEKiSm7P1CjEIWYpoPwUnnvHTzWNKzPyDXGWGk8zI=
             best_practice_data:
               badge: false
               percentage: null
@@ -54,7 +54,7 @@ landscape:
               parents: []
             image_data:
               fileName: matillion-data-loader.svg
-              hash: wKvcz0rHccFdwRh5dJntjY/EejM442Sqm/1acA2ayV4=
+              hash: czVOCC2gI4Rtalr+j1xtd6TPI+PzmHS4V+7UmgoT3rM=
             best_practice_data:
               badge: false
               percentage: null
@@ -76,7 +76,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -109,11 +109,33 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Fivetran Integrations
+            homepage_url: 'https://fivetran.com/why-fivetran'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran-integrations.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Streaming
         items:
           - item:
-            name: Azure Event Hub Capture
+            name: Azure Event Hub
             homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
             project: generalavailability
             logo: azure-event-hub-capture.svg
@@ -136,8 +158,37 @@ landscape:
               market_cap: 1684000000000
               effective_ticker: MSFT
             image_data:
-              fileName: azure-event-hub-capture.svg
-              hash: VRh/7Ood57E15TzBALx2WtBqtBk2UmNFa/VIkGwxB/g=
+              fileName: azure-event-hub.svg
+              hash: FprOM0/BdD1emMdsnkiDOQB03QKIz6JARul9P5490iU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure IoT Hub
+            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            project: generalavailability
+            logo: azure-iot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-io-t-hub.svg
+              hash: Nof2oSFfFM6/t45iA9HsdGmF/58aduVEzhlcOariRjs=
             best_practice_data:
               badge: false
               percentage: null
@@ -206,7 +257,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange-cdc.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -337,7 +388,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-dedicated-pools.svg
-              hash: qADtEssUWSsB1Jo1GBCHS+qiFT8TOYex9zaOVJyO+9M=
+              hash: Hj1xSXr75eMnHWTXnab+9dW+6/V79wcRKLa1a+/9CIA=
             best_practice_data:
               badge: false
               percentage: null
@@ -436,7 +487,7 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
-        name: Specialized storage
+        name: Specialized storages
         items:
           - item:
             name: Azure Data Explorer
@@ -463,7 +514,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-explorer.svg
-              hash: kJX9mfgF+NtJRfGVjBIgVhjvUI6hCKMV3u6xOpvE3gw=
+              hash: Y0u0CrnuGdpllzto2NS/TKQE4Boj35Wm99nKmNDa1gg=
             best_practice_data:
               badge: false
               percentage: null
@@ -492,7 +543,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cosmos-db.svg
-              hash: tvHyr6wVdi0d5ENm00mExaPm5Y+U2egUB6wBVlIS6OM=
+              hash: Vffe+wBTu8xgoqj5HAF7xqrEJVqS+E+vp4Hsc2Gonyg=
             best_practice_data:
               badge: false
               percentage: null
@@ -549,7 +600,7 @@ landscape:
               kind: private
             image_data:
               fileName: azure-databricks.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
@@ -572,7 +623,7 @@ landscape:
               parents: []
             image_data:
               fileName: matillion-etl.svg
-              hash: MRTeC5NgNGsEGUaUTWFEttBefENtLt6yJvqTPM4qvGQ=
+              hash: EtkIVt+y+HFqkG8GfviAxoXResmTptqKdm+Iks0T5tM=
             best_practice_data:
               badge: false
               percentage: null
@@ -646,7 +697,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-etl.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -694,6 +745,28 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Fivetran Transformations
+            homepage_url: 'https://fivetran.com/transformations'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran-transformations.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Stream Transformations
         items:
@@ -722,7 +795,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-stream-analytics.svg
-              hash: SjN3tOQQDtCHvWWavY0ioBRwOUenTLM7O1z/saOAPKA=
+              hash: 46VMDF/u90W4KN6HW4NsqtXWh8GtWlH6NUGGdQ77Bjk=
             best_practice_data:
               badge: false
               percentage: null
@@ -769,7 +842,7 @@ landscape:
               parents: []
             image_data:
               fileName: biml-flex.svg
-              hash: CBqoJvvnBFzv59n9wZO4RjBjoZPgOgx4K4sIZQyIpPI=
+              hash: MLP8c4Z9KLeNTiORRi9yUwC9ZE6nWtRxhsWQ58UWzoI=
             best_practice_data:
               badge: false
               percentage: null
@@ -854,11 +927,11 @@ landscape:
         name: Development Environment
         items:
           - item:
-            name: Azure Synapse Analytics workspace
+            name: Azure Synapse Analytics
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
-            logo: azure-synapse-serverless.svg
+            logo: azure-synapse-analytics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -878,8 +951,8 @@ landscape:
               market_cap: 1684000000000
               effective_ticker: MSFT
             image_data:
-              fileName: azure-synapse-analytics-workspace.svg
-              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
+              fileName: azure-synapse-analytics.svg
+              hash: XB7WS1ogESxri8bcy3wvxbvApFQ70qTbu3G5/vewET8=
             best_practice_data:
               badge: false
               percentage: null
@@ -901,7 +974,7 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-workspaces.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
@@ -1070,7 +1143,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-machine-learning.svg
-              hash: fg+/SyNYibDohRMh3BIXjjGCC+UO26VCuV9lN+CQPic=
+              hash: on/vo0/YwcpBUZMNqoYsj8q6EJEuMcmrV7HFail+nfs=
             best_practice_data:
               badge: false
               percentage: null
@@ -1102,7 +1175,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cognitive-services.svg
-              hash: fx0oMQhfABA99fb9YwW9u75MRTDpiDHXzmUI0jbEZ8I=
+              hash: lvQVEuCQto08UaID9OxhGVobb121MJtqogIRWS0608k=
             best_practice_data:
               badge: false
               percentage: null
@@ -1131,7 +1204,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-bot-services.svg
-              hash: 3x09XYTS8fonzLvVGYzsfmeDSzzR16WNfkND8SilXqg=
+              hash: uyYT+lg3lapTWCCuUzRVUEMLTtHFqWvHBZmruVlcBqY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1188,7 +1261,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: power-bi.svg
-              hash: ZP4rRhE6WdB38hYAP0TtbfFj8rMOV7TYZCVqZVOpAU4=
+              hash: gPikUnhyGqfvQs6UM8lzKW7imF/HngzmyHMn/gzaEQo=
             best_practice_data:
               badge: false
               percentage: null
@@ -1210,7 +1283,7 @@ landscape:
               parents: []
             image_data:
               fileName: tableau.svg
-              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+              hash: ScplyZ772tt/5CMP9g/lyhKnbvJh1pt1kMoHo8sW2s0=
             best_practice_data:
               badge: false
               percentage: null
@@ -1266,7 +1339,7 @@ landscape:
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
-            logo: azure-synapse-serverless.svg
+            logo: azure-synapse-workspace.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -1287,7 +1360,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-workspace.svg
-              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
+              hash: XPlUL0EZ4p6GPQv+g9eyMYHBVy/7DRydqYy+45f9TLg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1353,7 +1426,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-analysis-services.svg
-              hash: lSXVb1jvXcAj2EXQ7dfeGMuceotNo5UZ/UqQ3wH5PjU=
+              hash: HP6TNurWnjf44WMGBNdmmD1110yDReLqdw1kQ3lk9eI=
             best_practice_data:
               badge: false
               percentage: null
@@ -1389,7 +1462,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-serverless.svg
-              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
+              hash: HYwfExCYr3gC5C2gvrPfTouM89KMOV/w5iHFeRGZTwM=
             best_practice_data:
               badge: false
               percentage: null
@@ -1465,7 +1538,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-api-management-service.svg
-              hash: z3lCiFdfL3sIDFCqgxnUKwKi8q5TUeRxLFdDU/yAH5o=
+              hash: Uds5jNd47H9FW6aNh3D0R7PQ/nSxeUis077dDpUUU2o=
             best_practice_data:
               badge: false
               percentage: null
@@ -1494,7 +1567,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-function-app.svg
-              hash: GmycEI1fY/e3i8b7xGQFms0uqowdER6bzSioss30cLk=
+              hash: eT+68wzrm7ge9xfm2g5mhMvIFLhv1wFXiqTwip/cU5I=
             best_practice_data:
               badge: false
               percentage: null
@@ -1552,6 +1625,35 @@ landscape:
             image_data:
               fileName: snap-logic-platform.svg
               hash: VfXZyc7pVncJj0g1nihDKgu1R6+7IPNr9mD8yv5wPUI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Logic Apps
+            homepage_url: 'https://azure.microsoft.com/en-us/services/logic-apps/'
+            project: generalavailability
+            logo: azure-logic-app.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-logic-apps.svg
+              hash: VRzECsF77uJzLAFHB+viMnW5r7Ajk797iLFvY6rrk5Y=
             best_practice_data:
               badge: false
               percentage: null
@@ -1623,7 +1725,7 @@ landscape:
               parents: []
             image_data:
               fileName: okera.svg
-              hash: ahCNTcppt62EsomEukKDAt9fXF+EOG7EyGGmDIvTmsQ=
+              hash: YS5GDlkw/o2p6uky4LsOHDKK+rr1B4A9oKO6LaPIQFY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1648,7 +1750,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-catalog.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1670,7 +1772,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-axon.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1724,7 +1826,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-master-data-management.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1749,7 +1851,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-quality.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1787,13 +1889,69 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Azure Pipelines
+            homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
+            logo: azure-devops-pipelines.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-pipelines.svg
+              hash: Kzrd7nZ8l63wZ7LW810bEfDrIhvMfocOke2ei4SSKu8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Automation
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/automation/automation-intro'
+            logo: azure-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-automation.svg
+              hash: StKCXAJIQvpuqIdc9AmKhXSzOzKTARYygqfG30PW17Q=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Budget
         items:
           - item:
             name: Azure Cost Management
             homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
-            logo: azure.svg
+            logo: azure-cost-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -1814,15 +1972,40 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cost-management.svg
-              hash: DQSDswQS7xr88phkl3B/YmtQ+6HZ643WjaSutQkGlwI=
+              hash: LupWdBNnN55w/XheHbolW89jTKnKC/rKcEZsp0t22lE=
             best_practice_data:
               badge: false
               percentage: null
-  - category:
-    name: Infrastructure
-    subcategories:
+          - item:
+            name: Azure Cost Analysis
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
+            logo: azure-cost-analysis.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-cost-analysis.svg
+              hash: 7k/ecE2gmZEixZl4YwGh/94JFEoEZBMhjto20q9qh2w=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
-        name: Security & Networking
+        name: Security
         items:
           - item:
             name: Azure Security Center
@@ -1854,7 +2037,7 @@ landscape:
               percentage: null
           - item:
             name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
+            homepage_url: 'https://azure.microsoft.com/en-us/services/active-directory/'
             logo: azure-active-directory.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -1877,6 +2060,34 @@ landscape:
             image_data:
               fileName: azure-active-directory.svg
               hash: Pv/duKr3Igq/unQeUG2uoJvbDZZEMM+nuATd/Hys3xE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Key Vault
+            homepage_url: 'https://azure.microsoft.com/en-us/services/key-vault/'
+            logo: azure-key-vault.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-key-vault.svg
+              hash: cStCb1Tw/FDQgW3HnfcJ2qesX5PMr06bNSf2J/bprZc=
             best_practice_data:
               badge: false
               percentage: null
@@ -1913,7 +2124,7 @@ landscape:
               percentage: null
           - item:
             name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
             logo: azure-app-insights.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -1936,6 +2147,65 @@ landscape:
             image_data:
               fileName: azure-app-insights.svg
               hash: Nsc96osVmPv/+EiQorQJYA8TOe7Iwb8aiWQ56dqPnco=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Compute
+        items:
+          - item:
+            name: Azure Kubernetes Service
+            homepage_url: 'https://azure.microsoft.com/en-us/services/kubernetes-service/'
+            logo: azure-kubernetes.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-kubernetes-service.svg
+              hash: gZVKSBUDBXSY1UOlGGOy60ZzKE4QlmLNxCEFHRHbolw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Virtual Machine
+            homepage_url: 'https://azure.microsoft.com/en-us/services/virtual-machines/'
+            logo: azure-vm.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-virtual-machine.svg
+              hash: CS0Y/63snsDlrxKRhtx7wqgFRAEeVfllYE7UsThz4Pw=
             best_practice_data:
               badge: false
               percentage: null
@@ -2014,7 +2284,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-inc.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -2036,7 +2306,7 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-inc.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
@@ -2313,7 +2583,7 @@ landscape:
               parents: []
             image_data:
               fileName: tableau-corp.svg
-              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+              hash: ScplyZ772tt/5CMP9g/lyhKnbvJh1pt1kMoHo8sW2s0=
             best_practice_data:
               badge: false
               percentage: null
@@ -2379,7 +2649,7 @@ landscape:
               parents: []
             image_data:
               fileName: varigence.svg
-              hash: CBqoJvvnBFzv59n9wZO4RjBjoZPgOgx4K4sIZQyIpPI=
+              hash: MLP8c4Z9KLeNTiORRi9yUwC9ZE6nWtRxhsWQ58UWzoI=
             best_practice_data:
               badge: false
               percentage: null
@@ -2401,7 +2671,29 @@ landscape:
               parents: []
             image_data:
               fileName: okera-inc.svg
-              hash: ahCNTcppt62EsomEukKDAt9fXF+EOG7EyGGmDIvTmsQ=
+              hash: YS5GDlkw/o2p6uky4LsOHDKK+rr1B4A9oKO6LaPIQFY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Fivetran
+            homepage_url: 'https://fivetran.com/'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
             best_practice_data:
               badge: false
               percentage: null

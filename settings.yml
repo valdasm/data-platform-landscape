@@ -162,28 +162,19 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Data Management
-        rows: 1
-        width: 900
+        rows: 2
+        width: 1200
         height: 100
-        top: 400
+        top: 420
         left: 0
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
         category: Data Ops
-        rows: 1
-        width: 900
+        rows: 2
+        width: 1200
         height: 100
-        top: 520
-        left: 0
-        color: 'rgb(7,136,62)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: Infrastructure
-        rows: 1
-        width: 900
-        height: 100
-        top: 640
+        top: 540
         left: 0
         color: 'rgb(7,136,62)'
         fit_width: true

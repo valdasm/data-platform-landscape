@@ -26,14 +26,25 @@ landscape:
             homepage_url: 'https://www.talend.com/'
             logo: talend.svg
             crunchbase: 'https://www.crunchbase.com/organization/talend'
+          - item:
+            name: Fivetran Integrations
+            homepage_url: 'https://fivetran.com/why-fivetran'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
       - subcategory:
         name: Streaming
         items:
           - item:
-            name: Azure Event Hub Capture
+            name: Azure Event Hub
             homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
             project: generalavailability
             logo: azure-event-hub-capture.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure IoT Hub
+            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            project: generalavailability
+            logo: azure-iot.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Confluent Platform
@@ -98,7 +109,7 @@ landscape:
             logo: deltalake.svg
             crunchbase: 'https://www.crunchbase.com/organization/databricks'
       - subcategory:
-        name: Specialized storage
+        name: Specialized storages
         items:
           - item:
             name: Azure Data Explorer
@@ -159,6 +170,11 @@ landscape:
             homepage_url: 'https://www.trifacta.com/'
             logo: trifacta.svg
             crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+          - item:
+            name: Fivetran Transformations
+            homepage_url: 'https://fivetran.com/transformations'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
       - subcategory:
         name: Stream Transformations
         items:
@@ -197,11 +213,11 @@ landscape:
         name: Development Environment
         items:
           - item:
-            name: Azure Synapse Analytics workspace
+            name: Azure Synapse Analytics
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
-            logo: azure-synapse-serverless.svg
+            logo: azure-synapse-analytics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Databricks Workspaces
@@ -293,7 +309,7 @@ landscape:
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
-            logo: azure-synapse-serverless.svg
+            logo: azure-synapse-workspace.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Snowflake Snowsight
@@ -360,6 +376,12 @@ landscape:
             homepage_url: 'https://www.snaplogic.com/'
             logo: snaplogic.svg
             crunchbase: 'https://www.crunchbase.com/organization/snaplogic'
+          - item:
+            name: Azure Logic Apps
+            homepage_url: 'https://azure.microsoft.com/en-us/services/logic-apps/'
+            project: generalavailability
+            logo: azure-logic-app.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Data Management
     subcategories:
@@ -426,19 +448,31 @@ landscape:
             homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
             logo: azure-devops.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Pipelines
+            homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
+            logo: azure-devops-pipelines.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Automation
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/automation/automation-intro'
+            logo: azure-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
         name: Budget
         items:
           - item:
             name: Azure Cost Management
             homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
-            logo: azure.svg
+            logo: azure-cost-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-  - category:
-    name: Infrastructure
-    subcategories:
+          - item:
+            name: Azure Cost Analysis
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
+            logo: azure-cost-analysis.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
-        name: Security & Networking
+        name: Security
         items:
           - item:
             name: Azure Security Center
@@ -447,8 +481,13 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
+            homepage_url: 'https://azure.microsoft.com/en-us/services/active-directory/'
             logo: azure-active-directory.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Key Vault
+            homepage_url: 'https://azure.microsoft.com/en-us/services/key-vault/'
+            logo: azure-key-vault.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
         name: Monitoring
@@ -460,8 +499,21 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
             logo: azure-app-insights.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+      - subcategory:
+        name: Compute
+        items:
+          - item:
+            name: Azure Kubernetes Service
+            homepage_url: 'https://azure.microsoft.com/en-us/services/kubernetes-service/'
+            logo: azure-kubernetes.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Virtual Machine
+            homepage_url: 'https://azure.microsoft.com/en-us/services/virtual-machines/'
+            logo: azure-vm.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
     name: Azure Landscape Members
@@ -569,6 +621,11 @@ landscape:
             homepage_url: 'https://www.okera.com/'
             logo: okera.svg
             crunchbase: 'https://www.crunchbase.com/organization/okera'
+          - item:
+            name: Fivetran
+            homepage_url: 'https://fivetran.com/'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
       - subcategory:
         name: Non-partner
         items:
