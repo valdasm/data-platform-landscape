@@ -161,7 +161,7 @@ big_picture:
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
-        category: Data Management
+        category: Data Governance
         rows: 2
         width: 1200
         height: 100
