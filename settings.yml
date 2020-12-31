@@ -210,7 +210,7 @@ big_picture:
         category: Partner
         rows: 4
         width: 1250
-        height: 200
+        height: 350
         top: 0
         left: 0
         color: '#c5c4c2'
@@ -221,7 +221,7 @@ big_picture:
         rows: 4
         width: 1250
         height: 200
-        top: 200
+        top: 350
         left: 0
         color: '#D4AF37'
         fit_width: true

@@ -153,6 +153,81 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Precisely Connect Ingest
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase_data:
+              name: Precisely
+              description: >-
+                Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to
+                configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database
+                staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from
+                multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks,
+                Azure Synapse Analytics and Azure Data Lake Storage.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/precisely-write'
+              city: Pearl River
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: precisely-connect-ingest.svg
+              hash: qUYQPR9YsxIf8ZMFPeV41sN0DchFWlHpnSBJP3Y/Yno=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron Ingest
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron
+              description: >-
+                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
+                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
+                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
+                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-ingest.svg
+              hash: 4Ply0LzRZ3qBoQrFe9SJ7PyKtiBmZ8GiEJfO3Kru0wE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta Data Connectors
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta
+              description: 'Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-data-connectors.svg
+              hash: poF47+pPVC+B9Dcgsxlb2z/wrlxpfby6TsDwQpvfvqo=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Streaming
         items:
@@ -812,28 +887,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Qlik Compose
-            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
-            logo: qlik.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
-            crunchbase_data:
-              name: Qlik Technologies
-              description: Qlik simplifies the way people use data by making it a natural part of how they make decisions.
-              num_employees_min: 1000
-              num_employees_max: 5000
-              homepage: 'https://www.crunchbase.com/organization/qlik-technologies'
-              city: Radnor
-              region: Pennsylvania
-              country: United States
-              kind: Private
-              parents: []
-            image_data:
-              fileName: qlik-compose.svg
-              hash: uYp/5bN7NDZ8NojEQMvoCb6yMkKSPG6TrvHQ8OJQ+5Y=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: Trifacta Wrangler
             homepage_url: 'https://www.trifacta.com/'
             logo: trifacta.svg
@@ -940,6 +993,59 @@ landscape:
             image_data:
               fileName: x-plenty-etl.svg
               hash: yIrt3rPkYLzts4Zlt9IeBDYOuM1ZpcLjN4AgT6RemFY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Precisely Connect ETL
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase_data:
+              name: Precisely
+              description: >-
+                Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to
+                configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database
+                staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from
+                multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks,
+                Azure Synapse Analytics and Azure Data Lake Storage.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/precisely-write'
+              city: Pearl River
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: precisely-connect-etl.svg
+              hash: qUYQPR9YsxIf8ZMFPeV41sN0DchFWlHpnSBJP3Y/Yno=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron ETL
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron
+              description: >-
+                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
+                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
+                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
+                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-etl.svg
+              hash: 4Ply0LzRZ3qBoQrFe9SJ7PyKtiBmZ8GiEJfO3Kru0wE=
             best_practice_data:
               badge: false
               percentage: null
@@ -1065,6 +1171,50 @@ landscape:
             image_data:
               fileName: bi-builders.svg
               hash: py/Tf3Tg+g1eGa/fwJ+p7M7Q41FvF8i8HXc0M+9MWAM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Qlik Compose
+            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            logo: qlik.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase_data:
+              name: Qlik Technologies
+              description: Qlik simplifies the way people use data by making it a natural part of how they make decisions.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/qlik-technologies'
+              city: Radnor
+              region: Pennsylvania
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: qlik-compose.svg
+              hash: uYp/5bN7NDZ8NojEQMvoCb6yMkKSPG6TrvHQ8OJQ+5Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta Platform
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta
+              description: 'Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-platform.svg
+              hash: poF47+pPVC+B9Dcgsxlb2z/wrlxpfby6TsDwQpvfvqo=
             best_practice_data:
               badge: false
               percentage: null
@@ -1364,6 +1514,28 @@ landscape:
             image_data:
               fileName: alteryx-platform.svg
               hash: 4yGpKjkk1P0wPpfIHYvduyuMVTC0Y5lfWiKwqj1mHI4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta Data Science
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta
+              description: 'Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-data-science.svg
+              hash: poF47+pPVC+B9Dcgsxlb2z/wrlxpfby6TsDwQpvfvqo=
             best_practice_data:
               badge: false
               percentage: null
@@ -1710,6 +1882,28 @@ landscape:
             image_data:
               fileName: si-sense.svg
               hash: HYjTblCb3tXy9PGFfbmMEP2jcBrPlM4QPbyqBb+GpIE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta Analytics
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta
+              description: 'Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-analytics.svg
+              hash: poF47+pPVC+B9Dcgsxlb2z/wrlxpfby6TsDwQpvfvqo=
             best_practice_data:
               badge: false
               percentage: null
@@ -2085,6 +2279,50 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Segment Integration
+            homepage_url: 'https://segment.com/'
+            logo: segment-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+            crunchbase_data:
+              name: Segment
+              description: Segment provides customer data infrastructure that helps businesses put their customers first.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/segment-io'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: segment-integration.svg
+              hash: kasyD8rlhIBINLCBM7N8fSgGgV2XPN24oJfufL7min0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CluedIn Data Fabric
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase_data:
+              name: CluedIn
+              description: CluedIn breaks down information silos in your organisation and solves the problem of not being able to utilize all the knowledge you have.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/cluedin'
+              city: Copenhagen
+              region: Hovedstaden
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: clued-in-data-fabric.svg
+              hash: 4XQyrS5NtkRGD206VrtCqe7jPxbNyRHRFpxa4T/fLns=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Data Governance
     subcategories:
@@ -2356,7 +2594,7 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: CluedIn Data Fabric
+            name: CluedIn MDM
             homepage_url: 'https://www.cluedin.com/'
             logo: cluedin-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/cluedin'
@@ -2372,7 +2610,7 @@ landscape:
               kind: Private
               parents: []
             image_data:
-              fileName: clued-in-data-fabric.svg
+              fileName: clued-in-mdm.svg
               hash: 4XQyrS5NtkRGD206VrtCqe7jPxbNyRHRFpxa4T/fLns=
             best_practice_data:
               badge: false
@@ -2744,6 +2982,28 @@ landscape:
             image_data:
               fileName: azure-app-insights.svg
               hash: Nsc96osVmPv/+EiQorQJYA8TOe7Iwb8aiWQ56dqPnco=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SentryOne Monitoring
+            homepage_url: 'https://www.sentryone.com/products/sentryone-platform/dw-sentry/azure-sql-data-warehouse-monitoring'
+            logo: sentry-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+            crunchbase_data:
+              name: SentryOne
+              description: 'SentryOne enable data professionals to monitor, diagnose, and optimize server performance across physical, virtual, and cloud environments.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/sentryone'
+              city: Charlotte
+              region: North Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: sentry-one-monitoring.svg
+              hash: vHlXDSYVZ4AJFqC19tCZuaNEutIIy7FYFxzOR279tNA=
             best_practice_data:
               badge: false
               percentage: null
@@ -3838,13 +4098,18 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Precisely 
+            name: Precisely
             homepage_url: 'https://www.precisely.com/'
             logo: precisely-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
             crunchbase_data:
-              name: Precisely 
-              description: Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks, Azure Synapse Analytics and Azure Data Lake Storage. 
+              name: Precisely
+              description: >-
+                Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to
+                configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database
+                staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from
+                multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks,
+                Azure Synapse Analytics and Azure Data Lake Storage.
               num_employees_min: 1000
               num_employees_max: 5000
               homepage: 'https://www.crunchbase.com/organization/precisely-write'
@@ -3854,38 +4119,44 @@ landscape:
               kind: Private
               parents: []
             image_data:
-              fileName: precisely-logo.svg
+              fileName: precisely.svg
+              hash: qUYQPR9YsxIf8ZMFPeV41sN0DchFWlHpnSBJP3Y/Yno=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: Lyftron 
+            name: Lyftron
             homepage_url: 'https://lyftron.com/'
             logo: lyftron-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/lyftron'
             crunchbase_data:
-              name: Lyftron 
-              description: Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake. Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              name: Lyftron
+              description: >-
+                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
+                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
+                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
+                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
               num_employees_min: 10
               num_employees_max: 50
               homepage: 'https://www.crunchbase.com/organization/lyftron'
-              city: Dulles 
+              city: Dulles
               region: Virginia
               country: United States
               kind: Private
               parents: []
             image_data:
-              fileName: lyftron-logo.svg
+              fileName: lyftron.svg
+              hash: 4Ply0LzRZ3qBoQrFe9SJ7PyKtiBmZ8GiEJfO3Kru0wE=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: Segment 
+            name: Segment
             homepage_url: 'https://segment.com/'
             logo: segment-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/segment-io'
             crunchbase_data:
-              name: Segment 
+              name: Segment
               description: Segment provides customer data infrastructure that helps businesses put their customers first.
               num_employees_min: 500
               num_employees_max: 1000
@@ -3896,18 +4167,19 @@ landscape:
               kind: Private
               parents: []
             image_data:
-              fileName: segment-logo.svg
+              fileName: segment.svg
+              hash: kasyD8rlhIBINLCBM7N8fSgGgV2XPN24oJfufL7min0=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: SentryOne 
+            name: SentryOne
             homepage_url: 'https://www.sentryone.com/'
             logo: sentry-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/sentryone'
             crunchbase_data:
-              name: SentryOne 
-              description: SentryOne enable data professionals to monitor, diagnose, and optimize server performance across physical, virtual, and cloud environments.
+              name: SentryOne
+              description: 'SentryOne enable data professionals to monitor, diagnose, and optimize server performance across physical, virtual, and cloud environments.'
               num_employees_min: 100
               num_employees_max: 250
               homepage: 'https://www.crunchbase.com/organization/sentryone'
@@ -3917,18 +4189,19 @@ landscape:
               kind: Private
               parents: []
             image_data:
-              fileName: sentry-logo.svg
+              fileName: sentry-one.svg
+              hash: vHlXDSYVZ4AJFqC19tCZuaNEutIIy7FYFxzOR279tNA=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: Incorta 
+            name: Incorta
             homepage_url: 'https://www.incorta.com/'
             logo: incorta-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/incorta'
             crunchbase_data:
-              name: Incorta 
-              description: Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.
+              name: Incorta
+              description: 'Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.'
               num_employees_min: 100
               num_employees_max: 250
               homepage: 'https://www.crunchbase.com/organization/incorta'
@@ -3938,7 +4211,8 @@ landscape:
               kind: Private
               parents: []
             image_data:
-              fileName: incorta-logo.svg
+              fileName: incorta.svg
+              hash: poF47+pPVC+B9Dcgsxlb2z/wrlxpfby6TsDwQpvfvqo=
             best_practice_data:
               badge: false
               percentage: null
