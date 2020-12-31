@@ -36,6 +36,21 @@ landscape:
             homepage_url: 'https://www.xplenty.com/is/'
             logo: xplenty-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+          - item:
+            name: Precisely Connect Ingest
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+          - item:
+            name: Lyftron Ingest
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+          - item:
+            name: Incorta Data Connectors
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
       - subcategory:
         name: Streaming
         items:
@@ -186,11 +201,6 @@ landscape:
             logo: informatica.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
           - item:
-            name: Qlik Compose
-            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
-            logo: qlik.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
-          - item:
             name: Trifacta Wrangler
             homepage_url: 'https://www.trifacta.com/'
             logo: trifacta.svg
@@ -215,6 +225,16 @@ landscape:
             homepage_url: 'https://www.xplenty.com/is/'
             logo: xplenty-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+          - item:
+            name: Precisely Connect ETL
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+          - item:
+            name: Lyftron ETL
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
       - subcategory:
         name: Stream Transformations
         items:
@@ -247,6 +267,16 @@ landscape:
             homepage_url: 'https://www.bi-builders.com/'
             logo: bi-builders.svg
             crunchbase: 'https://www.crunchbase.com/organization/bi-builders'
+          - item:
+            name: Qlik Compose
+            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            logo: qlik.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+          - item:
+            name: Incorta Platform
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
       - subcategory:
         name: Orchestration
         items:
@@ -310,6 +340,11 @@ landscape:
             homepage_url: 'https://www.alteryx.com/products/alteryx-platform/intelligence-suite'
             logo: Alteryx-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+          - item:
+            name: Incorta Data Science
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
       - subcategory:
         name: Machine Learning tools
         items:
@@ -386,6 +421,11 @@ landscape:
             homepage_url: 'https://www.sisense.com/n'
             logo: sisense-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/sisense'
+          - item:
+            name: Incorta Analytics
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
       - subcategory:
         name: Light data curation
         items:
@@ -477,6 +517,16 @@ landscape:
             project: generalavailability
             logo: azure-logic-app.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Segment Integration
+            homepage_url: 'https://segment.com/'
+            logo: segment-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+          - item:
+            name: CluedIn Data Fabric
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
   - category:
     name: Data Governance
     subcategories:
@@ -546,7 +596,7 @@ landscape:
             logo: tamr-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/tamr'
           - item:
-            name: CluedIn Data Fabric
+            name: CluedIn MDM
             homepage_url: 'https://www.cluedin.com/'
             logo: cluedin-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/cluedin'
@@ -636,6 +686,11 @@ landscape:
             homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
             logo: azure-app-insights.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: SentryOne Monitoring
+            homepage_url: 'https://www.sentryone.com/products/sentryone-platform/dw-sentry/azure-sql-data-warehouse-monitoring'
+            logo: sentry-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
       - subcategory:
         name: Compute
         items:
@@ -880,6 +935,31 @@ landscape:
             homepage_url: 'https://www.sisense.com/n'
             logo: sisense-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/sisense'
+          - item:
+            name: Precisely
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+          - item:
+            name: Lyftron
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+          - item:
+            name: Segment
+            homepage_url: 'https://segment.com/'
+            logo: segment-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+          - item:
+            name: SentryOne
+            homepage_url: 'https://www.sentryone.com/'
+            logo: sentry-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+          - item:
+            name: Incorta
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
       - subcategory:
         name: Non-partner
         items:

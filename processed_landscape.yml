@@ -3837,6 +3837,111 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Precisely 
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase_data:
+              name: Precisely 
+              description: Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks, Azure Synapse Analytics and Azure Data Lake Storage. 
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/precisely-write'
+              city: Pearl River
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: precisely-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron 
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron 
+              description: Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake. Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles 
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Segment 
+            homepage_url: 'https://segment.com/'
+            logo: segment-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+            crunchbase_data:
+              name: Segment 
+              description: Segment provides customer data infrastructure that helps businesses put their customers first.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/segment-io'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: segment-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SentryOne 
+            homepage_url: 'https://www.sentryone.com/'
+            logo: sentry-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+            crunchbase_data:
+              name: SentryOne 
+              description: SentryOne enable data professionals to monitor, diagnose, and optimize server performance across physical, virtual, and cloud environments.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/sentryone'
+              city: Charlotte
+              region: North Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: sentry-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta 
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta 
+              description: Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Non-partner
         items:
