@@ -19,6 +19,7 @@ global:
   flags:
     hide_license_for_categories:
       - Azure Landscape Members
+  hide_funding_and_market_cap: true
 twitter:
   search: landscape.dataplatformschool.com
   url: 'https://landscape.dataplatformschool.com'
