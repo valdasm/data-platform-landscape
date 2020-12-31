@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="38px" viewBox="0 0 160 38" enable-background="new 0 0 160 38" xml:space="preserve">
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g id="footer" transform="translate(-155.000000, -116.000000)">
+		<g id="Group-61-Copy" transform="translate(155.000000, 116.000000)">
+			<path id="Fill-1" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M18.9,0c-0.8,0-1.5,0.7-1.5,1.5
+				c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5C20.4,0.7,19.8,0,18.9,0"/>
+			<path id="Fill-3" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M18.9,34.6c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5
+				s1.5-0.7,1.5-1.5S19.8,34.6,18.9,34.6"/>
+			<path id="Fill-5" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M31.2,8.2c0.8,0,1.5-0.7,1.5-1.5
+				c0-0.8-0.7-1.5-1.5-1.5c-0.8,0-1.5,0.7-1.5,1.5C29.6,7.5,30.3,8.2,31.2,8.2"/>
+			<path id="Fill-7" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M31.2,29.6c-0.8,0-1.5,0.7-1.5,1.5
+				c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5C32.7,30.2,32,29.6,31.2,29.6"/>
+			<path id="Fill-9" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M6.6,29.6c-0.8,0-1.5,0.7-1.5,1.5
+				c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5C8.2,30.2,7.5,29.6,6.6,29.6"/>
+			<g id="Group-13" transform="translate(0.000000, 17.154606)">
+				<g id="Clip-12">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0.2" width="3.1" height="3.1">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="0" y="0.2" width="3.1" height="3.1" id="mask-2_1_">
+					<g filter="url(#Adobe_OpacityMaskFilter)">
+						<polygon id="path-1_1_" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="0,0.2 3.1,0.2 3.1,3.3 0,3.3 						
+							"/>
+					</g>
+				</mask>
+				<path id="Fill-11" mask="url(#mask-2_1_)" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M3.1,1.7
+					c0-0.8-0.7-1.5-1.5-1.5C0.7,0.2,0,0.9,0,1.7s0.7,1.5,1.5,1.5C2.4,3.3,3.1,2.6,3.1,1.7"/>
+			</g>
+			<path id="Fill-14" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M36.3,17.3c-0.8,0-1.5,0.7-1.5,1.5
+				c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5C37.8,18,37.1,17.3,36.3,17.3"/>
+			<path id="Fill-16" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M6.6,8.1c0.8,0,1.5-0.7,1.5-1.5S7.5,5.1,6.6,5.1
+				S5.1,5.7,5.1,6.6S5.8,8.1,6.6,8.1"/>
+			<path id="Fill-18" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M18.9,5.1c-0.8,0-1.5,0.7-1.5,1.5v6.1h0
+				c0,0,0,0,0,0c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5c0,0,0,0,0,0h0V6.6C20.4,5.8,19.8,5.1,18.9,5.1"/>
+			<path id="Fill-20" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M18.9,23.5c-0.8,0-1.5,0.7-1.5,1.5v6.1h0
+				c0,0,0,0,0,0c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5c0,0,0,0,0,0h0V25C20.4,24.2,19.8,23.5,18.9,23.5"/>
+			<path id="Fill-22" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M15.8,17.3H6.7v0c0,0,0,0,0,0
+				c-0.8,0-1.5,0.7-1.5,1.5c0,0.8,0.7,1.5,1.5,1.5c0,0,0,0,0,0v0h9.2c0.8,0,1.5-0.7,1.5-1.5C17.4,18,16.7,17.3,15.8,17.3"/>
+			<path id="Fill-24" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M31.2,20.4c0.8,0,1.5-0.7,1.5-1.5
+				s-0.7-1.5-1.5-1.5H22v0c0,0,0,0,0,0c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5c0,0,0,0,0,0v0H31.2z"/>
+			<path id="Fill-26" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M25,14.3c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0h0V2.6
+				c0-0.8-0.7-1.5-1.5-1.5c-0.8,0-1.5,0.7-1.5,1.5v10.1h0c0,0,0,0,0,0C23.5,13.6,24.2,14.3,25,14.3"/>
+			<path id="Fill-28" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M12.7,23.5c-0.8,0-1.5,0.7-1.5,1.5v10.1h0
+				c0,0,0,0,0,0c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0h0V25C14.3,24.2,13.6,23.5,12.7,23.5"/>
+			<path id="Fill-30" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M2.6,14.2h10.1v0c0,0,0,0,0,0
+				c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5c0,0,0,0,0,0v0H2.6c-0.8,0-1.5,0.7-1.5,1.5C1.1,13.6,1.8,14.2,2.6,14.2"/>
+			<path id="Fill-32" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M35.2,23.5C35.2,23.5,35.2,23.5,35.2,23.5
+				L35.2,23.5H25c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h10.1v0c0,0,0,0,0,0c0.8,0,1.5-0.7,1.5-1.5S36,23.5,35.2,23.5"/>
+			<path id="Fill-34" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M12.8,8.2c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0h0v-4
+				c0-0.8-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5v4h0c0,0,0,0,0,0C11.2,7.5,11.9,8.2,12.8,8.2"/>
+			<path id="Fill-36" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M6.6,26.5c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5
+				h-4v0c0,0,0,0,0,0c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5c0,0,0,0,0,0v0H6.6z"/>
+			<path id="Fill-38" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M31.2,14.3C31.2,14.3,31.2,14.3,31.2,14.3
+				L31.2,14.3h4c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5h-4v0c0,0,0,0,0,0c-0.8,0-1.5,0.7-1.5,1.5S30.3,14.3,31.2,14.3"/>
+			<path id="Fill-40" fill-rule="evenodd" clip-rule="evenodd" fill="#6FC100" d="M25,29.6c-0.8,0-1.5,0.7-1.5,1.5c0,0,0,0,0,0h0v4
+				c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5v-4h0c0,0,0,0,0,0C26.6,30.2,25.9,29.6,25,29.6"/>
+			<path id="Fill-42" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M62.9,10.6c3.2,0,6,2.2,6.7,5.1l0.1,0.3l3.2-0.4
+				l-0.1-0.3c-1-4.4-5.2-7.6-9.9-7.6c-6.2,0-10.8,4.7-10.8,11.1c0,3.2,1.1,6,3.1,8.1c2,2,4.7,3,7.6,3c4.7,0,8.8-3,9.9-7.2l0.1-0.3
+				l-3.1-0.6l-0.1,0.3c-0.8,2.9-3.6,5-6.8,5c-4.4,0-7.5-3.5-7.5-8.2C55.3,14.1,58.5,10.6,62.9,10.6"/>
+			<path id="Fill-44" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M83.3,27.1c-3,0-5.1-2.2-5.1-5.4
+				c0-3.1,2.1-5.3,5.1-5.3s5.1,2.2,5.1,5.3C88.4,24.8,86.3,27.1,83.3,27.1 M83.3,13.6c-4.8,0-8.1,3.3-8.1,8.1c0,4.8,3.3,8.1,8.1,8.1
+				c4.7,0,8.1-3.4,8.1-8.1C91.4,17,88,13.6,83.3,13.6"/>
+			<path id="Fill-46" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M111.3,8c-1,0-1.8,0.7-1.8,1.7
+				c0,1,0.8,1.8,1.8,1.8c1,0,1.8-0.8,1.8-1.8C113.1,8.7,112.3,8,111.3,8"/>
+			<polygon id="Fill-48" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" points="109.8,29.5 112.8,29.5 112.8,14.3 
+				109.8,14.3 			"/>
+			<path id="Fill-50" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M124.5,16.5c2.9,0,5.1,2.3,5.1,5.4
+				c0,3.1-2.1,5.4-5.1,5.4c-2.9,0-5.1-2.3-5.1-5.4C119.4,18.8,121.6,16.5,124.5,16.5 M124.8,13.7c-2.2,0-4.2,0.9-5.3,2.4V8.2h-3
+				v21.3h3v-1.9c1.2,1.6,3,2.5,5.3,2.5c4.5,0,7.9-3.5,7.9-8.2C132.6,17.2,129.3,13.7,124.8,13.7"/>
+			<path id="Fill-52" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M93.8,26.6V8.2h3v17.7c0,0.9,0.5,1,1.3,1h1v2.6
+				h-1.6C95.5,29.5,93.8,28.8,93.8,26.6"/>
+			<path id="Fill-54" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M101.5,26.6V8.2h3v17.7c0,0.9,0.5,1,1.3,1h1v2.6
+				h-1.6C103.2,29.5,101.5,28.8,101.5,26.6"/>
+			<path id="Fill-56" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M141.6,14.1c-1.5,0-2.7,0.6-3.6,1.8v-1.6h-3v15.2
+				h3v-8.2c0-2.7,1.1-4.3,3.4-4.3c1.5,0,2.2,0.4,2.2,0.4v-2.9C143.6,14.5,143,14.1,141.6,14.1"/>
+			<g id="Group-60" transform="translate(144.703949, 13.623200)">
+				<g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0.1" width="15.2" height="16.2">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="0" y="0.1" width="15.2" height="16.2" id="mask-4_7_">
+						<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+							<polygon id="path-3_7_" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="0,0.1 15.2,0.1 15.2,16.3 0,16.3 
+															"/>
+						</g>
+					</mask>
+					<path id="Fill-58_8_" mask="url(#mask-4_7_)" fill-rule="evenodd" clip-rule="evenodd" fill="#606060" d="M5.9,13.7
+						c-1.8,0-2.9-0.7-2.9-1.9c0-1.7,2.1-2.4,3.9-2.6l3.7-0.4v0.9C10.6,12.1,8.7,13.7,5.9,13.7L5.9,13.7z M14.9,13.3
+						c-0.7,0-1.2-0.1-1.3-1V5.9c0-3.5-2.6-5.8-6.5-5.8c-3.9,0-6.4,2.1-6.4,5.4v0.3h3.1l0-0.3c0-0.7,0.2-1.2,0.6-1.7
+						C5,3.2,6,2.9,7.1,2.9c2.2,0,3.5,1.1,3.5,2.9v0.3L6.9,6.6C2.5,7.1,0,9,0,11.9c0,2.7,2.2,4.5,5.6,4.5c2.2,0,3.9-0.8,5-2.3l0.2,0
+						c0.5,1.4,1.9,1.8,3.4,1.8h1v-2.6H14.9z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

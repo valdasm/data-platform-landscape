@@ -33,12 +33,13 @@
    id="namedview9"
    showgrid="false"
    inkscape:zoom="2.3751994"
-   inkscape:cx="235.25126"
+   inkscape:cx="299.56471"
    inkscape:cy="111.15"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="图层_1" />
+   inkscape:current-layer="图层_1"
+   inkscape:document-rotation="0" />
 <style
    type="text/css"
    id="style2">
@@ -51,12 +52,16 @@
    class="st0 st1 st2"
    id="text4"
    style="font-size:64px"
-   x="20.875971"
-   y="104.98786">ADP</text>
+   x="2.0339355"
+   y="48.567513"><tspan
+     style="font-size:56px"
+     id="tspan9">Data Platform</tspan></text>
 <text
    class="st3 st1 st2"
    id="text6"
    style="font-size:64px"
-   x="15.999945"
-   y="166.132">LANDSCAPE</text>
+   x="0.94706535"
+   y="112.23776"><tspan
+     style="font-size:56px"
+     id="tspan11">School.com</tspan></text>
 </svg>

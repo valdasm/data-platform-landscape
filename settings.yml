@@ -2,9 +2,9 @@ global:
   name: Azure Data Platform Landscape
   short_name: ADP_Landscape
   repo: valdasm/data-platform-landscape
-  website: 'https://landscape.xxx.org'
-  short_domain: l.xx.org
-  company_url: 'https://xx.org'
+  website: 'https://landscape.dataplatformschool.com'
+  short_domain: https://www.dataplatformschool.com
+  company_url: 'https://www.dataplatformschool.com'
   email: valdas@maksimavicius.eu
   self: 'https://www.crunchbase.com/organization/microsoft'
   slack_channel: null
@@ -19,9 +19,10 @@ global:
   flags:
     hide_license_for_categories:
       - Azure Landscape Members
+  hide_funding_and_market_cap: true
 twitter:
-  search: landscape.xxx.org
-  url: 'https://landscape.xxx.org'
+  search: landscape.dataplatformschool.com
+  url: 'https://landscape.dataplatformschool.com'
   text: Azure Data Platform Landscape
 relation:
   label: Azure Cloud Relation
@@ -36,24 +37,24 @@ relation:
           tag: GA
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: GA
-          big_picture_color: 'rgb(24,54,114)'
+          # big_picture_label: GA
+          # big_picture_color: 'rgb(24,54,114)'
         - id: preview
           label: Services in Preview
           prefix: Preview
           tag: Preview
           color: '#4470af'
           big_picture_order: 2
-          big_picture_label: Preview
-          big_picture_color: 'rgb(44,14,114)'
-        - id: marketplace
-          label: Services in Marketplace
-          prefix: Marketplace
-          tag: Marketplace
-          color: '#4470af'
-          big_picture_order: 3
-          big_picture_label: marketplace
-          big_picture_color: 'rgb(80,80,114)'
+          # big_picture_label: Preview
+          # big_picture_color: 'rgb(44,14,114)'
+        # - id: marketplace
+        #   label: Services in Marketplace
+        #   prefix: Marketplace
+        #   tag: Marketplace
+        #   color: '#4470af'
+        #   big_picture_order: 3
+          # big_picture_label: marketplace
+          # big_picture_color: 'rgb(80,80,114)'
     - id: company
       label: Azure Partners
       tag: Company
@@ -64,23 +65,17 @@ relation:
       label: Not available on marketplace
       url: 'no'
 membership:
-  Platinum:
-    name: MSFT Platinum
-    label: Platinum Member
-    end_user_label: Platinum End User Member
-    funding: Platinum
+  Partner:
+    name: MSFT Partner
+    label: Partner
+    end_user_label: Partner
+    funding: Partner
     is_large: true
-  Gold:
-    name: MSFT Gold
-    label: Gold Member
-    end_user_label: Gold End User Member
-    funding: Gold
-    is_large: true
-  Other:
-    name: MSFT Other
-    label: Members
-    end_user_label: End User Member
-    funding: Smth
+  Non-partner:
+    name: MSFT Non-partner
+    label: Non-partner
+    end_user_label: Non-partner
+    funding: Non-partner
     is_large: true
 home:
   header: >
@@ -93,12 +88,6 @@ ads:
   - url: 'https://www.linkedin.com/in/valdasm/'
     image: /images/author.jpg
     title: Valdas Maksimavicius
-  - url: 'https://landing.dataplatformschool.com/azure-data-best-practices'
-    image: /images/azure_best_practices.jpg
-    title: Azure Best Practices
-  - url: 'https://www.valdas.blog'
-    image: /images/valdas_blog.jpg
-    title: Valdas Blog
 presets:
   - url: /format=card-mode&grouping=category
     label: Cards by categories
@@ -122,7 +111,7 @@ big_picture:
         category: Data Ingestion
         cols: 3
         width: 200
-        height: 400
+        height: 380
         top: 0
         left: 0
         color: 'rgb(4,81,49)'
@@ -140,7 +129,7 @@ big_picture:
         category: Advanced Analytics
         cols: 3
         width: 200
-        height: 400
+        height: 380
         top: 0
         left: 700
         color: 'rgb(79,121,13)'
@@ -149,7 +138,7 @@ big_picture:
         category: Business Intelligence
         cols: 3
         width: 200
-        height: 400
+        height: 380
         top: 0
         left: 920
         color: 'rgb(79,121,13)'
@@ -158,7 +147,7 @@ big_picture:
         category: Data access
         cols: 3
         width: 200
-        height: 400
+        height: 380
         top: 0
         left: 1140
         color: 'rgb(79,121,13)'
@@ -168,34 +157,25 @@ big_picture:
         rows: 3
         width: 450
         height: 180
-        top: 180
+        top: 200
         left: 225
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
-        category: Data Management
-        rows: 1
-        width: 900
+        category: Data Governance
+        rows: 2
+        width: 1200
         height: 100
-        top: 400
+        top: 420
         left: 0
         color: 'rgb(7,136,62)'
         fit_width: true
       - type: HorizontalCategory
         category: Data Ops
-        rows: 1
-        width: 900
+        rows: 2
+        width: 1200
         height: 100
-        top: 520
-        left: 0
-        color: 'rgb(7,136,62)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: Infrastructure
-        rows: 1
-        width: 900
-        height: 100
-        top: 640
+        top: 540
         left: 0
         color: 'rgb(7,136,62)'
         fit_width: true
@@ -207,39 +187,27 @@ big_picture:
         children:
           - type: text
             text: |
-              This landscape is intended as a map to explore the Azure Data Platform community, and also shows the member organizations of the Azure ecosystem.
+              This landscape is intended as a map to explore the Azure data services, and also shows other possible products within the Azure ecosystem.
             top: 45
-            left: 140
-            right: 10
-            font_size: 10
-          - type: image
-            image: qr.svg
-            top: 10
-            left: 20
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.Azure Data Platform.org
-            top: 95
             left: 10
-            font_size: 21
+            right: 10
+            font_size: 12
           - type: image
             image: left-logo.svg
-            width: 90
-            right: 105
+            width: 110
+            left: 10
             top: 10
             title: Landscape Logo
   extra:
     tab_index: 1
     url: members
     name: Members
-    title: Azure Landscape Members
-    fullscreen_header: TODO
+    title: Azure Landscape Companies
+    fullscreen_header: Azure Landscape Companies
     fullscreen_hide_grey_logos: true
     elements:
       - type: HorizontalCategory
-        category: Platinum
+        category: Partner
         rows: 4
         width: 1250
         height: 200
@@ -249,7 +217,7 @@ big_picture:
         fit_width: true
         offset: 60
       - type: HorizontalCategory
-        category: Gold
+        category: Non-partner
         rows: 4
         width: 1250
         height: 200
@@ -259,37 +227,23 @@ big_picture:
         fit_width: true
         offset: 70
       - type: LandscapeInfo
-        width: 300
-        height: 200
-        top: 270
-        left: 1280
+        width: 310
+        height: 150
+        top: 390
+        left: 1265
         children:
           - type: text
-            text: >
-              CNCF has over 500 members including the world’s largest public cloud and enterprise software companies as well over two hundred innovative
-              startups. Join your industry peers in helping build and shape the cloud native ecosystem.
-            top: 15
-            left: 100
-            right: 15
-            font_size: 11
-          - type: image
-            image: qr-l.svg
-            top: 15
-            left: 5
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: m.cncf.io
-            top: 105
-            left: 5
-            font_size: 21
+            text: |
+              This landscape is intended as a map to explore the Azure data services, and also shows other possible products within the Azure ecosystem.
+            top: 45
+            left: 10
+            right: 10
+            font_size: 12
           - type: image
             image: left-logo.svg
-            left: 4
-            height: 30
-            bottom: 13
-            width: 116
+            width: 110
+            left: 10
+            top: 10
             title: Landscape Logo
     category: Azure Landscape Members  
 

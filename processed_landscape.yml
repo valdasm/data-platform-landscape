@@ -31,7 +31,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory.svg
-              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+              hash: XncEKiSm7P1CjEIWYpoPwUnnvHTzWNKzPyDXGWGk8zI=
             best_practice_data:
               badge: false
               percentage: null
@@ -54,7 +54,7 @@ landscape:
               parents: []
             image_data:
               fileName: matillion-data-loader.svg
-              hash: wKvcz0rHccFdwRh5dJntjY/EejM442Sqm/1acA2ayV4=
+              hash: czVOCC2gI4Rtalr+j1xtd6TPI+PzmHS4V+7UmgoT3rM=
             best_practice_data:
               badge: false
               percentage: null
@@ -76,7 +76,80 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Talend Data Integration
+            homepage_url: 'https://www.talend.com/'
+            logo: talend.svg
+            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase_data:
+              name: Talend
+              description: Talend is a global leader in cloud data integration and data integrity.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.talend.com/'
+              city: Redwood City
+              region: California
+              country: United States
+              twitter: null
+              parents: []
+              ticker: tlnd
+              funding: 1407899110
+              stockExchange: nasdaq
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1191000000
+              effective_ticker: TLND
+            image_data:
+              fileName: talend-data-integration.svg
+              hash: FlYcvSKXxKjJyx1fRQ+v2rQ5/0AsQ+HkeNTEXkK8FOw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Fivetran Integrations
+            homepage_url: 'https://fivetran.com/why-fivetran'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran-integrations.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: XPlenty Integration Platform
+            homepage_url: 'https://www.xplenty.com/is/'
+            logo: xplenty-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase_data:
+              name: XPlenty
+              description: 'Xplenty allows organizations to integrate, process, and prepare data for analytics on the cloud.'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/xplenty'
+              city: Tel Aviv
+              region: Tel Aviv
+              country: Israel
+              kind: Private
+              parents: []
+            image_data:
+              fileName: x-plenty-integration-platform.svg
+              hash: yIrt3rPkYLzts4Zlt9IeBDYOuM1ZpcLjN4AgT6RemFY=
             best_practice_data:
               badge: false
               percentage: null
@@ -84,7 +157,7 @@ landscape:
         name: Streaming
         items:
           - item:
-            name: Azure Event Hub Capture
+            name: Azure Event Hub
             homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
             project: generalavailability
             logo: azure-event-hub-capture.svg
@@ -107,8 +180,37 @@ landscape:
               market_cap: 1684000000000
               effective_ticker: MSFT
             image_data:
-              fileName: azure-event-hub-capture.svg
-              hash: VRh/7Ood57E15TzBALx2WtBqtBk2UmNFa/VIkGwxB/g=
+              fileName: azure-event-hub.svg
+              hash: FprOM0/BdD1emMdsnkiDOQB03QKIz6JARul9P5490iU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure IoT Hub
+            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            project: generalavailability
+            logo: azure-iot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-io-t-hub.svg
+              hash: Nof2oSFfFM6/t45iA9HsdGmF/58aduVEzhlcOariRjs=
             best_practice_data:
               badge: false
               percentage: null
@@ -135,7 +237,7 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
-        name: Change Data Capture
+        name: Replication / CDC
         items:
           - item:
             name: Qlik Attunity Replicate
@@ -177,7 +279,95 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange-cdc.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HVR Integrtions
+            homepage_url: 'https://www.hvr-software.com/solutions/'
+            logo: hvr-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hvr-software'
+            crunchbase_data:
+              name: HVR Software
+              description: HVR is a real-time data integration software for enterprises
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/hvr-software'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: hvr-integrtions.svg
+              hash: Lv1ht+1fpa/15MTKDP6R8M7MnWtuvZfHP/Yzc8fMqXU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Striim
+            homepage_url: 'https://www.striim.com/'
+            logo: striim-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/webaction'
+            crunchbase_data:
+              name: Striim
+              description: Striim is an enterprise-grade streaming data integration and operational intelligence platform.
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/webaction'
+              city: Palo Alto
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: striim.svg
+              hash: SdS3BCSxqjDaW5q0CFZ4gYYOpjKlDX/qf380qS+jbNM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: StreamSets
+            homepage_url: 'https://streamsets.com/'
+            logo: streamsets-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            crunchbase_data:
+              name: StreamSets
+              description: Streamsets is a DataOps platform for modern data integration.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/streamsets'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: stream-sets.svg
+              hash: 3pWKy8eT7RkY6/l8xAPsmMazq23L6FMTfQQB/odsrPY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CData Sync
+            homepage_url: 'https://www.cdata.com/'
+            logo: cdata-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cdata-software'
+            crunchbase_data:
+              name: CData
+              description: 'CData Software offers data integration solutions for real-time access to on-line or on-premise applications, databases, and Web APIs.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/cdata-software'
+              city: Chapel Hill
+              region: North Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: c-data-sync.svg
+              hash: GsrK8yK1jjQtlJulygjw2LZ7C1tWYqMhusPvvlkUb7Y=
             best_practice_data:
               badge: false
               percentage: null
@@ -216,6 +406,69 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Azure SQL
+            homepage_url: 'https://azure.microsoft.com/en-us/services/sql-database/'
+            project: generalavailability
+            logo: azure-sql.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-sql.svg
+              hash: omEkorGIzPkQUgyTXHJvc2Tg9ZNdekMZ68q5yApA5HU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Snowflake Staging
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase_data:
+              name: Snowflake
+              description: Snowflake is a cloud data platform that provides a data warehouse-as-a-service designed for the cloud.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.snowflake.com/'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
+              acquisitions:
+                - date: '2020-07-20'
+                  acquiree: CryptoNumerics
+                  price: 7100000
+              parents: []
+              ticker: SNOW
+              funding: 1407899110
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 96582393856
+              effective_ticker: SNOW
+            image_data:
+              fileName: snowflake-staging.svg
+              hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: 'Lake House, Warehouse, etc.'
         items:
@@ -245,7 +498,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-dedicated-pools.svg
-              hash: qADtEssUWSsB1Jo1GBCHS+qiFT8TOYex9zaOVJyO+9M=
+              hash: Hj1xSXr75eMnHWTXnab+9dW+6/V79wcRKLa1a+/9CIA=
             best_practice_data:
               badge: false
               percentage: null
@@ -263,7 +516,7 @@ landscape:
               city: San Mateo
               region: California
               country: United States
-              twitter: 'http://twitter.com/SnowflakeDB'
+              twitter: null
               linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
               acquisitions:
                 - date: '2020-07-20'
@@ -283,8 +536,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-12-22T21:02:10.000Z
           - item:
             name: Delta Lake
             homepage_url: 'https://delta.io/'
@@ -346,7 +597,7 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
-        name: Specialized storage
+        name: Specialized storages
         items:
           - item:
             name: Azure Data Explorer
@@ -373,36 +624,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-explorer.svg
-              hash: kJX9mfgF+NtJRfGVjBIgVhjvUI6hCKMV3u6xOpvE3gw=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Azure SQL
-            homepage_url: 'https://azure.microsoft.com/en-us/services/sql-database/'
-            project: generalavailability
-            logo: azure-sql.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
-              parents: []
-            yahoo_finance_data:
-              market_cap: 1684000000000
-              effective_ticker: MSFT
-            image_data:
-              fileName: azure-sql.svg
-              hash: omEkorGIzPkQUgyTXHJvc2Tg9ZNdekMZ68q5yApA5HU=
+              hash: Y0u0CrnuGdpllzto2NS/TKQE4Boj35Wm99nKmNDa1gg=
             best_practice_data:
               badge: false
               percentage: null
@@ -431,7 +653,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cosmos-db.svg
-              hash: tvHyr6wVdi0d5ENm00mExaPm5Y+U2egUB6wBVlIS6OM=
+              hash: Vffe+wBTu8xgoqj5HAF7xqrEJVqS+E+vp4Hsc2Gonyg=
             best_practice_data:
               badge: false
               percentage: null
@@ -439,7 +661,7 @@ landscape:
     name: Data Processing
     subcategories:
       - subcategory:
-        name: Data Transformations
+        name: ETL/ELT
         items:
           - item:
             name: Azure Data Factory Mapping Data Flows
@@ -488,7 +710,7 @@ landscape:
               kind: private
             image_data:
               fileName: azure-databricks.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
@@ -511,7 +733,7 @@ landscape:
               parents: []
             image_data:
               fileName: matillion-etl.svg
-              hash: MRTeC5NgNGsEGUaUTWFEttBefENtLt6yJvqTPM4qvGQ=
+              hash: EtkIVt+y+HFqkG8GfviAxoXResmTptqKdm+Iks0T5tM=
             best_practice_data:
               badge: false
               percentage: null
@@ -585,7 +807,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-etl.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -608,6 +830,116 @@ landscape:
             image_data:
               fileName: qlik-compose.svg
               hash: uYp/5bN7NDZ8NojEQMvoCb6yMkKSPG6TrvHQ8OJQ+5Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Trifacta Wrangler
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+            crunchbase_data:
+              name: Trifacta
+              description: Trifacta offers a data wrangling platform which provides a modern self-service approach to cleaning and preparing data.
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/tableau'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: trifacta-wrangler.svg
+              hash: Vqlk6vhbWHefYe9X5S58D8khW6AnZ70NtQebI9JvL6s=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Fivetran Transformations
+            homepage_url: 'https://fivetran.com/transformations'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran-transformations.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TimeXtender Data Hub
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase_data:
+              name: TimeXtender
+              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/timextender'
+              city: Aarhus
+              region: Midtjylland
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: time-xtender-data-hub.svg
+              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: XPlenty ETL
+            homepage_url: 'https://www.xplenty.com/is/'
+            logo: xplenty-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase_data:
+              name: XPlenty
+              description: 'Xplenty allows organizations to integrate, process, and prepare data for analytics on the cloud.'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/xplenty'
+              city: Tel Aviv
+              region: Tel Aviv
+              country: Israel
+              kind: Private
+              parents: []
+            image_data:
+              fileName: x-plenty-etl.svg
+              hash: yIrt3rPkYLzts4Zlt9IeBDYOuM1ZpcLjN4AgT6RemFY=
             best_practice_data:
               badge: false
               percentage: null
@@ -639,7 +971,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-stream-analytics.svg
-              hash: SjN3tOQQDtCHvWWavY0ioBRwOUenTLM7O1z/saOAPKA=
+              hash: 46VMDF/u90W4KN6HW4NsqtXWh8GtWlH6NUGGdQ77Bjk=
             best_practice_data:
               badge: false
               percentage: null
@@ -668,57 +1000,145 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Orchestration
-        items:
           - item:
-            name: Azure Data Factory Orchestration
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
-            project: generalavailability
-            logo: azure-data-factory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            name: BimlFlex
+            homepage_url: 'https://varigence.com/bimlflex'
+            logo: biml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/varigence'
             crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
+              name: Varigence
+              description: Varigence is a software firm that specializes in the development of business intelligence tools.
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/varigence'
+              city: Greenville
+              region: South Carolina
               country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/microsoft'
-              funding: 1000000
-              kind: market_cap
+              kind: Private
               parents: []
-            yahoo_finance_data:
-              market_cap: 1684000000000
-              effective_ticker: MSFT
             image_data:
-              fileName: azure-data-factory-orchestration.svg
-              hash: aDe9a310/teBJTyPgygk9OxUgk+l7fBf84BgvpPdez8=
+              fileName: biml-flex.svg
+              hash: MLP8c4Z9KLeNTiORRi9yUwC9ZE6nWtRxhsWQ58UWzoI=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: Informatica Orchestration
-            homepage_url: 'https://www.informatica.com/'
-            logo: informatica.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            name: Dimodelo Data Warehouse Studio
+            homepage_url: 'https://www.dimodelo.com/data-warehouse-studio-for-azure-synapse/'
+            logo: dimodelo-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dimodelo-solutions'
             crunchbase_data:
-              name: Informatica
-              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.informatica.com/'
-              city: Redwood City
-              region: California
-              country: United States
+              name: Dimodelo
+              description: Easily build a modern Data Warehouse fast with Dimodelo Data Warehouse Studio for Azure Cloud.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.dimodelo.com/'
+              city: Toowong
+              region: Queensland
+              country: Australia
+              kind: Private
               parents: []
-              kind: private
             image_data:
-              fileName: informatica-orchestration.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              fileName: dimodelo-data-warehouse-studio.svg
+              hash: nWeFavswmUjadqed91L76VHpxz+rlkZGHjOJ46V/MJk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: BI Builders
+            homepage_url: 'https://www.bi-builders.com/'
+            logo: bi-builders.svg
+            crunchbase: 'https://www.crunchbase.com/organization/bi-builders'
+            crunchbase_data:
+              name: BI Builders
+              description: >-
+                BI Builders helps organizations become data-driven. We combine powerful data platform automation with industry experience to improve decision
+                making, reduce cost, and accelerate productivity.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/bi-builders'
+              city: Sandnes
+              region: Rogaland
+              country: Norway
+              kind: Private
+              parents: []
+            image_data:
+              fileName: bi-builders.svg
+              hash: py/Tf3Tg+g1eGa/fwJ+p7M7Q41FvF8i8HXc0M+9MWAM=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Orchestration
+        items:
+          - item:
+            name: Apache Airflow
+            homepage_url: 'https://airflow.apache.org/'
+            repo_url: 'https://github.com/apache/airflow'
+            logo: airflow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Python
+                  value: 14645701
+                  color: '#3572A5'
+                - name: Shell
+                  value: 578321
+                  color: '#89e051'
+                - name: HTML
+                  value: 223653
+                  color: '#e34c26'
+                - name: Dockerfile
+                  value: 35458
+                  color: '#384d54'
+                - name: JavaScript
+                  value: 31848
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 22702
+                  color: '#563d7c'
+                - name: HCL
+                  value: 3786
+                - name: Jupyter Notebook
+                  value: 2933
+                  color: '#DA5B0B'
+                - name: Mako
+                  value: 1339
+              contributions: >-
+                81;66;59;36;68;39;30;58;82;32;63;67;90;75;41;68;52;42;50;52;40;43;45;63;107;53;66;60;63;80;42;87;40;85;86;68;79;61;65;41;91;105;116;121;101;122;105;77;71;105;64;57
+              firstWeek: 2020-01-05Z
+              stars: 19751
+              license: Apache License 2.0
+              description: 'Apache Airflow - A platform to programmatically author, schedule, and monitor workflows'
+              latest_commit_date: '2020-12-28T10:42:11Z'
+              latest_commit_link: /apache/airflow/commit/e35bdb94b27ed884e8093d28ecd09318b4cc0244
+              release_date: '2020-12-18T13:21:47Z'
+              release_link: 'https://github.com/apache/airflow/releases'
+              contributors_count: 1682
+              contributors_link: 'https://github.com/apache/airflow/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/airflow'
+                stars: 19751
+            github_start_commit_data:
+              start_commit_link: /apache/airflow/commit/1047940ca4363b04044c4963b9c88f7632746407
+              start_date: '2014-10-06T21:29:38Z'
+            image_data:
+              fileName: apache-airflow.svg
+              hash: GqjlMdgdA3d01QZtUO2fBwkn09F/fMpf+8JwDbxRxMI=
             best_practice_data:
               badge: false
               percentage: null
@@ -726,14 +1146,14 @@ landscape:
     name: Advanced Analytics
     subcategories:
       - subcategory:
-        name: Development Environment
+        name: ML Development Environment
         items:
           - item:
-            name: Azure Synapse Analytics workspace
+            name: Azure Synapse Analytics
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
-            logo: azure-synapse-serverless.svg
+            logo: azure-synapse-analytics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -753,8 +1173,37 @@ landscape:
               market_cap: 1684000000000
               effective_ticker: MSFT
             image_data:
-              fileName: azure-synapse-analytics-workspace.svg
-              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
+              fileName: azure-synapse-analytics.svg
+              hash: XB7WS1ogESxri8bcy3wvxbvApFQ70qTbu3G5/vewET8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Machine Learning
+            homepage_url: 'https://azure.microsoft.com/en-us/services/machine-learning/'
+            project: generalavailability
+            logo: azure-ml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-machine-learning.svg
+              hash: on/vo0/YwcpBUZMNqoYsj8q6EJEuMcmrV7HFail+nfs=
             best_practice_data:
               badge: false
               percentage: null
@@ -776,7 +1225,7 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-workspaces.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
@@ -843,6 +1292,78 @@ landscape:
             image_data:
               fileName: qubole.svg
               hash: SXp0jTuBBKA91Wn5cm6eSlNh8L7+dPakkiLAwg8fifA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Data Robot
+            homepage_url: 'https://www.datarobot.com/'
+            logo: data-robot.svg
+            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+            crunchbase_data:
+              name: Data Robot
+              description: DataRobot brings AI technology and ROI enablement services to global enterprises.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/datarobot'
+              city: Boston
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: data-robot.svg
+              hash: 5gSagTDrJgTNxc7OXgbwJF+RUiDfwudBPPeLrzq8AhY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: H2O AI
+            homepage_url: 'https://www.h2o.ai/'
+            logo: h2o-ai.svg
+            crunchbase: 'https://www.crunchbase.com/organization/h2o-2'
+            crunchbase_data:
+              name: H2O
+              description: H2O.ai is an open source machine learning platform that makes it easy to build smart applications.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/h2o-2'
+              city: Mountain View
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: h2-o-ai.svg
+              hash: eo6r8v2DKFwS7E58ZpONbBlki3z+rzwIr22RfPnbOvs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Alteryx Platform
+            homepage_url: 'https://www.alteryx.com/products/alteryx-platform/intelligence-suite'
+            logo: Alteryx-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase_data:
+              name: Alteryx
+              description: Alteryx is a leading provider of an end to end data science & analytics platform for the enterprise.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/alteryx'
+              city: Irvine
+              region: California
+              country: United States
+              parents: []
+              ticker: ayx
+              funding: 163000000
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 8145000000
+              effective_ticker: ayx
+            image_data:
+              fileName: alteryx-platform.svg
+              hash: 4yGpKjkk1P0wPpfIHYvduyuMVTC0Y5lfWiKwqj1mHI4=
             best_practice_data:
               badge: false
               percentage: null
@@ -948,7 +1469,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cognitive-services.svg
-              hash: fx0oMQhfABA99fb9YwW9u75MRTDpiDHXzmUI0jbEZ8I=
+              hash: lvQVEuCQto08UaID9OxhGVobb121MJtqogIRWS0608k=
             best_practice_data:
               badge: false
               percentage: null
@@ -977,29 +1498,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-bot-services.svg
-              hash: 3x09XYTS8fonzLvVGYzsfmeDSzzR16WNfkND8SilXqg=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Data Robot
-            homepage_url: 'https://www.datarobot.com/'
-            logo: data-robot.svg
-            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
-            crunchbase_data:
-              name: Data Robot
-              description: DataRobot brings AI technology and ROI enablement services to global enterprises.
-              num_employees_min: 1000
-              num_employees_max: 5000
-              homepage: 'https://www.crunchbase.com/organization/datarobot'
-              city: Boston
-              region: Massachusetts
-              country: United States
-              kind: Private
-              parents: []
-            image_data:
-              fileName: data-robot.svg
-              hash: 5gSagTDrJgTNxc7OXgbwJF+RUiDfwudBPPeLrzq8AhY=
+              hash: uyYT+lg3lapTWCCuUzRVUEMLTtHFqWvHBZmruVlcBqY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1007,7 +1506,7 @@ landscape:
     name: Business Intelligence
     subcategories:
       - subcategory:
-        name: Reporting
+        name: Analytics Platform
         items:
           - item:
             name: PowerBI
@@ -1034,7 +1533,29 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: power-bi.svg
-              hash: ZP4rRhE6WdB38hYAP0TtbfFj8rMOV7TYZCVqZVOpAU4=
+              hash: gPikUnhyGqfvQs6UM8lzKW7imF/HngzmyHMn/gzaEQo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dundas Data Visualization
+            homepage_url: 'https://www.dundas.com/'
+            logo: dundas-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+            crunchbase_data:
+              name: Dundas
+              description: 'Data Visualization: Dashboard Solutions'
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+              city: Toronto
+              region: Ontario
+              country: Canada
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dundas-data-visualization.svg
+              hash: e8lSi9vjq2jhsFoRHA0m+to1z+JPCgzFvpNt8rbJQu0=
             best_practice_data:
               badge: false
               percentage: null
@@ -1056,7 +1577,228 @@ landscape:
               parents: []
             image_data:
               fileName: tableau.svg
-              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+              hash: ScplyZ772tt/5CMP9g/lyhKnbvJh1pt1kMoHo8sW2s0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Qlik Sense
+            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            logo: qlik.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase_data:
+              name: Qlik Technologies
+              description: Qlik simplifies the way people use data by making it a natural part of how they make decisions.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/qlik-technologies'
+              city: Radnor
+              region: Pennsylvania
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: qlik-sense.svg
+              hash: uYp/5bN7NDZ8NojEQMvoCb6yMkKSPG6TrvHQ8OJQ+5Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Information Builders WebFocus
+            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            logo: information-builders-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase_data:
+              name: Information Builders
+              description: ibi is a data and analytics software company that embeds intelligence into ― everything.
+              num_employees_min: 5000
+              num_employees_max: 10000
+              homepage: 'https://www.crunchbase.com/organization/information-builders'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: information-builders-web-focus.svg
+              hash: AjdeuEekrzgEcBxTMpeeemE6/cmZ++s1gA07qtpSEfU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MicroStrategy Enterprise Platform
+            homepage_url: 'https://www.microstrategy.com/en'
+            logo: MicroStrategy-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microstrategy'
+            crunchbase_data:
+              name: MicroStrategy
+              description: 'MicroStrategy provides enterprise software for business intelligence, mobile intelligence, and network applications.'
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/microstrategy'
+              city: Vienna
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: micro-strategy-enterprise-platform.svg
+              hash: hUF10gaQii5UJ3BTiMrTMlsF9Qa6fSvOtclEmpIWd+o=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Looker
+            homepage_url: 'https://looker.com/'
+            logo: looker-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/looker'
+            crunchbase_data:
+              name: Looker Data Sciences Inc.
+              description: 'Looker is a an enterprise platform for business intelligence, data applications, and embedded analytics.'
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/looker'
+              city: Santa Cruz
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: looker.svg
+              hash: NVVa217ExBSuEohfU2NF+eFpmTH3PWpdS6xEQrD5UAk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Mode
+            homepage_url: 'https://mode.com/'
+            logo: mode-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mode-analytics'
+            crunchbase_data:
+              name: 'Mode Analytics, Inc.'
+              description: Mode Analytics is a developer of a collaborative analytics platform used to make data-informed decisions..
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/mode-analytics'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: mode.svg
+              hash: RMo5nIL0FSYz3hubbDXLoLaG+jYj9Ho1O2ioFRjJNaQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SiSense
+            homepage_url: 'https://www.sisense.com/n'
+            logo: sisense-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sisense'
+            crunchbase_data:
+              name: SiSense Ltd.
+              description: Sisense is a business analytics software company that delivers agile analytics at scale.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/sisense'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: si-sense.svg
+              hash: HYjTblCb3tXy9PGFfbmMEP2jcBrPlM4QPbyqBb+GpIE=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Light data curation
+        items:
+          - item:
+            name: Dremio Workspace
+            homepage_url: 'https://www.dremio.com/'
+            logo: dremio.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase_data:
+              name: Dremio
+              description: 'Dremio empowers business users to curate all the data they need, from any data source.'
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/dremio-corporation'
+              city: Santa Clara
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dremio-workspace.svg
+              hash: BfpO7bF4fGOtZG7yV8c9Gq3IBQdER53dgxtpTRnDOkg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Synapse Workspace
+            homepage_url: >-
+              https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+            project: preview
+            logo: azure-synapse-workspace.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-synapse-workspace.svg
+              hash: XPlUL0EZ4p6GPQv+g9eyMYHBVy/7DRydqYy+45f9TLg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Snowflake Snowsight
+            homepage_url: 'https://www.snowflake.com/'
+            logo: snowflake.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase_data:
+              name: Snowflake
+              description: Snowflake is a cloud data platform that provides a data warehouse-as-a-service designed for the cloud.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.snowflake.com/'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
+              acquisitions:
+                - date: '2020-07-20'
+                  acquiree: CryptoNumerics
+                  price: 7100000
+              parents: []
+              ticker: SNOW
+              funding: 1407899110
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 96582393856
+              effective_ticker: SNOW
+            image_data:
+              fileName: snowflake-snowsight.svg
+              hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
             best_practice_data:
               badge: false
               percentage: null
@@ -1088,7 +1830,31 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-analysis-services.svg
-              hash: lSXVb1jvXcAj2EXQ7dfeGMuceotNo5UZ/UqQ3wH5PjU=
+              hash: HP6TNurWnjf44WMGBNdmmD1110yDReLqdw1kQ3lk9eI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Kyligence Enterprise
+            homepage_url: 'https://kyligence.io/kyligence-enterprise/'
+            logo: kyligence-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/kyligence'
+            crunchbase_data:
+              name: Kyligence
+              description: >-
+                Kyligence Inc. is a data intelligence company that offers big data analytics products powered by Apache Kylin, an open source OLAP engine built
+                for interactive analytics of petabyte-scale data on Hadoop.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/kyligence'
+              city: Shanghai
+              region: Shanghai
+              country: China
+              kind: Private
+              parents: []
+            image_data:
+              fileName: kyligence-enterprise.svg
+              hash: yi0edegZaByMspI0AkpKl05l1k1sDDJTyvgJzeieb0A=
             best_practice_data:
               badge: false
               percentage: null
@@ -1124,7 +1890,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-synapse-serverless.svg
-              hash: hcw2sH61eCZpO1KxdDscGmw1DWroibI9t4/V2swW008=
+              hash: HYwfExCYr3gC5C2gvrPfTouM89KMOV/w5iHFeRGZTwM=
             best_practice_data:
               badge: false
               percentage: null
@@ -1147,6 +1913,28 @@ landscape:
             image_data:
               fileName: dremio-query-engine.svg
               hash: BfpO7bF4fGOtZG7yV8c9Gq3IBQdER53dgxtpTRnDOkg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Denodo
+            homepage_url: 'https://www.denodo.com/en'
+            logo: denodo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
+            crunchbase_data:
+              name: Denodo
+              description: 'Denodo provides unmatched performance and unified access to the broadest range of enterprise, Big Data, cloud and unstructured sources.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/denodo-technologies'
+              city: Palo Alto
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: denodo.svg
+              hash: M1p5icaxlQzMlvQoHishWOsVs3Wi1cecEE65WknkIWE=
             best_practice_data:
               badge: false
               percentage: null
@@ -1178,7 +1966,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-api-management-service.svg
-              hash: z3lCiFdfL3sIDFCqgxnUKwKi8q5TUeRxLFdDU/yAH5o=
+              hash: Uds5jNd47H9FW6aNh3D0R7PQ/nSxeUis077dDpUUU2o=
             best_practice_data:
               badge: false
               percentage: null
@@ -1207,12 +1995,98 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-function-app.svg
-              hash: GmycEI1fY/e3i8b7xGQFms0uqowdER6bzSioss30cLk=
+              hash: eT+68wzrm7ge9xfm2g5mhMvIFLhv1wFXiqTwip/cU5I=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Talend API Services
+            homepage_url: 'https://www.talend.com/'
+            logo: talend.svg
+            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase_data:
+              name: Talend
+              description: Talend is a global leader in cloud data integration and data integrity.
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.talend.com/'
+              city: Redwood City
+              region: California
+              country: United States
+              twitter: null
+              parents: []
+              ticker: tlnd
+              funding: 1407899110
+              stockExchange: nasdaq
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1191000000
+              effective_ticker: TLND
+            image_data:
+              fileName: talend-api-services.svg
+              hash: FlYcvSKXxKjJyx1fRQ+v2rQ5/0AsQ+HkeNTEXkK8FOw=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Application Integration
+        items:
+          - item:
+            name: SnapLogic Platform
+            homepage_url: 'https://www.snaplogic.com/'
+            logo: snaplogic.svg
+            crunchbase: 'https://www.crunchbase.com/organization/snaplogic'
+            crunchbase_data:
+              name: SnapLogic
+              description: SnapLogic is a software company that provides a platform for enterprise cloud and big data integration.
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/snaplogic'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
+              funding: 206300000
+              kind: Private
+              parents: []
+            image_data:
+              fileName: snap-logic-platform.svg
+              hash: VfXZyc7pVncJj0g1nihDKgu1R6+7IPNr9mD8yv5wPUI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Logic Apps
+            homepage_url: 'https://azure.microsoft.com/en-us/services/logic-apps/'
+            project: generalavailability
+            logo: azure-logic-app.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-logic-apps.svg
+              hash: VRzECsF77uJzLAFHB+viMnW5r7Ajk797iLFvY6rrk5Y=
             best_practice_data:
               badge: false
               percentage: null
   - category:
-    name: Data Management
+    name: Data Governance
     subcategories:
       - subcategory:
         name: Access & privacy management
@@ -1261,33 +2135,33 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Data catalogs
-        items:
           - item:
-            name: Informatica Data Catalog
-            homepage_url: 'https://www.informatica.com/'
-            logo: informatica.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            name: Okera
+            homepage_url: 'https://www.okera.com/'
+            logo: okera.svg
+            crunchbase: 'https://www.crunchbase.com/organization/okera'
             crunchbase_data:
-              name: Informatica
-              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.informatica.com/'
-              city: Redwood City
+              name: Okera
+              description: Okera provides secure data access at scale so that data teams have the confidence to unlock the power of their data for innovation and growth
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/okera'
+              city: San Francisco
               region: California
               country: United States
+              kind: Private
               parents: []
-              kind: private
             image_data:
-              fileName: informatica-data-catalog.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              fileName: okera.svg
+              hash: YS5GDlkw/o2p6uky4LsOHDKK+rr1B4A9oKO6LaPIQFY=
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Data management
+        items:
           - item:
-            name: Informatica Axon
+            name: 'Informatica Data Catalog, Axon, MDM, DQ'
             homepage_url: 'https://www.informatica.com/'
             logo: informatica.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
@@ -1303,8 +2177,8 @@ landscape:
               parents: []
               kind: private
             image_data:
-              fileName: informatica-axon.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              fileName: informatica-data-catalog-axon-mdm-dq.svg
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1337,28 +2211,169 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Collibra
+            homepage_url: 'https://www.collibra.com/'
+            logo: collibra-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/collibra'
+            crunchbase_data:
+              name: Collibra
+              description: Collibra delivers the only end-to-end Data Intelligence platform to accelerate digital business transformation.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/collibra'
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              kind: Private
+              parents: []
+            image_data:
+              fileName: collibra.svg
+              hash: VmqcldpCotCGQ7Rluw9e1M0v/WHKlh7L9VAPVRULAzU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Alation
+            homepage_url: 'https://www.alation.com/'
+            logo: alation-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alation'
+            crunchbase_data:
+              name: Alation
+              description: >-
+                Alation’s data catalog dramatically improves the productivity, increases the accuracy, and drives confident data-driven decision making for
+                analysts. Alation’s data catalog empowers everyone in your organization to find, understand, and govern data.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/alation'
+              city: Redwood City
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: alation.svg
+              hash: 78reqTpONjWBl5QpBfRf9mFBCCBXdMI1S6tyUYon7Jc=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Purview
+            homepage_url: 'https://azure.microsoft.com/en-us/services/purview/'
+            project: preview
+            logo: azure-purview-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-purview.svg
+              hash: NXxNjs8i0CDPAFCkI4PJloyFviwu5W8JTNA1aYToUrc=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TimeXtender Discovery Hub
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase_data:
+              name: TimeXtender
+              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/timextender'
+              city: Aarhus
+              region: Midtjylland
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: time-xtender-discovery-hub.svg
+              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Master Data Management
         items:
           - item:
-            name: Informatica Master Data Management
-            homepage_url: 'https://www.informatica.com/'
-            logo: informatica.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            name: Information Builders MDM
+            homepage_url: 'https://www.ibi.com/data-platform/'
+            logo: information-builders-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
             crunchbase_data:
-              name: Informatica
-              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.informatica.com/'
-              city: Redwood City
-              region: California
+              name: Information Builders
+              description: ibi is a data and analytics software company that embeds intelligence into ― everything.
+              num_employees_min: 5000
+              num_employees_max: 10000
+              homepage: 'https://www.crunchbase.com/organization/information-builders'
+              city: New York
+              region: New York
               country: United States
+              kind: Private
               parents: []
-              kind: private
             image_data:
-              fileName: informatica-master-data-management.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              fileName: information-builders-mdm.svg
+              hash: AjdeuEekrzgEcBxTMpeeemE6/cmZ++s1gA07qtpSEfU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tamr MDM
+            homepage_url: 'https://www.tamr.com/'
+            logo: tamr-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tamr'
+            crunchbase_data:
+              name: Tamr
+              description: 'Tamr is an enterprise data unification company that is cost-effective, scalable, and accessible to any enterprise.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/tamr'
+              city: Cambridge
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: tamr-mdm.svg
+              hash: cnPH9W9FUI3LINt91lCFQ6PB2W01Jr0F/mC8rq1Q3tQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CluedIn Data Fabric
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase_data:
+              name: CluedIn
+              description: CluedIn breaks down information silos in your organisation and solves the problem of not being able to utilize all the knowledge you have.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/cluedin'
+              city: Copenhagen
+              region: Hovedstaden
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: clued-in-data-fabric.svg
+              hash: 4XQyrS5NtkRGD206VrtCqe7jPxbNyRHRFpxa4T/fLns=
             best_practice_data:
               badge: false
               percentage: null
@@ -1383,7 +2398,57 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-quality.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HEDDA.IO
+            homepage_url: 'https://hedda.io/'
+            logo: hedda-io-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oh22data'
+            crunchbase_data:
+              name: oh22data
+              description: oh22data AG is a marketing company that creates smart and casual data design.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/oh22data'
+              city: Bad Camberg
+              region: Hessen
+              country: Germany
+              kind: Private
+              parents: []
+            image_data:
+              fileName: hedda-io.svg
+              hash: fQ8bxYrxHGzqCrsdSO7i8WHHsWfrn3ZPNMTdwcLmzus=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Data Modelling
+        items:
+          - item:
+            name: SqlDBM
+            homepage_url: 'https://sqldbm.com/Home/'
+            logo: sqldmb-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sqldbm'
+            crunchbase_data:
+              name: SqlDBM Organization
+              description: >-
+                SQLDBM offers you an intuitive and smart data modeling interface, absolutely anywhere on any browser, without any need at all for the expensive
+                commercial tools that are the current norms. And not simply drag and drop - SQLDBM does the heavy lifting for you by understanding all your
+                database rules and incorporating all your database constraintswithin the modeling process.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.crunchbase.com/organization/sqldbm'
+              city: Unknown
+              region: Unknown
+              country: Unknown
+              kind: Private
+              parents: []
+            image_data:
+              fileName: sql-dbm.svg
+              hash: 3nMZCyzaLPdQ4AYXM4Xc2gwDCQ9LO0jzTP0r/dCngdY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1421,13 +2486,69 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Azure Pipelines
+            homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
+            logo: azure-devops-pipelines.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-pipelines.svg
+              hash: Kzrd7nZ8l63wZ7LW810bEfDrIhvMfocOke2ei4SSKu8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Automation
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/automation/automation-intro'
+            logo: azure-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-automation.svg
+              hash: StKCXAJIQvpuqIdc9AmKhXSzOzKTARYygqfG30PW17Q=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Budget
         items:
           - item:
             name: Azure Cost Management
             homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
-            logo: azure.svg
+            logo: azure-cost-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -1448,15 +2569,40 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-cost-management.svg
-              hash: DQSDswQS7xr88phkl3B/YmtQ+6HZ643WjaSutQkGlwI=
+              hash: LupWdBNnN55w/XheHbolW89jTKnKC/rKcEZsp0t22lE=
             best_practice_data:
               badge: false
               percentage: null
-  - category:
-    name: Infrastructure
-    subcategories:
+          - item:
+            name: Azure Cost Analysis
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
+            logo: azure-cost-analysis.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-cost-analysis.svg
+              hash: 7k/ecE2gmZEixZl4YwGh/94JFEoEZBMhjto20q9qh2w=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
-        name: Security & Networking
+        name: Security
         items:
           - item:
             name: Azure Security Center
@@ -1488,8 +2634,7 @@ landscape:
               percentage: null
           - item:
             name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
-            project: generalavailability
+            homepage_url: 'https://azure.microsoft.com/en-us/services/active-directory/'
             logo: azure-active-directory.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -1512,6 +2657,34 @@ landscape:
             image_data:
               fileName: azure-active-directory.svg
               hash: Pv/duKr3Igq/unQeUG2uoJvbDZZEMM+nuATd/Hys3xE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Key Vault
+            homepage_url: 'https://azure.microsoft.com/en-us/services/key-vault/'
+            logo: azure-key-vault.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-key-vault.svg
+              hash: cStCb1Tw/FDQgW3HnfcJ2qesX5PMr06bNSf2J/bprZc=
             best_practice_data:
               badge: false
               percentage: null
@@ -1548,7 +2721,7 @@ landscape:
               percentage: null
           - item:
             name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
             logo: azure-app-insights.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -1574,11 +2747,70 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Compute
+        items:
+          - item:
+            name: Azure Kubernetes Service
+            homepage_url: 'https://azure.microsoft.com/en-us/services/kubernetes-service/'
+            logo: azure-kubernetes.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-kubernetes-service.svg
+              hash: gZVKSBUDBXSY1UOlGGOy60ZzKE4QlmLNxCEFHRHbolw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Virtual Machine
+            homepage_url: 'https://azure.microsoft.com/en-us/services/virtual-machines/'
+            logo: azure-vm.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              funding: 1000000
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-virtual-machine.svg
+              hash: CS0Y/63snsDlrxKRhtx7wqgFRAEeVfllYE7UsThz4Pw=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Azure Landscape Members
     subcategories:
       - subcategory:
-        name: Platinum
+        name: Partner
         items:
           - item:
             name: SAS
@@ -1649,7 +2881,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-inc.svg
-              hash: i1cwnWfLi9fDvkjWDlxWSDd0/SlvbS4n6nm+NNjTdSA=
+              hash: 2Iz/H2LDu77fVGDNo5YpzmlocAqJDhYUkVjzHqSq7kg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1671,13 +2903,10 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-inc.svg
-              hash: sp+E5An0yaUeUZrd2+AzAQz494jFcLZcjon3khU9wJk=
+              hash: MiB14Mwc3GhFhY1qvCj/CaYO9BjAJaBP9lFm6VQVQb4=
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Gold
-        items:
           - item:
             name: Snowflake Inc.
             homepage_url: 'https://www.snowflake.com/'
@@ -1692,7 +2921,7 @@ landscape:
               city: San Mateo
               region: California
               country: United States
-              twitter: 'http://twitter.com/SnowflakeDB'
+              twitter: null
               linkedin: 'https://www.linkedin.com/company/snowflake-computing/'
               acquisitions:
                 - date: '2020-07-20'
@@ -1712,8 +2941,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-12-22T21:02:10.000Z
           - item:
             name: WhereScape
             homepage_url: 'https://www.wherescape.com/'
@@ -1953,12 +3180,770 @@ landscape:
               parents: []
             image_data:
               fileName: tableau-corp.svg
-              hash: DN2DEeIfi8VKQPjL26mK7iqg6xWapq+d7cHyt4BjpSc=
+              hash: ScplyZ772tt/5CMP9g/lyhKnbvJh1pt1kMoHo8sW2s0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Trifacta
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+            crunchbase_data:
+              name: Trifacta
+              description: Trifacta offers a data wrangling platform which provides a modern self-service approach to cleaning and preparing data.
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/tableau'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: trifacta.svg
+              hash: Vqlk6vhbWHefYe9X5S58D8khW6AnZ70NtQebI9JvL6s=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Denodo Technologies Inc.
+            homepage_url: 'https://www.denodo.com/en'
+            logo: denodo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
+            crunchbase_data:
+              name: Denodo
+              description: 'Denodo provides unmatched performance and unified access to the broadest range of enterprise, Big Data, cloud and unstructured sources.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/denodo-technologies'
+              city: Palo Alto
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: denodo-technologies-inc.svg
+              hash: M1p5icaxlQzMlvQoHishWOsVs3Wi1cecEE65WknkIWE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Varigence
+            homepage_url: 'https://varigence.com/bimlflex'
+            logo: biml.svg
+            crunchbase: 'https://www.crunchbase.com/organization/varigence'
+            crunchbase_data:
+              name: Varigence
+              description: Varigence is a software firm that specializes in the development of business intelligence tools.
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/varigence'
+              city: Greenville
+              region: South Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: varigence.svg
+              hash: MLP8c4Z9KLeNTiORRi9yUwC9ZE6nWtRxhsWQ58UWzoI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Okera Inc.
+            homepage_url: 'https://www.okera.com/'
+            logo: okera.svg
+            crunchbase: 'https://www.crunchbase.com/organization/okera'
+            crunchbase_data:
+              name: Okera
+              description: Okera provides secure data access at scale so that data teams have the confidence to unlock the power of their data for innovation and growth
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/okera'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: okera-inc.svg
+              hash: YS5GDlkw/o2p6uky4LsOHDKK+rr1B4A9oKO6LaPIQFY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Fivetran
+            homepage_url: 'https://fivetran.com/'
+            logo: fivetran.svg
+            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase_data:
+              name: Fivetran
+              description: 'Fivetran automates connectors to sync data from cloud applications, databases, and event logs into users'' data warehouses.'
+              num_employees_min: 100
+              num_employees_max: 500
+              homepage: 'https://www.crunchbase.com/organization/fivetran'
+              city: Oakland
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: fivetran.svg
+              hash: Fgl4h1p+NFTc1CriGRc1Xz1HnM5vSGDsoJRHS/pBOV4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Collibra Inc.
+            homepage_url: 'https://www.collibra.com/'
+            logo: collibra-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/collibra'
+            crunchbase_data:
+              name: Collibra
+              description: Collibra delivers the only end-to-end Data Intelligence platform to accelerate digital business transformation.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/collibra'
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              kind: Private
+              parents: []
+            image_data:
+              fileName: collibra-inc.svg
+              hash: VmqcldpCotCGQ7Rluw9e1M0v/WHKlh7L9VAPVRULAzU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Alation Inc.
+            homepage_url: 'https://www.alation.com/'
+            logo: alation-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alation'
+            crunchbase_data:
+              name: Alation
+              description: >-
+                Alation’s data catalog dramatically improves the productivity, increases the accuracy, and drives confident data-driven decision making for
+                analysts. Alation’s data catalog empowers everyone in your organization to find, understand, and govern data.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/alation'
+              city: Redwood City
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: alation-inc.svg
+              hash: 78reqTpONjWBl5QpBfRf9mFBCCBXdMI1S6tyUYon7Jc=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio Organization
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-organization.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dimodelo
+            homepage_url: 'https://www.dimodelo.com/'
+            logo: dimodelo-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dimodelo-solutions'
+            crunchbase_data:
+              name: Dimodelo
+              description: Easily build a modern Data Warehouse fast with Dimodelo Data Warehouse Studio for Azure Cloud.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.dimodelo.com/'
+              city: Toowong
+              region: Queensland
+              country: Australia
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dimodelo.svg
+              hash: nWeFavswmUjadqed91L76VHpxz+rlkZGHjOJ46V/MJk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HVR Software
+            homepage_url: 'https://www.hvr-software.com/'
+            logo: hvr-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hvr-software'
+            crunchbase_data:
+              name: HVR Software
+              description: HVR is a real-time data integration software for enterprises
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/hvr-software'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: hvr-software.svg
+              hash: Lv1ht+1fpa/15MTKDP6R8M7MnWtuvZfHP/Yzc8fMqXU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Striim Inc.
+            homepage_url: 'https://www.striim.com/'
+            logo: striim-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/webaction'
+            crunchbase_data:
+              name: Striim
+              description: Striim is an enterprise-grade streaming data integration and operational intelligence platform.
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/webaction'
+              city: Palo Alto
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: striim-inc.svg
+              hash: SdS3BCSxqjDaW5q0CFZ4gYYOpjKlDX/qf380qS+jbNM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: StreamSets Inc.
+            homepage_url: 'https://streamsets.com/'
+            logo: streamsets-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            crunchbase_data:
+              name: StreamSets
+              description: Streamsets is a DataOps platform for modern data integration.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/streamsets'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: stream-sets-inc.svg
+              hash: 3pWKy8eT7RkY6/l8xAPsmMazq23L6FMTfQQB/odsrPY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SqlDBM Organization
+            homepage_url: 'https://sqldbm.com/Home/'
+            logo: sqldmb-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sqldbm'
+            crunchbase_data:
+              name: SqlDBM Organization
+              description: >-
+                SQLDBM offers you an intuitive and smart data modeling interface, absolutely anywhere on any browser, without any need at all for the expensive
+                commercial tools that are the current norms. And not simply drag and drop - SQLDBM does the heavy lifting for you by understanding all your
+                database rules and incorporating all your database constraintswithin the modeling process.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.crunchbase.com/organization/sqldbm'
+              city: Unknown
+              region: Unknown
+              country: Unknown
+              kind: Private
+              parents: []
+            image_data:
+              fileName: sql-dbm-organization.svg
+              hash: 3nMZCyzaLPdQ4AYXM4Xc2gwDCQ9LO0jzTP0r/dCngdY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Kyligence
+            homepage_url: 'https://kyligence.io/kyligence-enterprise/'
+            logo: kyligence-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/kyligence'
+            crunchbase_data:
+              name: Kyligence
+              description: >-
+                Kyligence Inc. is a data intelligence company that offers big data analytics products powered by Apache Kylin, an open source OLAP engine built
+                for interactive analytics of petabyte-scale data on Hadoop.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/kyligence'
+              city: Shanghai
+              region: Shanghai
+              country: China
+              kind: Private
+              parents: []
+            image_data:
+              fileName: kyligence.svg
+              hash: yi0edegZaByMspI0AkpKl05l1k1sDDJTyvgJzeieb0A=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: BI Builders AS
+            homepage_url: 'https://www.bi-builders.com/'
+            logo: bi-builders.svg
+            crunchbase: 'https://www.crunchbase.com/organization/bi-builders'
+            crunchbase_data:
+              name: BI Builders
+              description: >-
+                BI Builders helps organizations become data-driven. We combine powerful data platform automation with industry experience to improve decision
+                making, reduce cost, and accelerate productivity.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/bi-builders'
+              city: Sandnes
+              region: Rogaland
+              country: Norway
+              kind: Private
+              parents: []
+            image_data:
+              fileName: bi-builders-as.svg
+              hash: py/Tf3Tg+g1eGa/fwJ+p7M7Q41FvF8i8HXc0M+9MWAM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Information Builders
+            homepage_url: 'https://www.ibi.com/'
+            logo: information-builders-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase_data:
+              name: Information Builders
+              description: ibi is a data and analytics software company that embeds intelligence into ― everything.
+              num_employees_min: 5000
+              num_employees_max: 10000
+              homepage: 'https://www.crunchbase.com/organization/information-builders'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: information-builders.svg
+              hash: AjdeuEekrzgEcBxTMpeeemE6/cmZ++s1gA07qtpSEfU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tamr
+            homepage_url: 'https://www.tamr.com/'
+            logo: tamr-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tamr'
+            crunchbase_data:
+              name: Tamr
+              description: 'Tamr is an enterprise data unification company that is cost-effective, scalable, and accessible to any enterprise.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/tamr'
+              city: Cambridge
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: tamr.svg
+              hash: cnPH9W9FUI3LINt91lCFQ6PB2W01Jr0F/mC8rq1Q3tQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dundas
+            homepage_url: 'https://www.dundas.com/'
+            logo: dundas-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+            crunchbase_data:
+              name: Dundas
+              description: 'Data Visualization: Dashboard Solutions'
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+              city: Toronto
+              region: Ontario
+              country: Canada
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dundas.svg
+              hash: e8lSi9vjq2jhsFoRHA0m+to1z+JPCgzFvpNt8rbJQu0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CluedIn
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase_data:
+              name: CluedIn
+              description: CluedIn breaks down information silos in your organisation and solves the problem of not being able to utilize all the knowledge you have.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/cluedin'
+              city: Copenhagen
+              region: Hovedstaden
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: clued-in.svg
+              hash: 4XQyrS5NtkRGD206VrtCqe7jPxbNyRHRFpxa4T/fLns=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CData Software
+            homepage_url: 'https://www.cdata.com/'
+            logo: cdata-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cdata-software'
+            crunchbase_data:
+              name: CData
+              description: 'CData Software offers data integration solutions for real-time access to on-line or on-premise applications, databases, and Web APIs.'
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/cdata-software'
+              city: Chapel Hill
+              region: North Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: c-data-software.svg
+              hash: GsrK8yK1jjQtlJulygjw2LZ7C1tWYqMhusPvvlkUb7Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: oh22data
+            homepage_url: 'https://hedda.io/'
+            logo: hedda-io-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oh22data'
+            crunchbase_data:
+              name: oh22data
+              description: oh22data AG is a marketing company that creates smart and casual data design.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/oh22data'
+              city: Bad Camberg
+              region: Hessen
+              country: Germany
+              kind: Private
+              parents: []
+            image_data:
+              fileName: oh22data.svg
+              hash: fQ8bxYrxHGzqCrsdSO7i8WHHsWfrn3ZPNMTdwcLmzus=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MicroStrategy
+            homepage_url: 'https://www.microstrategy.com/en'
+            logo: MicroStrategy-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microstrategy'
+            crunchbase_data:
+              name: MicroStrategy
+              description: 'MicroStrategy provides enterprise software for business intelligence, mobile intelligence, and network applications.'
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/microstrategy'
+              city: Vienna
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: micro-strategy.svg
+              hash: hUF10gaQii5UJ3BTiMrTMlsF9Qa6fSvOtclEmpIWd+o=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TimeXtender
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase_data:
+              name: TimeXtender
+              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/timextender'
+              city: Aarhus
+              region: Midtjylland
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: time-xtender.svg
+              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: H2O Inc.
+            homepage_url: 'https://www.h2o.ai/'
+            logo: h2o-ai.svg
+            crunchbase: 'https://www.crunchbase.com/organization/h2o-2'
+            crunchbase_data:
+              name: H2O
+              description: H2O.ai is an open source machine learning platform that makes it easy to build smart applications.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/h2o-2'
+              city: Mountain View
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: h2-o-inc.svg
+              hash: eo6r8v2DKFwS7E58ZpONbBlki3z+rzwIr22RfPnbOvs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Alteryx Inc.
+            homepage_url: 'https://www.alteryx.com/'
+            logo: Alteryx-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase_data:
+              name: Alteryx
+              description: Alteryx is a leading provider of an end to end data science & analytics platform for the enterprise.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/alteryx'
+              city: Irvine
+              region: California
+              country: United States
+              parents: []
+              ticker: ayx
+              funding: 163000000
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 8145000000
+              effective_ticker: ayx
+            image_data:
+              fileName: alteryx-inc.svg
+              hash: 4yGpKjkk1P0wPpfIHYvduyuMVTC0Y5lfWiKwqj1mHI4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: XPlenty
+            homepage_url: 'https://www.xplenty.com/is/'
+            logo: xplenty-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase_data:
+              name: XPlenty
+              description: 'Xplenty allows organizations to integrate, process, and prepare data for analytics on the cloud.'
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/xplenty'
+              city: Tel Aviv
+              region: Tel Aviv
+              country: Israel
+              kind: Private
+              parents: []
+            image_data:
+              fileName: x-plenty.svg
+              hash: yIrt3rPkYLzts4Zlt9IeBDYOuM1ZpcLjN4AgT6RemFY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Looker Data Sciences Inc.
+            homepage_url: 'https://looker.com/'
+            logo: looker-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/looker'
+            crunchbase_data:
+              name: Looker Data Sciences Inc.
+              description: 'Looker is a an enterprise platform for business intelligence, data applications, and embedded analytics.'
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/looker'
+              city: Santa Cruz
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: looker-data-sciences-inc.svg
+              hash: NVVa217ExBSuEohfU2NF+eFpmTH3PWpdS6xEQrD5UAk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: 'Mode Analytics, Inc.'
+            homepage_url: 'https://mode.com/'
+            logo: mode-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/mode-analytics'
+            crunchbase_data:
+              name: 'Mode Analytics, Inc.'
+              description: Mode Analytics is a developer of a collaborative analytics platform used to make data-informed decisions..
+              num_employees_min: 50
+              num_employees_max: 100
+              homepage: 'https://www.crunchbase.com/organization/mode-analytics'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: mode-analytics-inc.svg
+              hash: RMo5nIL0FSYz3hubbDXLoLaG+jYj9Ho1O2ioFRjJNaQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SiSense Ltd.
+            homepage_url: 'https://www.sisense.com/n'
+            logo: sisense-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sisense'
+            crunchbase_data:
+              name: SiSense Ltd.
+              description: Sisense is a business analytics software company that delivers agile analytics at scale.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/sisense'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: si-sense-ltd.svg
+              hash: HYjTblCb3tXy9PGFfbmMEP2jcBrPlM4QPbyqBb+GpIE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Precisely 
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase_data:
+              name: Precisely 
+              description: Precisely Connect ETL enables extract transfer and load (ETL) of data from multiple sources to Azure targets. Connect ETL is an easy to configure tool that does not require coding or tuning. ETL transformation can be done on the fly, eliminating the need for costly database staging areas or manual pushes, allowing you to create your own data blends with consistent sustainable performance. Import legacy data from multiple sources including mainframe DB2, VSAM, IMS, Oracle, SQL Server, Teradata, and write them to cloud targets including Azure Databricks, Azure Synapse Analytics and Azure Data Lake Storage. 
+              num_employees_min: 1000
+              num_employees_max: 5000
+              homepage: 'https://www.crunchbase.com/organization/precisely-write'
+              city: Pearl River
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: precisely-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron 
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron 
+              description: Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake. Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              num_employees_min: 10
+              num_employees_max: 50
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles 
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Segment 
+            homepage_url: 'https://segment.com/'
+            logo: segment-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+            crunchbase_data:
+              name: Segment 
+              description: Segment provides customer data infrastructure that helps businesses put their customers first.
+              num_employees_min: 500
+              num_employees_max: 1000
+              homepage: 'https://www.crunchbase.com/organization/segment-io'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: segment-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SentryOne 
+            homepage_url: 'https://www.sentryone.com/'
+            logo: sentry-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+            crunchbase_data:
+              name: SentryOne 
+              description: SentryOne enable data professionals to monitor, diagnose, and optimize server performance across physical, virtual, and cloud environments.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/sentryone'
+              city: Charlotte
+              region: North Carolina
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: sentry-logo.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Incorta 
+            homepage_url: 'https://www.incorta.com/'
+            logo: incorta-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase_data:
+              name: Incorta 
+              description: Incorta is the first real breakthrough in data analytics in 20 years, providing revolutionary speed and unprecedented business agility.
+              num_employees_min: 100
+              num_employees_max: 250
+              homepage: 'https://www.crunchbase.com/organization/incorta'
+              city: San Mateo
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: incorta-logo.svg
             best_practice_data:
               badge: false
               percentage: null
       - subcategory:
-        name: Other
+        name: Non-partner
         items:
           - item:
             name: Fishtown Analytics
