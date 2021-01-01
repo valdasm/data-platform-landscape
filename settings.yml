@@ -45,6 +45,12 @@ relation:
           tag: Preview
           color: '#4470af'
           big_picture_order: 2
+          big_picture_label: Preview
+          big_picture_color: 'rgb(204,90,62)'
+        - id: infrastructure
+          label: Infrasturcture
+          prefix: Infrasturcture
+          tag: Infrasturcture
           # big_picture_label: Preview
           # big_picture_color: 'rgb(44,14,114)'
         # - id: marketplace
@@ -55,43 +61,46 @@ relation:
         #   big_picture_order: 3
           # big_picture_label: marketplace
           # big_picture_color: 'rgb(80,80,114)'
-    - id: company
-      label: Azure Partners
-      tag: Company
     - id: member
-      label: Open source projects
-      tag: open source
+      label: 3rd party components
+      tag: 3rd party
+    - id: company
+      label: Empty
+      tag: Company
     - id: false
-      label: Not available on marketplace
+      label: Open source
       url: 'no'
 membership:
-  Partner:
-    name: MSFT Partner
-    label: Partner
-    end_user_label: Partner
-    funding: Partner
+  3rdPartyCompanies:
+    name: 3rd party components
+    label: 3rd party components
+    end_user_label: 3rd party components
+    funding: 3rd party components
     is_large: true
-  Non-partner:
-    name: MSFT Non-partner
-    label: Non-partner
-    end_user_label: Non-partner
-    funding: Non-partner
-    is_large: true
+  # Non-partner:
+  #   name: MSFT Non-partner
+  #   label: Non-partner
+  #   end_user_label: Non-partner
+  #   funding: Non-partner
+  #   is_large: true
 home:
   header: >
-    <h1>Azure Data Platform Landscape</h1> The Azure Data Platform Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
-    href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
-    on the same open source code.
+    <h1>Azure Data Platform Landscape</h1> The Azure Data Platform landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is a dynamically generated architecture diagram below. 
+
+    The landscape visualizes Azure native services, and also available 3rd party components and services.
+    
+    The application is based on <a href="http://landscape.cncf.io">CNCF landscape</a> open source code.
   footer: |
-    Footer
+    All logos are copyright to their respective owners. Company information details are collected on respective company websites and/or Wikipedia. 
 ads:
   - url: 'https://www.linkedin.com/in/valdasm/'
-    image: /images/author.jpg
+    image: /images/author.png
     title: Valdas Maksimavicius
 presets:
   - url: /format=card-mode&grouping=category
     label: Cards by categories
-  - url: /project=hosted
+  - url: /organization=microsoft
     label: Azure native services
   - url: /organization=informatica,microsoft
     label: Azure with Informatica 
@@ -105,85 +114,85 @@ big_picture:
     url: landscape
     name: Landscape
     title: Azure Data Platform Architecture Landscape
-    fullscreen_header: See the interactive landscape at l.azuredataplatform.org
+    fullscreen_header: See the interactive landscape at https://landscape.dataplatformschool.com/
     elements:
       - type: VerticalCategory
         category: Data Ingestion
         cols: 3
         width: 200
-        height: 380
+        height: 450
         top: 0
         left: 0
-        color: 'rgb(4,81,49)'
+        color: 'rgb(76,54,66)'
         fit_width: true
       - type: HorizontalCategory
         category: Storages
         rows: 3
-        width: 450
-        height: 180
+        width: 550
+        height: 215
         top: 0
         left: 225
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: Advanced Analytics
-        cols: 3
-        width: 200
-        height: 380
-        top: 0
-        left: 700
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: Business Intelligence
-        cols: 3
-        width: 200
-        height: 380
-        top: 0
-        left: 920
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: Data access
-        cols: 3
-        width: 200
-        height: 380
-        top: 0
-        left: 1140
-        color: 'rgb(79,121,13)'
+        color: 'rgb(206,243,196)'
         fit_width: true
       - type: HorizontalCategory
         category: Data Processing
         rows: 3
-        width: 450
-        height: 180
-        top: 200
+        width: 550
+        height: 215
+        top: 235
         left: 225
-        color: 'rgb(7,136,62)'
+        color: 'rgb(136,212,202)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Business Intelligence
+        rows: 3
+        width: 550
+        height: 215
+        top: 0
+        left: 800
+        color: 'rgb(52,71,113)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Advanced Analytics
+        rows: 3
+        width: 550
+        height: 215
+        top: 235
+        left: 800
+        color: 'rgb(89,112,156)'
+        fit_width: true
+      - type: VerticalCategory
+        category: Data access
+        cols: 3
+        width: 240
+        height: 450
+        top: 0
+        left: 1380
+        color: 'rgb(76,54,66)'
         fit_width: true
       - type: HorizontalCategory
         category: Data Governance
         rows: 2
-        width: 1200
+        width: 1350
         height: 100
-        top: 420
+        top: 470
         left: 0
-        color: 'rgb(7,136,62)'
+        color: 'rgb(206,243,196)'
         fit_width: true
       - type: HorizontalCategory
         category: Data Ops
-        rows: 2
-        width: 1200
-        height: 100
-        top: 540
+        rows: 1
+        width: 1350
+        height: 80
+        top: 590
         left: 0
-        color: 'rgb(7,136,62)'
+        color: 'rgb(136,212,202)'
         fit_width: true
       - type: LandscapeInfo
-        width: 310
-        height: 150
-        top: 390
-        left: 1265
+        width: 240
+        height: 200
+        top: 470
+        left: 1380
         children:
           - type: text
             text: |
@@ -207,7 +216,7 @@ big_picture:
     fullscreen_hide_grey_logos: true
     elements:
       - type: HorizontalCategory
-        category: Partner
+        category: 3rdPartyCompanies
         rows: 4
         width: 1250
         height: 350
@@ -216,21 +225,12 @@ big_picture:
         color: '#c5c4c2'
         fit_width: true
         offset: 60
-      - type: HorizontalCategory
-        category: Non-partner
-        rows: 4
-        width: 1250
-        height: 200
-        top: 350
-        left: 0
-        color: '#D4AF37'
-        fit_width: true
-        offset: 70
+     
       - type: LandscapeInfo
         width: 310
         height: 150
         top: 390
-        left: 1265
+        left: 0
         children:
           - type: text
             text: |
