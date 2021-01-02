@@ -64,12 +64,12 @@ relation:
     - id: member
       label: 3rd party components
       tag: 3rd party
-    - id: company
-      label: Empty
-      tag: Company
     - id: false
       label: Open source
       url: 'no'
+    - id: company
+      label: Empty
+      tag: Company
 membership:
   3rdPartyCompanies:
     name: 3rd party components
@@ -129,7 +129,7 @@ big_picture:
         category: Storages
         rows: 3
         width: 550
-        height: 215
+        height: 170
         top: 0
         left: 225
         color: 'rgb(206,243,196)'
@@ -138,28 +138,28 @@ big_picture:
         category: Data Processing
         rows: 3
         width: 550
-        height: 215
-        top: 235
+        height: 270
+        top: 180
         left: 225
         color: 'rgb(136,212,202)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: Business Intelligence
-        rows: 3
-        width: 550
-        height: 215
-        top: 0
-        left: 800
-        color: 'rgb(52,71,113)'
         fit_width: true
       - type: HorizontalCategory
         category: Advanced Analytics
         rows: 3
         width: 550
-        height: 215
-        top: 235
+        height: 170
+        top: 0
         left: 800
         color: 'rgb(89,112,156)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Business Intelligence
+        rows: 3
+        width: 550
+        height: 270
+        top: 180
+        left: 800
+        color: 'rgb(52,71,113)'
         fit_width: true
       - type: VerticalCategory
         category: Data access

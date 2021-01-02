@@ -227,6 +227,86 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Information Builders Integration Ingestion
+            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            logo: information-builders-integration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase_data:
+              name: Information Builders
+              description: ibi is a data and analytics software company that embeds intelligence into ― everything.
+              homepage: 'https://www.crunchbase.com/organization/information-builders'
+              city: New York
+              region: New York
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: information-builders-integration-ingestion.svg
+              hash: 1YpBY+MGNPKsHbjwEiHaxtNeaRYsUYXFJNBwNvvy9rM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio Ingestion
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-ingestion.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TimeXtender Ingestion
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase_data:
+              name: TimeXtender
+              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
+              homepage: 'https://www.crunchbase.com/organization/timextender'
+              city: Aarhus
+              region: Midtjylland
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: time-xtender-ingestion.svg
+              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SAS Integration Studio Connectors
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase_data:
+              name: SAS
+              description: SAS provides advanced business analytics and business intelligent software and services to enable companies to optimize their operations.
+              homepage: 'https://www.crunchbase.com/organization/sas'
+              city: Cary
+              region: North Carolina
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: sas-integration-studio-connectors.svg
+              hash: kXc0S1X6pdT5iOQqLJlitsI2k3WJfkpEJxPKhPDZG+U=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Streaming
         items:
@@ -299,6 +379,69 @@ landscape:
             image_data:
               fileName: confluent-platform.svg
               hash: zXQ/6asf+EbdVrr9Mh+uq8m7RLLS8OIKCgyJaDv5xG4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Apache Kafka
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/apache/kafka'
+            logo: kafka.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Java
+                  value: 25482842
+                  color: '#b07219'
+                - name: Scala
+                  value: 8267857
+                  color: '#c22d40'
+                - name: Python
+                  value: 1000563
+                  color: '#3572A5'
+                - name: Shell
+                  value: 101021
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 30298
+                  color: '#C1F12E'
+                - name: Dockerfile
+                  value: 7798
+                  color: '#384d54'
+                - name: XSLT
+                  value: 7116
+                  color: '#EB8CEB'
+                - name: HTML
+                  value: 3739
+                  color: '#e34c26'
+              contributions: >-
+                31;32;20;22;23;38;29;31;20;26;43;42;36;35;35;27;40;27;27;32;45;47;42;25;13;26;26;19;25;22;17;16;19;8;16;16;17;26;30;36;30;41;24;24;14;31;19;34;29;29;14;4
+              firstWeek: 2020-01-05Z
+              stars: 17688
+              license: Apache License 2.0
+              description: Mirror of Apache Kafka
+              latest_commit_date: '2020-12-31T18:26:45Z'
+              latest_commit_link: /apache/kafka/commit/42272f0a37c2f4df1d629617d299a4d7e97dcedc
+              contributors_count: 924
+              contributors_link: 'https://github.com/apache/kafka/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/kafka'
+                stars: 17688
+            github_start_commit_data:
+              start_commit_link: /apache/kafka/commit/642da2f28c9bc6e373603d6d9119ce33684090f5
+              start_date: '2011-08-01T23:41:24Z'
+            image_data:
+              fileName: apache-kafka.svg
+              hash: SZoYJe89qRL+JHl6UmFitt/HNeAOprcAQq8Q/D+AHUk=
             best_practice_data:
               badge: false
               percentage: null
@@ -818,26 +961,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Trifacta Wrangler
-            homepage_url: 'https://www.trifacta.com/'
-            logo: trifacta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
-            crunchbase_data:
-              name: Trifacta
-              description: Trifacta offers a data wrangling platform which provides a modern self-service approach to cleaning and preparing data.
-              homepage: 'https://www.crunchbase.com/organization/tableau'
-              city: San Francisco
-              region: California
-              country: United States
-              kind: Private
-              parents: []
-            image_data:
-              fileName: trifacta-wrangler.svg
-              hash: RWU3WhBuIEj6xHsje1VghiVKIwZWR9D0yCPYmi816jA=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: Fivetran Transformations
             homepage_url: 'https://fivetran.com/transformations'
             logo: fivetran.svg
@@ -858,46 +981,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Ab Initio
-            homepage_url: 'https://www.abinitio.com/en/'
-            logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
-            crunchbase_data:
-              name: Ab Initio
-              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
-              homepage: 'https://www.crunchbase.com/organization/ab-initio'
-              city: Lexington
-              region: Massachusetts
-              country: United States
-              kind: Private
-              parents: []
-            image_data:
-              fileName: ab-initio.svg
-              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: TimeXtender Data Hub
-            homepage_url: 'https://www.timextender.com/'
-            logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
-            crunchbase_data:
-              name: TimeXtender
-              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
-              homepage: 'https://www.crunchbase.com/organization/timextender'
-              city: Aarhus
-              region: Midtjylland
-              country: Denmark
-              kind: Private
-              parents: []
-            image_data:
-              fileName: time-xtender-data-hub.svg
-              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: XPlenty ETL
             homepage_url: 'https://www.xplenty.com/is/'
             logo: xplenty-logo.svg
@@ -914,6 +997,30 @@ landscape:
             image_data:
               fileName: x-plenty-etl.svg
               hash: yIrt3rPkYLzts4Zlt9IeBDYOuM1ZpcLjN4AgT6RemFY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron ETL
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron
+              description: >-
+                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
+                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
+                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
+                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-etl.svg
+              hash: 3mR3OhyDdjZXFQKUk6NlspxpECR8J1Y/+ms0J/GowuM=
             best_practice_data:
               badge: false
               percentage: null
@@ -943,30 +1050,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Lyftron ETL
-            homepage_url: 'https://lyftron.com/'
-            logo: lyftron-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
-            crunchbase_data:
-              name: Lyftron
-              description: >-
-                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
-                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
-                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
-                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
-              homepage: 'https://www.crunchbase.com/organization/lyftron'
-              city: Dulles
-              region: Virginia
-              country: United States
-              kind: Private
-              parents: []
-            image_data:
-              fileName: lyftron-etl.svg
-              hash: 3mR3OhyDdjZXFQKUk6NlspxpECR8J1Y/+ms0J/GowuM=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: Information Builders Integration
             homepage_url: 'https://www.ibi.com/analytics-platform/'
             logo: information-builders-integration.svg
@@ -983,6 +1066,46 @@ landscape:
             image_data:
               fileName: information-builders-integration.svg
               hash: 1YpBY+MGNPKsHbjwEiHaxtNeaRYsUYXFJNBwNvvy9rM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio ETL
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-etl.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SAS Integration Studio
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase_data:
+              name: SAS
+              description: SAS provides advanced business analytics and business intelligent software and services to enable companies to optimize their operations.
+              homepage: 'https://www.crunchbase.com/organization/sas'
+              city: Cary
+              region: North Carolina
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: sas-integration-studio.svg
+              hash: kXc0S1X6pdT5iOQqLJlitsI2k3WJfkpEJxPKhPDZG+U=
             best_practice_data:
               badge: false
               percentage: null
@@ -1092,6 +1215,26 @@ landscape:
             image_data:
               fileName: stream-sets-stream-processing.svg
               hash: 3pWKy8eT7RkY6/l8xAPsmMazq23L6FMTfQQB/odsrPY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Qubole Spark Streaming
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase_data:
+              name: Qubole
+              description: 'Qubole is a simple and secure data lake platform for machine learning, streaming, and ad-hoc analytics.'
+              homepage: 'https://www.crunchbase.com/organization/qubole'
+              city: Santa Clara
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: qubole-spark-streaming.svg
+              hash: SXp0jTuBBKA91Wn5cm6eSlNh8L7+dPakkiLAwg8fifA=
             best_practice_data:
               badge: false
               percentage: null
@@ -1220,6 +1363,26 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: TimeXtender Automation
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase_data:
+              name: TimeXtender
+              description: 'TimeXtender empowers customers with instant access to data, enabling them to make quality business decisions faster..'
+              homepage: 'https://www.crunchbase.com/organization/timextender'
+              city: Aarhus
+              region: Midtjylland
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: time-xtender-automation.svg
+              hash: RCqqhHZ6nOMUlgHjQrsE5R0sX1YgpQUFzQVTOk2aO3Q=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Orchestration
         items:
@@ -1236,9 +1399,6 @@ landscape:
               city: Forest Hill
               region: Maryland
               country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
-              acquisitions: []
               parents: []
               stockExchange: null
             github_data:
@@ -1289,6 +1449,149 @@ landscape:
             image_data:
               fileName: apache-airflow.svg
               hash: tSYbCZ7+RTg6MDY+/RcFzdIOdJ5HgFMJVTtl6Watcxo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Azure Data Factory Orchestration
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory-orchestration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              kind: market_cap
+              parents: []
+            yahoo_finance_data:
+              market_cap: 1684000000000
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-data-factory-orchestration.svg
+              hash: BH0jWC9TrNcnMeD8+nHtJhvOCOlnQAQhcYce1sYtt8s=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Informatica Workflow Orchestration
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica-orchestration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase_data:
+              name: Informatica
+              description: Informatica is the only Enterprise Cloud Data Management that accelerates data-driven digital transformation.
+              homepage: 'https://www.informatica.com/'
+              city: Redwood City
+              region: California
+              country: United States
+              parents: []
+              kind: private
+            image_data:
+              fileName: informatica-workflow-orchestration.svg
+              hash: 6WMBlOLLsfDt9ZUbRjSlpCRS1PDYYW6VmiqXgPSMJ9E=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: DAGSTER
+            homepage_url: 'https://dagster.io/'
+            repo_url: 'https://github.com/dagster-io/dagster'
+            logo: dagster.svg
+            crunchbase: 'https://www.crunchbase.com/organization/elementl'
+            crunchbase_data:
+              name: Elementl
+              description: 'Building Dagster, the data orchestrator.'
+              homepage: 'https://www.elementl.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              kind: funding
+            github_data:
+              languages:
+                - name: Python
+                  value: 8555105
+                  color: '#3572A5'
+                - name: TypeScript
+                  value: 1959162
+                  color: '#2b7489'
+                - name: Jupyter Notebook
+                  value: 142691
+                  color: '#DA5B0B'
+                - name: Scala
+                  value: 20728
+                  color: '#c22d40'
+                - name: Dockerfile
+                  value: 16303
+                  color: '#384d54'
+                - name: JavaScript
+                  value: 13887
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 9258
+                  color: '#e34c26'
+                - name: Makefile
+                  value: 9194
+                  color: '#427819'
+                - name: Shell
+                  value: 5338
+                  color: '#89e051'
+                - name: Mako
+                  value: 2964
+                - name: CSS
+                  value: 2565
+                  color: '#563d7c'
+              contributions: >-
+                45;39;18;63;36;76;44;63;46;31;46;43;67;55;71;63;52;92;100;76;92;108;151;95;83;75;76;71;52;47;77;41;60;43;43;52;65;65;77;68;48;77;80;56;58;79;42;93;94;55;33;0
+              firstWeek: 2020-01-05Z
+              stars: 2480
+              license: Apache License 2.0
+              description: 'A data orchestrator for machine learning, analytics, and ETL.'
+              latest_commit_date: '2020-12-24T18:10:31Z'
+              latest_commit_link: /dagster-io/dagster/commit/662c076b088e480066c4a5957ebd2cca599e0884
+              release_date: '2020-12-11T04:26:56Z'
+              release_link: 'https://github.com/dagster-io/dagster/releases'
+              contributors_count: 107
+              contributors_link: 'https://github.com/dagster-io/dagster/graphs/contributors'
+            repos:
+              - url: 'https://github.com/dagster-io/dagster'
+                stars: 2480
+            github_start_commit_data:
+              start_commit_link: /dagster-io/dagster/commit/7bd58d800766aad0c0501539b8f6ee3dbf74331c
+              start_date: '2018-04-30T16:30:04Z'
+            image_data:
+              fileName: dagster.svg
+              hash: 0dL5vxUbV4f/E/DfEBP9mAVPiHfOjqrCcc8Km7vrQuA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio Orchestration
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-orchestration.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
             best_practice_data:
               badge: false
               percentage: null
@@ -2021,6 +2324,26 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Trifacta Wrangler
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+            crunchbase_data:
+              name: Trifacta
+              description: Trifacta offers a data wrangling platform which provides a modern self-service approach to cleaning and preparing data.
+              homepage: 'https://www.crunchbase.com/organization/tableau'
+              city: San Francisco
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: trifacta-wrangler.svg
+              hash: RWU3WhBuIEj6xHsje1VghiVKIwZWR9D0yCPYmi816jA=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Semantics
         items:
@@ -2076,7 +2399,7 @@ landscape:
             name: PowerBI Semantics
             homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
             project: generalavailability
-            logo: powerbi-pq.svg
+            logo: powerbi-semantics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
               name: Microsoft
@@ -2094,7 +2417,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: power-bi-semantics.svg
-              hash: wD1LbOczD6KoTd2kOAQwBHYXFCqFcb+DqBCe3Fh7Rso=
+              hash: DmSvVr2IgQ30UOqea97fnYajkyfxHbc2Yc+OvSWTm+Y=
             best_practice_data:
               badge: false
               percentage: null
@@ -2256,7 +2579,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-share.svg
-              hash: Lmf8juNwo23V0CdbWLPdDMxy+RLbzB6ES9hBQ6wBCrc=
+              hash: E7siFNrBAe5qObcFbQenvYpSkyAEIgY7gH4ngn3dbBw=
             best_practice_data:
               badge: false
               percentage: null
@@ -2283,6 +2606,50 @@ landscape:
             image_data:
               fileName: snowflake-data-share.svg
               hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Lyftron Data Sharing
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase_data:
+              name: Lyftron
+              description: >-
+                Lyftron modern data hub combines an effortless data hub with agile access to data sources. Lyftron eliminates traditional ETL/ELT bottlenecks
+                with automatic data pipeline and make data instantly accessible to BI user with the modern cloud compute of Azure Synapse, Spark & Snowflake.
+                Lyftron connectors automatically convert any source into normalized, ready-to-query relational format and replication. It offers advanced
+                security, data governance and transformation, with simple ANSI SQL along with search capability on your enterprise data catalog.
+              homepage: 'https://www.crunchbase.com/organization/lyftron'
+              city: Dulles
+              region: Virginia
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: lyftron-data-sharing.svg
+              hash: 3mR3OhyDdjZXFQKUk6NlspxpECR8J1Y/+ms0J/GowuM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CluedIn Data Sharing
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase_data:
+              name: CluedIn
+              description: CluedIn breaks down information silos in your organisation and solves the problem of not being able to utilize all the knowledge you have.
+              homepage: 'https://www.crunchbase.com/organization/cluedin'
+              city: Copenhagen
+              region: Hovedstaden
+              country: Denmark
+              kind: Private
+              parents: []
+            image_data:
+              fileName: clued-in-data-sharing.svg
+              hash: 4XQyrS5NtkRGD206VrtCqe7jPxbNyRHRFpxa4T/fLns=
             best_practice_data:
               badge: false
               percentage: null
@@ -2364,6 +2731,26 @@ landscape:
             image_data:
               fileName: talend-api-services.svg
               hash: pD9gn3JRQzeYyA8mwRnbZ7MTZKCPs8iDE3+uEhhoy8E=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Dremio API
+            homepage_url: 'https://www.dremio.com/'
+            logo: dremio-api.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase_data:
+              name: Dremio
+              description: 'Dremio empowers business users to curate all the data they need, from any data source.'
+              homepage: 'https://www.crunchbase.com/organization/dremio-corporation'
+              city: Santa Clara
+              region: California
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: dremio-api.svg
+              hash: mUlsCxuMyQESgS6Y4P4BYpafkGcqTe7QqHrpZ/Xa7Dc=
             best_practice_data:
               badge: false
               percentage: null
@@ -2747,6 +3134,26 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Ab Initio Data Management
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-data-management.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Master Data Management
         items:
@@ -2961,6 +3368,26 @@ landscape:
             image_data:
               fileName: information-builders-data-quality.svg
               hash: d8+NVyiamMJJfwVLAzr+Tz3b/4P7n5Dp6SpCDh6bRxE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Ab Initio Data Quality
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase_data:
+              name: Ab Initio
+              description: Ab Initio is a software platform providing high-volume data processing systems and enterprise application integration for businesses.
+              homepage: 'https://www.crunchbase.com/organization/ab-initio'
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              kind: Private
+              parents: []
+            image_data:
+              fileName: ab-initio-data-quality.svg
+              hash: etk4/rNtvHvos5PXQPzTFwo2zZFo67nCEwapvpAz8HE=
             best_practice_data:
               badge: false
               percentage: null

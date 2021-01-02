@@ -56,6 +56,26 @@ landscape:
             homepage_url: 'https://www.cluedin.com/'
             logo: cluedin-integration.svg
             crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+          - item:
+            name: Information Builders Integration Ingestion
+            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            logo: information-builders-integration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+          - item:
+            name: Ab Initio Ingestion
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+          - item:
+            name: TimeXtender Ingestion
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+          - item:
+            name: SAS Integration Studio Connectors
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
       - subcategory:
         name: Streaming
         items:
@@ -76,6 +96,12 @@ landscape:
             homepage_url: 'https://www.confluent.io/'
             logo: confluent.svg
             crunchbase: 'https://www.crunchbase.com/organization/confluent'
+          - item:
+            name: Apache Kafka
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/apache/kafka'
+            logo: kafka.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
         name: Replication / CDC
         items:
@@ -206,45 +232,40 @@ landscape:
             logo: informatica-pe.svg
             crunchbase: 'https://www.crunchbase.com/organization/informatica'
           - item:
-            name: Trifacta Wrangler
-            homepage_url: 'https://www.trifacta.com/'
-            logo: trifacta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
-          - item:
             name: Fivetran Transformations
             homepage_url: 'https://fivetran.com/transformations'
             logo: fivetran.svg
             crunchbase: 'https://www.crunchbase.com/organization/fivetran'
-          - item:
-            name: Ab Initio
-            homepage_url: 'https://www.abinitio.com/en/'
-            logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
-          - item:
-            name: TimeXtender Data Hub
-            homepage_url: 'https://www.timextender.com/'
-            logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
           - item:
             name: XPlenty ETL
             homepage_url: 'https://www.xplenty.com/is/'
             logo: xplenty-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/xplenty'
           - item:
-            name: Precisely Connect ETL
-            homepage_url: 'https://www.precisely.com/'
-            logo: precisely-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
-          - item:
             name: Lyftron ETL
             homepage_url: 'https://lyftron.com/'
             logo: lyftron-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/lyftron'
           - item:
+            name: Precisely Connect ETL
+            homepage_url: 'https://www.precisely.com/'
+            logo: precisely-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+          - item:
             name: Information Builders Integration
             homepage_url: 'https://www.ibi.com/analytics-platform/'
             logo: information-builders-integration.svg
             crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+          - item:
+            name: Ab Initio ETL
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+          - item:
+            name: SAS Integration Studio
+            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            logo: sas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sas'
       - subcategory:
         name: Stream Transformations
         items:
@@ -274,6 +295,17 @@ landscape:
             homepage_url: 'https://streamsets.com/'
             logo: streamsets-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+          - item:
+            name: Qubole Spark Streaming
+            homepage_url: 'https://www.qubole.com/'
+            logo: qubole.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+          - item:
+            name: Apache Kafka Stream Processing
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/apache/kafka'
+            logo: kafka.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
         name: DWH automation
         items:
@@ -307,6 +339,11 @@ landscape:
             homepage_url: 'https://www.incorta.com/'
             logo: incorta-logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/incorta'
+          - item:
+            name: TimeXtender Automation
+            homepage_url: 'https://www.timextender.com/'
+            logo: timextender-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/timextender'
       - subcategory:
         name: Orchestration
         items:
@@ -316,6 +353,28 @@ landscape:
             repo_url: 'https://github.com/apache/airflow'
             logo: airflow.svg
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Azure Data Factory Orchestration
+            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            project: generalavailability
+            logo: azure-data-factory-orchestration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Informatica Workflow Orchestration
+            homepage_url: 'https://www.informatica.com/'
+            logo: informatica-orchestration.svg
+            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+          - item:
+            name: DAGSTER
+            homepage_url: 'https://dagster.io/'
+            repo_url: 'https://github.com/dagster-io/dagster'
+            logo: dagster.svg
+            crunchbase: 'https://www.crunchbase.com/organization/elementl'
+          - item:
+            name: Ab Initio Orchestration
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
   - category:
     name: Advanced Analytics
     subcategories:
@@ -503,6 +562,11 @@ landscape:
             homepage_url: 'https://www.ibi.com/analytics-platform/'
             logo: information-builders-data-prep.svg
             crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+          - item:
+            name: Trifacta Wrangler
+            homepage_url: 'https://www.trifacta.com/'
+            logo: trifacta.svg
+            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
       - subcategory:
         name: Semantics
         items:
@@ -521,7 +585,7 @@ landscape:
             name: PowerBI Semantics
             homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
             project: generalavailability
-            logo: powerbi-pq.svg
+            logo: powerbi-semantics.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Dremio Data Reflections
@@ -575,6 +639,16 @@ landscape:
             homepage_url: 'https://www.snowflake.com/'
             logo: snowflake.svg
             crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+          - item:
+            name: Lyftron Data Sharing
+            homepage_url: 'https://lyftron.com/'
+            logo: lyftron-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+          - item:
+            name: CluedIn Data Sharing
+            homepage_url: 'https://www.cluedin.com/'
+            logo: cluedin-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
       - subcategory:
         name: APIs
         items:
@@ -595,6 +669,11 @@ landscape:
             homepage_url: 'https://www.talend.com/'
             logo: talend-api.svg
             crunchbase: 'https://www.crunchbase.com/organization/talend'
+          - item:
+            name: Dremio API
+            homepage_url: 'https://www.dremio.com/'
+            logo: dremio-api.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
       - subcategory:
         name: Application Integration
         items:
@@ -694,6 +773,11 @@ landscape:
             homepage_url: 'https://www.ibi.com/analytics-platform/'
             logo: information-builders-governance.svg
             crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+          - item:
+            name: Ab Initio Data Management
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
       - subcategory:
         name: Master Data Management
         items:
@@ -750,6 +834,11 @@ landscape:
             homepage_url: 'https://www.ibi.com/analytics-platform/'
             logo: information-builders-dq.svg
             crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+          - item:
+            name: Ab Initio Data Quality
+            homepage_url: 'https://www.abinitio.com/en/'
+            logo: abinitio-logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
       - subcategory:
         name: Data Modelling
         items:
