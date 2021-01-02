@@ -15,12 +15,22 @@
 * `npm run open:src` (starts a development server) or
 * `npm run build`, then `npm run open:dist` (compiles and opens a production build)
 
-* If getting Error: Failed to launch chrome! run below
-* sudo apt install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+## Local development on Windows
+1. Use WSDL with Docker
+2. I use yf on WSDL Linux as it can fetch icons
+3. Use yf on docker image as it's generally faster for development than WSDL Linux
 
-GET CHROMUMIUM IN PLACE
-https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
-apt-get update \
+### Faced errors on Windows
+* Not succeeded to execute integration tests
+* If getting Error: Failed to launch chrome! run below
+
+   sudo apt install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget  
+
+* Chromium issues to build solution completely **not solved**. So far full builds are possible only via netlify
+
+  **Issues with Chromium and puppeteer running on Windows**
+  https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md  
+  apt-get update \
     && apt-get install -y wget gnupg \
     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
@@ -29,16 +39,7 @@ apt-get update \
       --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
-npm i puppeteer 
-
-
-    # Add user so we don't need --no-sandbox.
-    # same layer as npm install to keep re-chowned files from using up several hundred MBs more space
-    && groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
-    && mkdir -p /home/pptruser/Downloads \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /node_modules
-
+  
 ## Local development with installing landscapeapp locally
 
 You can administer a landscape without ever needing to install the software locally. However, a local install is helpful for rapid development, as it reduces the 5 minute build time on Netlify to 10 seconds or less locally. In particular, you want a local install when you're reconfiguring the layout. We recommend installing one or more landscapes as sibling directories to the landscapeapp. Then, you want to install the npm modules for landscapeapp but not for any of the landscapes. Here are the [install](INSTALL.md) directions.
