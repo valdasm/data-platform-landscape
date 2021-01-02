@@ -303,7 +303,7 @@ landscape:
           - item:
             name: Apache Kafka Stream Processing
             homepage_url: 'https://kafka.apache.org/'
-            repo_url: 'https://github.com/apache/kafka'
+            repo_url: 'https://github.com/confluentinc/kafka-streams-examples'
             logo: kafka.svg
             crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
