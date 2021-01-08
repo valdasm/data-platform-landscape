@@ -1,7 +1,7 @@
 {
-  "name": "lfdl-interactive-landscape",
+  "name": "azure-interactive-landscape",
   "version": "1.0.0",
-  "description": "Interactive visualization of Linux Foundation GraphQL",
+  "description": "Interactive visualization of Azure Data Platform Landscape",
   "engines": {
     "npm": ">=3",
     "node": ">= 10.5"
@@ -10,7 +10,7 @@
     "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build",
     "latest": "npm install interactive-landscape@latest"
   },
-  "author": "LFDL",
+  "author": "valdas@maksimavicius.eu",
   "license": "Apache-2.0",
   "dependencies": {
     "interactive-landscape": "1.0.391",
@@ -19,6 +19,6 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/graphql/graphql-landscape"
+    "url": "https://github.com/valdasm/data-platform-landscape"
   }
 }

@@ -8,6 +8,10 @@ landscape:
           - item:
             name: Azure Data Factory
             homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            description: >-
+              Azure Data Factory is Azure's cloud ETL service for scale-out serverless data integration and data transformation. It offers a code-free UI for
+              intuitive authoring and single-pane-of-glass monitoring and management. You can also lift and shift existing SSIS packages to Azure and run them
+              with full compatibility in ADF.
             project: generalavailability
             logo: azure-data-factory.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
@@ -143,7 +147,7 @@ landscape:
         items:
           - item:
             name: Azure Data Lake Storage
-            homepage_url: 'https://www.arangodb.com/'
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction'
             project: generalavailability
             logo: azure-data-lake.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'

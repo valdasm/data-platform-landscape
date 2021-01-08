@@ -9,6 +9,10 @@ landscape:
           - item:
             name: Azure Data Factory
             homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            description: >-
+              Azure Data Factory is Azure's cloud ETL service for scale-out serverless data integration and data transformation. It offers a code-free UI for
+              intuitive authoring and single-pane-of-glass monitoring and management. You can also lift and shift existing SSIS packages to Azure and run them
+              with full compatibility in ADF.
             project: generalavailability
             logo: azure-data-factory.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
@@ -68,7 +72,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange.svg
-              hash: o3C/QPBKqCzYlohIy7YH0TEYdsCPpGh7Vbafy3XBUqM=
+              hash: pmHDG4ILjM1ENFpexAMiLzWy5OnYNhYa1zUnbmKfMv4=
             best_practice_data:
               badge: false
               percentage: null
@@ -94,7 +98,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-data-integration.svg
-              hash: hF7EGjX4iC/onR3ngp3bqlyhbBcIV2yuNHDEXh72XBU=
+              hash: PJ9D4F3yMTm/rV7fF+cvfG4E8z4LWnMkluqlqej+pd8=
             best_practice_data:
               badge: false
               percentage: null
@@ -223,7 +227,7 @@ landscape:
               parents: []
             image_data:
               fileName: clued-in-data-integration.svg
-              hash: LMYQp8jNsVTmpH7E9XU4N7YsM2HcMhLChtkQgvTzJUY=
+              hash: 8Q3CU4tJ2h1ZGfX4ldPVH16wTyRDuh5gmORtS0PhrZs=
             best_practice_data:
               badge: false
               percentage: null
@@ -243,7 +247,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-integration-ingestion.svg
-              hash: 1YpBY+MGNPKsHbjwEiHaxtNeaRYsUYXFJNBwNvvy9rM=
+              hash: U0zQyXvfNxD+s9uzeJyrqMR71gYuCsTe9L+b+OvIXIw=
             best_practice_data:
               badge: false
               percentage: null
@@ -441,7 +445,7 @@ landscape:
               start_date: '2011-08-01T23:41:24Z'
             image_data:
               fileName: apache-kafka.svg
-              hash: SZoYJe89qRL+JHl6UmFitt/HNeAOprcAQq8Q/D+AHUk=
+              hash: nMtsTXphNun7REI5cIZrJpgO6WHCFTluF5CmLYuc1kA=
             best_practice_data:
               badge: false
               percentage: null
@@ -464,7 +468,7 @@ landscape:
               parents: []
             image_data:
               fileName: qlik-attunity-replicate.svg
-              hash: K8IrLaNFG7A7p3Ua/f/K/notfXtsXVsOGNnTClFlXcY=
+              hash: HOWIruE1v7mGnRkR5lqVUkgiSUHX33hIuR0wX2mHjYo=
             best_practice_data:
               badge: false
               percentage: null
@@ -484,7 +488,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange-cdc.svg
-              hash: o3C/QPBKqCzYlohIy7YH0TEYdsCPpGh7Vbafy3XBUqM=
+              hash: pmHDG4ILjM1ENFpexAMiLzWy5OnYNhYa1zUnbmKfMv4=
             best_practice_data:
               badge: false
               percentage: null
@@ -576,7 +580,7 @@ landscape:
         items:
           - item:
             name: Azure Data Lake Storage
-            homepage_url: 'https://www.arangodb.com/'
+            homepage_url: 'https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction'
             project: generalavailability
             logo: azure-data-lake.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
@@ -622,7 +626,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-sql.svg
-              hash: GHsoZXy/joNcJ5hMIeTEkFPb9SyTJeLlNAukL5DyiCQ=
+              hash: b44ARXN97P+JVH8wFD71WHKqz7ZnVIy7CP3DHCGdnxM=
             best_practice_data:
               badge: false
               percentage: null
@@ -936,7 +940,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-data-integration-etl.svg
-              hash: hF7EGjX4iC/onR3ngp3bqlyhbBcIV2yuNHDEXh72XBU=
+              hash: PJ9D4F3yMTm/rV7fF+cvfG4E8z4LWnMkluqlqej+pd8=
             best_practice_data:
               badge: false
               percentage: null
@@ -956,7 +960,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-power-exchange-etl.svg
-              hash: o3C/QPBKqCzYlohIy7YH0TEYdsCPpGh7Vbafy3XBUqM=
+              hash: pmHDG4ILjM1ENFpexAMiLzWy5OnYNhYa1zUnbmKfMv4=
             best_practice_data:
               badge: false
               percentage: null
@@ -1065,7 +1069,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-integration.svg
-              hash: 1YpBY+MGNPKsHbjwEiHaxtNeaRYsUYXFJNBwNvvy9rM=
+              hash: U0zQyXvfNxD+s9uzeJyrqMR71gYuCsTe9L+b+OvIXIw=
             best_practice_data:
               badge: false
               percentage: null
@@ -1154,7 +1158,7 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-structured-streaming.svg
-              hash: E6NPRSEM9GTP2HYjDKpymQHtIqmjVtkAVoiNG4qjTMI=
+              hash: qgwa7wEC+0gtwix42jeWyxlo2AsvzmgrAtVuptv8IN0=
             best_practice_data:
               badge: false
               percentage: null
@@ -1174,7 +1178,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-engineering-streaming.svg
-              hash: TEYroZkBhGw16vWPfRlWhD3stoOQygKDI3LTQh1LLr0=
+              hash: KeVIzdn0gAg9RkvhXd7644yFCWhQofZt07AEefYl6Ig=
             best_practice_data:
               badge: false
               percentage: null
@@ -1235,6 +1239,56 @@ landscape:
             image_data:
               fileName: qubole-spark-streaming.svg
               hash: SXp0jTuBBKA91Wn5cm6eSlNh8L7+dPakkiLAwg8fifA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Apache Kafka Stream Processing
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/confluentinc/kafka-streams-examples'
+            logo: kafka.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Java
+                  value: 727317
+                  color: '#b07219'
+                - name: Scala
+                  value: 88708
+                  color: '#c22d40'
+                - name: Python
+                  value: 7551
+                  color: '#3572A5'
+                - name: Shell
+                  value: 3337
+                  color: '#89e051'
+              contributions: 18;0;0;0;6;4;0;5;11;4;1;19;30;0;6;4;32;4;31;7;66;13;76;6;3;1;5;0;4;0;4;2;0;0;1;16;7;10;3;9;3;0;0;60;0;1;0;2;0;3;0;0
+              firstWeek: 2020-01-12Z
+              stars: 1559
+              license: Apache License 2.0
+              description: Demo applications and code examples for Apache Kafka's Streams API.
+              latest_commit_date: '2020-12-22T19:59:07Z'
+              latest_commit_link: /confluentinc/kafka-streams-examples/commit/89683693aea2f81c9e310bdde489ab13ad242e6f
+              contributors_count: 47
+              contributors_link: 'https://github.com/confluentinc/kafka-streams-examples/graphs/contributors'
+            repos:
+              - url: 'https://github.com/confluentinc/kafka-streams-examples'
+                stars: 1559
+            github_start_commit_data:
+              start_commit_link: /confluentinc/kafka-streams-examples/commit/0a7b323d1e627da4add8e4801a6da236302cf1a4
+              start_date: '2017-08-18T22:06:44Z'
+            image_data:
+              fileName: apache-kafka-stream-processing.svg
+              hash: nMtsTXphNun7REI5cIZrJpgO6WHCFTluF5CmLYuc1kA=
             best_practice_data:
               badge: false
               percentage: null
@@ -1339,7 +1393,7 @@ landscape:
               parents: []
             image_data:
               fileName: qlik-compose.svg
-              hash: T8FumEYmzQZUDYmg/p3iiggAt2ZTn/Uas0Q9cvrrFso=
+              hash: Wcn1vcimgrG8kTjobCfqlmUeXCYymsvXLz5g48C1RQM=
             best_practice_data:
               badge: false
               percentage: null
@@ -1474,7 +1528,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-factory-orchestration.svg
-              hash: BH0jWC9TrNcnMeD8+nHtJhvOCOlnQAQhcYce1sYtt8s=
+              hash: /qV5F/tohjxROIcAFFRXcFnSck3YaSZKdVgHFHGsp1g=
             best_practice_data:
               badge: false
               percentage: null
@@ -1494,7 +1548,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-workflow-orchestration.svg
-              hash: 6WMBlOLLsfDt9ZUbRjSlpCRS1PDYYW6VmiqXgPSMJ9E=
+              hash: HD34HchrtcLiGgOKXs+QJgo/i+aeh8kymRW+p+8tqrY=
             best_practice_data:
               badge: false
               percentage: null
@@ -1982,7 +2036,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-analytics.svg
-              hash: AB6U66e97uhhJKbCHJRAXkNQnjxeLr/C7Fm/SpNQrig=
+              hash: R+1vkv7kn5/Ph9UhfOasCYGgl0TCSxxXZpBH3kcwZ84=
             best_practice_data:
               badge: false
               percentage: null
@@ -2183,7 +2237,7 @@ landscape:
               effective_ticker: SNOW
             image_data:
               fileName: snowflake-snowsight.svg
-              hash: iwL8JCMjzhYI3mgx6Yw0LcOUFWvPMoY8QZmZITtW1Y0=
+              hash: FJaMSUa9DaenUFHHdhyrQJfij4PUSWxKqaaqtefGZSQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -2203,7 +2257,7 @@ landscape:
               kind: private
             image_data:
               fileName: databricks-sql-analytics.svg
-              hash: Hc6EEZaRQ6EjXkADSL1MAtOoOy8h7Cg/JufWTPyGg1w=
+              hash: 5pR96ui8KrzZxiteRZm+0EIIFWF/hv1SB4F8LojmPJQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -2229,7 +2283,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-data-preparation.svg
-              hash: 0FkNxnwNx94QMC49WVEo5RBkRuocq1Z7qGCBAB2QqjE=
+              hash: Y50g5V4AK8ibVwjhQAasWxG5SnqepD7Y0CG1lzyhAjI=
             best_practice_data:
               badge: false
               percentage: null
@@ -2280,7 +2334,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: power-bi-power-query.svg
-              hash: wD1LbOczD6KoTd2kOAQwBHYXFCqFcb+DqBCe3Fh7Rso=
+              hash: 0RsHjYAkfAclTebQ78bDSN81cGJSg9RKbnuvYYbKKoM=
             best_practice_data:
               badge: false
               percentage: null
@@ -2300,7 +2354,7 @@ landscape:
               parents: []
             image_data:
               fileName: clued-in-data-preparation.svg
-              hash: zeCpNFOKlArYvCMOoFeLovmi5UICX3O3X42FbCUro4U=
+              hash: zeA4W6sVFzhmifJFXrVEjq/NGRfGxgbJP8LAVGptcOo=
             best_practice_data:
               badge: false
               percentage: null
@@ -2320,7 +2374,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-data-preparation.svg
-              hash: WMj6ra3qaZnuOoM1g3t+3vEsEZenu5aP+EAo0zSgoEM=
+              hash: CienGG6t5iKi/jEi14FXOMhmuTsNu4wtwEnHWvNMsHY=
             best_practice_data:
               badge: false
               percentage: null
@@ -2417,7 +2471,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: power-bi-semantics.svg
-              hash: DmSvVr2IgQ30UOqea97fnYajkyfxHbc2Yc+OvSWTm+Y=
+              hash: GIUvXlwC4poUopefyo/vLOxIq8VCkHxFaTge12PsAq8=
             best_practice_data:
               badge: false
               percentage: null
@@ -2437,7 +2491,7 @@ landscape:
               parents: []
             image_data:
               fileName: dremio-data-reflections.svg
-              hash: asBsyWIqap97CwQY9vjIY+N4BDhdWoMKXwGqXWFPD/w=
+              hash: PStfx3XiHiyrEie6LiLccOj13+kMBTU6gfwrcffd0dM=
             best_practice_data:
               badge: false
               percentage: null
@@ -2530,7 +2584,7 @@ landscape:
               parents: []
             image_data:
               fileName: immuta-query-engine.svg
-              hash: 1v8rNV9VYFhyRB1ot/os0c1ZS4odULwITKusLZruWjU=
+              hash: XakkDk6zeeqcKbzV564oc1oO31Pgt9mtM4+xIDvGScg=
             best_practice_data:
               badge: false
               percentage: null
@@ -2550,7 +2604,7 @@ landscape:
               parents: []
             image_data:
               fileName: okera-query-engine.svg
-              hash: n8q+Rczig/1CIfuJJ4sKYztbcF8LzW12YVvfGvV99gQ=
+              hash: QBzx1RbmzC9cmA1p3oyx13oQsAZdkIJfD274qW8HyGM=
             best_practice_data:
               badge: false
               percentage: null
@@ -2579,7 +2633,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-data-share.svg
-              hash: E7siFNrBAe5qObcFbQenvYpSkyAEIgY7gH4ngn3dbBw=
+              hash: /H0G9q1dlP2dhBfThleRk7XwADS+g7O2Sb/zYMOV1/g=
             best_practice_data:
               badge: false
               percentage: null
@@ -2730,7 +2784,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-api-services.svg
-              hash: pD9gn3JRQzeYyA8mwRnbZ7MTZKCPs8iDE3+uEhhoy8E=
+              hash: 2ut3RNb7nVH9IpDhFYgfLq+uGkIbu9y2wLh5OoYk1IQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -2750,7 +2804,7 @@ landscape:
               parents: []
             image_data:
               fileName: dremio-api.svg
-              hash: mUlsCxuMyQESgS6Y4P4BYpafkGcqTe7QqHrpZ/Xa7Dc=
+              hash: kob5DgW31iLIHRPy/A9a4Q+AHR7il5tQFNr5wxzoqNk=
             best_practice_data:
               badge: false
               percentage: null
@@ -2931,7 +2985,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-catalog.svg
-              hash: cOIjempA0jwxqBdCDBkjlyyzQ36zKLYL5fwASrbubdg=
+              hash: LdvYyCc65LaEXZ0Blf4YMG2oFCT9WGjmISJ3vgAuvw0=
             best_practice_data:
               badge: false
               percentage: null
@@ -2951,7 +3005,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-axon-business-glossary.svg
-              hash: SEvZlJqS7zLuA+eUexxfl1v9bF/eslXLxSJ6UrJFIEo=
+              hash: vmOrGA5eYauxZEm6l4wVUL+ZsKaPoxEeXTw2j1gMG4s=
             best_practice_data:
               badge: false
               percentage: null
@@ -2977,7 +3031,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-data-catalog.svg
-              hash: UJEf5GEUBevRN0hFfFHoeb53czwOPzWF2O+n6e6OJDQ=
+              hash: Kq7UrnFjhucNqKgfRGNdqRHH8qQEr+v4NOgEk8hyIyE=
             best_practice_data:
               badge: false
               percentage: null
@@ -3045,7 +3099,7 @@ landscape:
               effective_ticker: MSFT
             image_data:
               fileName: azure-purview.svg
-              hash: t1Mpb3Xfdf3K3bXpNPgAY0YyxkqiKNC5gu7lhpXN9Cg=
+              hash: o42MXVGQ6kzJmZUjz89GaMVcAeiwLxS78rx24gCln5E=
             best_practice_data:
               badge: false
               percentage: null
@@ -3110,7 +3164,7 @@ landscape:
               parents: []
             image_data:
               fileName: clued-in-data-governance.svg
-              hash: kGHx9DwfcSoCFH34lkpyOIhAY69D0yFXzFle0RDRNwQ=
+              hash: mERZQGWaJ+181Q3Yk9S6XvtHuo/475Zu8iY18ORrOR0=
             best_practice_data:
               badge: false
               percentage: null
@@ -3130,7 +3184,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-data-governance.svg
-              hash: 5J4/BnbVzy3LcgkFiRYR+cS8vQpQMXeoA4s5nMS3f0U=
+              hash: bNSw3mxphIx5FVu9VOeON3ytNBk+RfgXYD+YSt2A+aw=
             best_practice_data:
               badge: false
               percentage: null
@@ -3173,7 +3227,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-mdm.svg
-              hash: h8dObZjMBsZ6yWzU4MkygL0dTa+3A091Paz7XPXiJU0=
+              hash: aR8PTQoSn4d4oDxu9huTz6HZgtMkdX5mHwgVXfWnQ2o=
             best_practice_data:
               badge: false
               percentage: null
@@ -3213,7 +3267,7 @@ landscape:
               parents: []
             image_data:
               fileName: clued-in-mdm.svg
-              hash: V0fiFv/61qGIVSycsUsgNzlZOThNf+dMb9EP1yjiBf4=
+              hash: XpU+6I3dzdPeJ3pVJKGY1NJ8ijxgrglIVHcAC7JeEWw=
             best_practice_data:
               badge: false
               percentage: null
@@ -3233,7 +3287,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-master-data-management.svg
-              hash: e+wjfBZn8Zgofyvz9YrrfxefC3pwZuvCuACp9GDDozs=
+              hash: cRJBgMKjVZgRxzWsezvmxCP0hH7iNLvKfSzJxKxsj78=
             best_practice_data:
               badge: false
               percentage: null
@@ -3256,7 +3310,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-data-quality.svg
-              hash: JxbJR4qRH0WKK1J1oCIFOW/jRTTKUO6A4r0F/Hp7KkU=
+              hash: 1clb3E09RegsG3qcow3HiwIy64xIDDodINccNkGaXFA=
             best_practice_data:
               badge: false
               percentage: null
@@ -3302,7 +3356,7 @@ landscape:
               effective_ticker: TLND
             image_data:
               fileName: talend-data-quality.svg
-              hash: zsz8U76GLUpopV0i/nQgOGzKFyzefg3JqdGDHJW8jmg=
+              hash: 0Db+NtPdCCfd1VTiGpgRdz3UYmNmAxLbtTOjjI0VOvM=
             best_practice_data:
               badge: false
               percentage: null
@@ -3347,7 +3401,7 @@ landscape:
               parents: []
             image_data:
               fileName: clued-in-data-quality.svg
-              hash: sUCuGs45LqhO/j1VZ1D1V+1ORYX2hTNzCuX7uxSm2H4=
+              hash: MHlHddb14pGviXuQIJP9OqnIK4cGag8AUCvjf4TqDQg=
             best_practice_data:
               badge: false
               percentage: null
@@ -3367,7 +3421,7 @@ landscape:
               parents: []
             image_data:
               fileName: information-builders-data-quality.svg
-              hash: d8+NVyiamMJJfwVLAzr+Tz3b/4P7n5Dp6SpCDh6bRxE=
+              hash: ypWVIobBaMNwusl4CXtCsobrdQhLGidytZ3w7SJ4iok=
             best_practice_data:
               badge: false
               percentage: null
@@ -3835,7 +3889,7 @@ landscape:
               kind: private
             image_data:
               fileName: informatica-inc.svg
-              hash: ku7F1kxBUQBZSvC90mzAeajt/W4q0653pWUpZBx9yYY=
+              hash: +0qIgJVjAxySHcwyctTajoQYxRAKXIhAB3GLhfwuicY=
             best_practice_data:
               badge: false
               percentage: null
