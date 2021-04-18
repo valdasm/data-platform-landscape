@@ -7,138 +7,138 @@ landscape:
         items:
           - item:
             name: Azure Data Factory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            homepage_url: https://azure.microsoft.com/en-us/services/data-factory/
             description: >-
               Azure Data Factory is Azure's cloud ETL service for scale-out serverless data integration and data transformation. It offers a code-free UI for
               intuitive authoring and single-pane-of-glass monitoring and management. You can also lift and shift existing SSIS packages to Azure and run them
               with full compatibility in ADF.
             project: generalavailability
             logo: azure-data-factory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Matillion Data Loader
-            homepage_url: 'https://www.matillion.com/'
+            homepage_url: https://www.matillion.com/
             logo: matillion-data-loader.svg
-            crunchbase: 'https://www.crunchbase.com/organization/matillion'
+            crunchbase: https://www.crunchbase.com/organization/matillion
           - item:
             name: Informatica PowerExchange
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-pe.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Talend Data Integration
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-integration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Fivetran Integrations
-            homepage_url: 'https://fivetran.com/why-fivetran'
+            homepage_url: https://fivetran.com/why-fivetran
             logo: fivetran.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase: https://www.crunchbase.com/organization/fivetran
           - item:
             name: XPlenty Integration Platform
-            homepage_url: 'https://www.xplenty.com/is/'
+            homepage_url: https://www.xplenty.com/is/
             logo: xplenty-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase: https://www.crunchbase.com/organization/xplenty
           - item:
             name: Precisely Connect Ingest
-            homepage_url: 'https://www.precisely.com/'
+            homepage_url: https://www.precisely.com/
             logo: precisely-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase: https://www.crunchbase.com/organization/precisely-write
           - item:
             name: Lyftron Ingest
-            homepage_url: 'https://lyftron.com/'
+            homepage_url: https://lyftron.com/
             logo: lyftron-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase: https://www.crunchbase.com/organization/lyftron
           - item:
             name: Incorta Data Connectors
-            homepage_url: 'https://www.incorta.com/'
+            homepage_url: https://www.incorta.com/
             logo: incorta-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase: https://www.crunchbase.com/organization/incorta
           - item:
             name: CluedIn Data Integration
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-integration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: Information Builders Integration Ingestion
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-integration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Ab Initio Ingestion
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
           - item:
             name: TimeXtender Ingestion
-            homepage_url: 'https://www.timextender.com/'
+            homepage_url: https://www.timextender.com/
             logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase: https://www.crunchbase.com/organization/timextender
           - item:
             name: SAS Integration Studio Connectors
-            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            homepage_url: https://www.sas.com/en_us/software/viya.html
             logo: sas.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase: https://www.crunchbase.com/organization/sas
       - subcategory:
         name: Streaming
         items:
           - item:
             name: Azure Event Hub
-            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            homepage_url: https://azure.microsoft.com/en-us/services/event-hubs/
             project: generalavailability
             logo: azure-event-hub-capture.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure IoT Hub
-            homepage_url: 'https://azure.microsoft.com/en-us/services/event-hubs/'
+            homepage_url: https://azure.microsoft.com/en-us/services/event-hubs/
             project: generalavailability
             logo: azure-iot.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Confluent Platform
-            homepage_url: 'https://www.confluent.io/'
+            homepage_url: https://www.confluent.io/
             logo: confluent.svg
-            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+            crunchbase: https://www.crunchbase.com/organization/confluent
           - item:
             name: Apache Kafka
-            homepage_url: 'https://kafka.apache.org/'
-            repo_url: 'https://github.com/apache/kafka'
+            homepage_url: https://kafka.apache.org/
+            repo_url: https://github.com/apache/kafka
             logo: kafka.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
       - subcategory:
         name: Replication / CDC
         items:
           - item:
             name: Qlik Attunity Replicate
-            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            homepage_url: https://www.qlik.com/us/products/qlik-replicate
             logo: qlik-replicate.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase: https://www.crunchbase.com/organization/qlik-technologies
           - item:
             name: Informatica PowerExchange CDC
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-pe.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: HVR Integrtions
-            homepage_url: 'https://www.hvr-software.com/solutions/'
+            homepage_url: https://www.hvr-software.com/solutions/
             logo: hvr-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hvr-software'
+            crunchbase: https://www.crunchbase.com/organization/hvr-software
           - item:
             name: Striim
-            homepage_url: 'https://www.striim.com/'
+            homepage_url: https://www.striim.com/
             logo: striim-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/webaction'
+            crunchbase: https://www.crunchbase.com/organization/webaction
           - item:
             name: StreamSets
-            homepage_url: 'https://streamsets.com/'
+            homepage_url: https://streamsets.com/
             logo: streamsets-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            crunchbase: https://www.crunchbase.com/organization/streamsets
           - item:
             name: CData Sync
-            homepage_url: 'https://www.cdata.com/'
+            homepage_url: https://www.cdata.com/
             logo: cdata-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cdata-software'
+            crunchbase: https://www.crunchbase.com/organization/cdata-software
   - category:
     name: Storages
     subcategories:
@@ -147,23 +147,23 @@ landscape:
         items:
           - item:
             name: Azure Data Lake Storage
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction'
+            homepage_url: https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
             project: generalavailability
             logo: azure-data-lake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure SQL
-            homepage_url: 'https://azure.microsoft.com/en-us/services/sql-database/'
+            homepage_url: https://azure.microsoft.com/en-us/services/sql-database/
             project: generalavailability
             logo: azure-sql.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Snowflake Staging
-            homepage_url: 'https://www.snowflake.com/'
+            homepage_url: https://www.snowflake.com/
             logo: snowflake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase: https://www.crunchbase.com/organization/snowflake-computing
       - subcategory:
-        name: 'Lake House, Warehouse, etc.'
+        name: Lake House, Warehouse, etc.
         items:
           - item:
             name: Azure Synapse Dedicated Pools
@@ -171,33 +171,33 @@ landscape:
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: generalavailability
             logo: azure-synapse-dedicated.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Snowflake
-            homepage_url: 'https://www.snowflake.com/'
+            homepage_url: https://www.snowflake.com/
             logo: snowflake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase: https://www.crunchbase.com/organization/snowflake-computing
           - item:
             name: Delta Lake
-            homepage_url: 'https://delta.io/'
-            repo_url: 'https://github.com/delta-io/delta'
+            homepage_url: https://delta.io/
+            repo_url: https://github.com/delta-io/delta
             logo: deltalake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
       - subcategory:
         name: Specialized storages
         items:
           - item:
             name: Azure Data Explorer
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-explorer/'
+            homepage_url: https://azure.microsoft.com/en-us/services/data-explorer/
             project: generalavailability
             logo: azure-data-explorer.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Cosmos DB
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/introduction'
+            homepage_url: https://docs.microsoft.com/en-us/azure/cosmos-db/introduction
             project: generalavailability
             logo: azure-cosmos-db.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: Data Processing
     subcategories:
@@ -206,179 +206,179 @@ landscape:
         items:
           - item:
             name: Azure Data Factory Mapping Data Flows
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            homepage_url: https://azure.microsoft.com/en-us/services/data-factory/
             project: generalavailability
             logo: azure-data-factory-data-flows.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Databricks
-            homepage_url: 'https://azure.microsoft.com/en-us/services/databricks/'
+            homepage_url: https://azure.microsoft.com/en-us/services/databricks/
             logo: azure-databricks.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
           - item:
             name: Matillion ETL
-            homepage_url: 'https://www.matillion.com/'
+            homepage_url: https://www.matillion.com/
             logo: matillion-etl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/matillion'
+            crunchbase: https://www.crunchbase.com/organization/matillion
           - item:
             name: Data Build Tool DBT
-            homepage_url: 'https://www.getdbt.com/'
+            homepage_url: https://www.getdbt.com/
             logo: dbt.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'
+            crunchbase: https://www.crunchbase.com/organization/fishtown-analytics
           - item:
             name: Talend Data Integration ETL
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-integration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Informatica PowerExchange ETL
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-pe.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Fivetran Transformations
-            homepage_url: 'https://fivetran.com/transformations'
+            homepage_url: https://fivetran.com/transformations
             logo: fivetran.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase: https://www.crunchbase.com/organization/fivetran
           - item:
             name: XPlenty ETL
-            homepage_url: 'https://www.xplenty.com/is/'
+            homepage_url: https://www.xplenty.com/is/
             logo: xplenty-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase: https://www.crunchbase.com/organization/xplenty
           - item:
             name: Lyftron ETL
-            homepage_url: 'https://lyftron.com/'
+            homepage_url: https://lyftron.com/
             logo: lyftron-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase: https://www.crunchbase.com/organization/lyftron
           - item:
             name: Precisely Connect ETL
-            homepage_url: 'https://www.precisely.com/'
+            homepage_url: https://www.precisely.com/
             logo: precisely-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase: https://www.crunchbase.com/organization/precisely-write
           - item:
             name: Information Builders Integration
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-integration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Ab Initio ETL
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
           - item:
             name: SAS Integration Studio
-            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            homepage_url: https://www.sas.com/en_us/software/viya.html
             logo: sas.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase: https://www.crunchbase.com/organization/sas
       - subcategory:
         name: Stream Transformations
         items:
           - item:
             name: Azure Stream Analytics
-            homepage_url: 'https://azure.microsoft.com/en-us/services/stream-analytics/'
+            homepage_url: https://azure.microsoft.com/en-us/services/stream-analytics/
             project: generalavailability
             logo: azure-stream-analytics.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Databricks Structured Streaming
-            homepage_url: 'https://databricks.com/'
+            homepage_url: https://databricks.com/
             logo: azure-databricks-stream.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
           - item:
             name: Informatica Data Engineering Streaming
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-stream.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Striim Stream Processing
-            homepage_url: 'https://www.striim.com/'
+            homepage_url: https://www.striim.com/
             logo: striim-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/webaction'
+            crunchbase: https://www.crunchbase.com/organization/webaction
           - item:
             name: StreamSets Stream Processing
-            homepage_url: 'https://streamsets.com/'
+            homepage_url: https://streamsets.com/
             logo: streamsets-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            crunchbase: https://www.crunchbase.com/organization/streamsets
           - item:
             name: Qubole Spark Streaming
-            homepage_url: 'https://www.qubole.com/'
+            homepage_url: https://www.qubole.com/
             logo: qubole.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase: https://www.crunchbase.com/organization/qubole
           - item:
             name: Apache Kafka Stream Processing
-            homepage_url: 'https://kafka.apache.org/'
-            repo_url: 'https://github.com/confluentinc/kafka-streams-examples'
+            homepage_url: https://kafka.apache.org/
+            repo_url: https://github.com/confluentinc/kafka-streams-examples
             logo: kafka.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
       - subcategory:
         name: DWH automation
         items:
           - item:
             name: WhereScape RED
-            homepage_url: 'https://www.wherescape.com/'
+            homepage_url: https://www.wherescape.com/
             logo: wherescape.svg
-            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
+            crunchbase: https://www.crunchbase.com/organization/wherescape
           - item:
             name: BimlFlex
-            homepage_url: 'https://varigence.com/bimlflex'
+            homepage_url: https://varigence.com/bimlflex
             logo: biml.svg
-            crunchbase: 'https://www.crunchbase.com/organization/varigence'
+            crunchbase: https://www.crunchbase.com/organization/varigence
           - item:
             name: Dimodelo Data Warehouse Studio
-            homepage_url: 'https://www.dimodelo.com/data-warehouse-studio-for-azure-synapse/'
+            homepage_url: https://www.dimodelo.com/data-warehouse-studio-for-azure-synapse/
             logo: dimodelo-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dimodelo-solutions'
+            crunchbase: https://www.crunchbase.com/organization/dimodelo-solutions
           - item:
             name: BI Builders
-            homepage_url: 'https://www.bi-builders.com/'
+            homepage_url: https://www.bi-builders.com/
             logo: bi-builders.svg
-            crunchbase: 'https://www.crunchbase.com/organization/bi-builders'
+            crunchbase: https://www.crunchbase.com/organization/bi-builders
           - item:
             name: Qlik Compose
-            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            homepage_url: https://www.qlik.com/us/products/qlik-replicate
             logo: qlik-compose.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase: https://www.crunchbase.com/organization/qlik-technologies
           - item:
             name: Incorta Platform
-            homepage_url: 'https://www.incorta.com/'
+            homepage_url: https://www.incorta.com/
             logo: incorta-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase: https://www.crunchbase.com/organization/incorta
           - item:
             name: TimeXtender Automation
-            homepage_url: 'https://www.timextender.com/'
+            homepage_url: https://www.timextender.com/
             logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase: https://www.crunchbase.com/organization/timextender
       - subcategory:
         name: Orchestration
         items:
           - item:
             name: Apache Airflow
-            homepage_url: 'https://airflow.apache.org/'
-            repo_url: 'https://github.com/apache/airflow'
+            homepage_url: https://airflow.apache.org/
+            repo_url: https://github.com/apache/airflow
             logo: airflow.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Azure Data Factory Orchestration
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-factory/'
+            homepage_url: https://azure.microsoft.com/en-us/services/data-factory/
             project: generalavailability
             logo: azure-data-factory-orchestration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Informatica Workflow Orchestration
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-orchestration.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: DAGSTER
-            homepage_url: 'https://dagster.io/'
-            repo_url: 'https://github.com/dagster-io/dagster'
+            homepage_url: https://dagster.io/
+            repo_url: https://github.com/dagster-io/dagster
             logo: dagster.svg
-            crunchbase: 'https://www.crunchbase.com/organization/elementl'
+            crunchbase: https://www.crunchbase.com/organization/elementl
           - item:
             name: Ab Initio Orchestration
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
   - category:
     name: Advanced Analytics
     subcategories:
@@ -391,68 +391,68 @@ landscape:
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
             logo: azure-synapse-analytics.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Machine Learning
-            homepage_url: 'https://azure.microsoft.com/en-us/services/machine-learning/'
+            homepage_url: https://azure.microsoft.com/en-us/services/machine-learning/
             project: generalavailability
             logo: azure-ml.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Databricks Workspaces
-            homepage_url: 'https://databricks.com/'
+            homepage_url: https://databricks.com/
             logo: azure-databricks.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
           - item:
             name: SAS Viya
-            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            homepage_url: https://www.sas.com/en_us/software/viya.html
             logo: sas.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase: https://www.crunchbase.com/organization/sas
           - item:
             name: Dataiku
-            homepage_url: 'https://www.dataiku.com/'
+            homepage_url: https://www.dataiku.com/
             logo: dataiku.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+            crunchbase: https://www.crunchbase.com/organization/dataiku
           - item:
             name: Qubole
-            homepage_url: 'https://www.qubole.com/'
+            homepage_url: https://www.qubole.com/
             logo: qubole.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase: https://www.crunchbase.com/organization/qubole
           - item:
             name: Data Robot
-            homepage_url: 'https://www.datarobot.com/'
+            homepage_url: https://www.datarobot.com/
             logo: data-robot.svg
-            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+            crunchbase: https://www.crunchbase.com/organization/datarobot
           - item:
             name: H2O AI
-            homepage_url: 'https://www.h2o.ai/'
+            homepage_url: https://www.h2o.ai/
             logo: h2o-ai.svg
-            crunchbase: 'https://www.crunchbase.com/organization/h2o-2'
+            crunchbase: https://www.crunchbase.com/organization/h2o-2
           - item:
             name: Alteryx Advanced Analytics
-            homepage_url: 'https://www.alteryx.com/products/alteryx-platform/intelligence-suite'
+            homepage_url: https://www.alteryx.com/products/alteryx-platform/intelligence-suite
             logo: Alteryx-aa.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
           - item:
             name: Incorta Data Science
-            homepage_url: 'https://www.incorta.com/'
+            homepage_url: https://www.incorta.com/
             logo: incorta-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase: https://www.crunchbase.com/organization/incorta
       - subcategory:
         name: Managed ML services
         items:
           - item:
             name: Azure Cognitive Services
-            homepage_url: 'https://azure.microsoft.com/en-us/services/cognitive-services/'
+            homepage_url: https://azure.microsoft.com/en-us/services/cognitive-services/
             project: generalavailability
             logo: azure-cognitive-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Bot Services
-            homepage_url: 'https://azure.microsoft.com/en-us/services/bot-service/'
+            homepage_url: https://azure.microsoft.com/en-us/services/bot-service/
             project: generalavailability
             logo: azure-bot-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: Business Intelligence
     subcategories:
@@ -461,141 +461,141 @@ landscape:
         items:
           - item:
             name: PowerBI
-            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            homepage_url: https://docs.microsoft.com/en-us/power-bi/
             project: generalavailability
             logo: powerbi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Dundas Data Visualization
-            homepage_url: 'https://www.dundas.com/'
+            homepage_url: https://www.dundas.com/
             logo: dundas-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+            crunchbase: https://www.crunchbase.com/organization/dundas-data-visualization
           - item:
             name: Tableau
-            homepage_url: 'https://www.tableau.com/'
+            homepage_url: https://www.tableau.com/
             logo: tableau.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+            crunchbase: https://www.crunchbase.com/organization/tableau
           - item:
             name: Qlik Sense
-            homepage_url: 'https://www.qlik.com/us/products/qlik-replicate'
+            homepage_url: https://www.qlik.com/us/products/qlik-replicate
             logo: qlik.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase: https://www.crunchbase.com/organization/qlik-technologies
           - item:
             name: Information Builders Analytics
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-analytics.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: MicroStrategy Enterprise Platform
-            homepage_url: 'https://www.microstrategy.com/en'
+            homepage_url: https://www.microstrategy.com/en
             logo: MicroStrategy-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microstrategy'
+            crunchbase: https://www.crunchbase.com/organization/microstrategy
           - item:
             name: Looker
-            homepage_url: 'https://looker.com/'
+            homepage_url: https://looker.com/
             logo: looker-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/looker'
+            crunchbase: https://www.crunchbase.com/organization/looker
           - item:
             name: Mode
-            homepage_url: 'https://mode.com/'
+            homepage_url: https://mode.com/
             logo: mode-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mode-analytics'
+            crunchbase: https://www.crunchbase.com/organization/mode-analytics
           - item:
             name: SiSense
-            homepage_url: 'https://www.sisense.com/n'
+            homepage_url: https://www.sisense.com/n
             logo: sisense-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sisense'
+            crunchbase: https://www.crunchbase.com/organization/sisense
           - item:
             name: Incorta Analytics
-            homepage_url: 'https://www.incorta.com/'
+            homepage_url: https://www.incorta.com/
             logo: incorta-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase: https://www.crunchbase.com/organization/incorta
           - item:
             name: Alteryx Business Intelligence
-            homepage_url: 'https://www.alteryx.com/'
+            homepage_url: https://www.alteryx.com/
             logo: Alteryx-bi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
       - subcategory:
         name: Light data preparation
         items:
           - item:
             name: Dremio Workspace
-            homepage_url: 'https://www.dremio.com/'
+            homepage_url: https://www.dremio.com/
             logo: dremio.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase: https://www.crunchbase.com/organization/dremio-corporation
           - item:
             name: Azure Synapse Workspace
             homepage_url: >-
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
             logo: azure-synapse-workspace.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Snowflake Snowsight
-            homepage_url: 'https://www.snowflake.com/'
+            homepage_url: https://www.snowflake.com/
             logo: snowflake-snowsight.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase: https://www.crunchbase.com/organization/snowflake-computing
           - item:
             name: Databricks SQL Analytics
-            homepage_url: 'https://databricks.com/'
+            homepage_url: https://databricks.com/
             logo: azure-databricks-sql.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
           - item:
             name: Talend Data Preparation
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-data-prep.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Alteryx Data Preparation
-            homepage_url: 'https://www.alteryx.com/'
+            homepage_url: https://www.alteryx.com/
             logo: Alteryx-data-prep.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
           - item:
             name: PowerBI Power Query
-            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            homepage_url: https://docs.microsoft.com/en-us/power-bi/
             project: generalavailability
             logo: powerbi-pq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: CluedIn Data Preparation
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-data-prep.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: Information Builders Data Preparation
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-data-prep.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Trifacta Wrangler
-            homepage_url: 'https://www.trifacta.com/'
+            homepage_url: https://www.trifacta.com/
             logo: trifacta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+            crunchbase: https://www.crunchbase.com/organization/trifacta
       - subcategory:
         name: Semantics
         items:
           - item:
             name: Azure Analysis Services
-            homepage_url: 'https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions'
+            homepage_url: https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions
             project: generalavailability
             logo: azure-analysis-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Kyligence Enterprise
-            homepage_url: 'https://kyligence.io/kyligence-enterprise/'
+            homepage_url: https://kyligence.io/kyligence-enterprise/
             logo: kyligence-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/kyligence'
+            crunchbase: https://www.crunchbase.com/organization/kyligence
           - item:
             name: PowerBI Semantics
-            homepage_url: 'https://docs.microsoft.com/en-us/power-bi/'
+            homepage_url: https://docs.microsoft.com/en-us/power-bi/
             project: generalavailability
             logo: powerbi-semantics.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Dremio Data Reflections
-            homepage_url: 'https://www.dremio.com/'
+            homepage_url: https://www.dremio.com/
             logo: dremio-data-reflections.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase: https://www.crunchbase.com/organization/dremio-corporation
   - category:
     name: Data access
     subcategories:
@@ -608,100 +608,100 @@ landscape:
               https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
             project: preview
             logo: azure-synapse-serverless.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Dremio Query Engine
-            homepage_url: 'https://www.dremio.com/'
+            homepage_url: https://www.dremio.com/
             logo: dremio.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase: https://www.crunchbase.com/organization/dremio-corporation
           - item:
             name: Denodo
-            homepage_url: 'https://www.denodo.com/en'
+            homepage_url: https://www.denodo.com/en
             logo: denodo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
+            crunchbase: https://www.crunchbase.com/organization/denodo-technologies
           - item:
             name: Immuta Query Engine
-            homepage_url: 'https://www.immuta.com/'
+            homepage_url: https://www.immuta.com/
             logo: immuta-query.svg
-            crunchbase: 'https://www.crunchbase.com/organization/immuta'
+            crunchbase: https://www.crunchbase.com/organization/immuta
           - item:
             name: Okera Query Engine
-            homepage_url: 'https://www.okera.com/'
+            homepage_url: https://www.okera.com/
             logo: okera-query.svg
-            crunchbase: 'https://www.crunchbase.com/organization/okera'
+            crunchbase: https://www.crunchbase.com/organization/okera
       - subcategory:
         name: Data sharing
         items:
           - item:
             name: Azure Data Share
-            homepage_url: 'https://azure.microsoft.com/en-us/services/data-share/'
+            homepage_url: https://azure.microsoft.com/en-us/services/data-share/
             project: generalavailability
             logo: azure-data-share.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Snowflake Data Share
-            homepage_url: 'https://www.snowflake.com/'
+            homepage_url: https://www.snowflake.com/
             logo: snowflake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase: https://www.crunchbase.com/organization/snowflake-computing
           - item:
             name: Lyftron Data Sharing
-            homepage_url: 'https://lyftron.com/'
+            homepage_url: https://lyftron.com/
             logo: lyftron-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase: https://www.crunchbase.com/organization/lyftron
           - item:
             name: CluedIn Data Sharing
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
       - subcategory:
         name: APIs
         items:
           - item:
             name: Azure API Management Service
-            homepage_url: 'https://azure.microsoft.com/en-us/services/api-management/'
+            homepage_url: https://azure.microsoft.com/en-us/services/api-management/
             project: generalavailability
             logo: azure-api-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Function App
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview'
+            homepage_url: https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview
             project: generalavailability
             logo: azure-function-app.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Talend API Services
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-api.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Dremio API
-            homepage_url: 'https://www.dremio.com/'
+            homepage_url: https://www.dremio.com/
             logo: dremio-api.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase: https://www.crunchbase.com/organization/dremio-corporation
       - subcategory:
         name: Application Integration
         items:
           - item:
             name: SnapLogic Platform
-            homepage_url: 'https://www.snaplogic.com/'
+            homepage_url: https://www.snaplogic.com/
             logo: snaplogic.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snaplogic'
+            crunchbase: https://www.crunchbase.com/organization/snaplogic
           - item:
             name: Azure Logic Apps
-            homepage_url: 'https://azure.microsoft.com/en-us/services/logic-apps/'
+            homepage_url: https://azure.microsoft.com/en-us/services/logic-apps/
             project: generalavailability
             logo: azure-logic-app.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Segment Integration
-            homepage_url: 'https://segment.com/'
+            homepage_url: https://segment.com/
             logo: segment-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+            crunchbase: https://www.crunchbase.com/organization/segment-io
           - item:
             name: CluedIn Application Integrations
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
   - category:
     name: Data Governance
     subcategories:
@@ -710,147 +710,147 @@ landscape:
         items:
           - item:
             name: Privacera
-            homepage_url: 'https://privacera.com/'
+            homepage_url: https://privacera.com/
             logo: privacera.svg
-            crunchbase: 'https://www.crunchbase.com/organization/privacera'
+            crunchbase: https://www.crunchbase.com/organization/privacera
           - item:
             name: Immuta
-            homepage_url: 'https://www.immuta.com/'
+            homepage_url: https://www.immuta.com/
             logo: immuta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/immuta'
+            crunchbase: https://www.crunchbase.com/organization/immuta
           - item:
             name: Okera
-            homepage_url: 'https://www.okera.com/'
+            homepage_url: https://www.okera.com/
             logo: okera.svg
-            crunchbase: 'https://www.crunchbase.com/organization/okera'
+            crunchbase: https://www.crunchbase.com/organization/okera
       - subcategory:
         name: Data management
         items:
           - item:
             name: Informatica Data Catalog
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-edc.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Informatica Axon Business Glossary
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-axon.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Talend Data Catalog
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-dc.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Collibra
-            homepage_url: 'https://www.collibra.com/'
+            homepage_url: https://www.collibra.com/
             logo: collibra-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/collibra'
+            crunchbase: https://www.crunchbase.com/organization/collibra
           - item:
             name: Alation
-            homepage_url: 'https://www.alation.com/'
+            homepage_url: https://www.alation.com/
             logo: alation-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alation'
+            crunchbase: https://www.crunchbase.com/organization/alation
           - item:
             name: Azure Purview
-            homepage_url: 'https://azure.microsoft.com/en-us/services/purview/'
+            homepage_url: https://azure.microsoft.com/en-us/services/purview/
             project: preview
             logo: azure-purview-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: TimeXtender Discovery Hub
-            homepage_url: 'https://www.timextender.com/'
+            homepage_url: https://www.timextender.com/
             logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase: https://www.crunchbase.com/organization/timextender
           - item:
             name: Alteryx Data Management
-            homepage_url: 'https://www.alteryx.com/'
+            homepage_url: https://www.alteryx.com/
             logo: Alteryx-data-discovery.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
           - item:
             name: CluedIn Data Governance
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-governance.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: Information Builders Data Governance
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-governance.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Ab Initio Data Management
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
       - subcategory:
         name: Master Data Management
         items:
           - item:
             name: Information Builders MDM
-            homepage_url: 'https://www.ibi.com/data-platform/'
+            homepage_url: https://www.ibi.com/data-platform/
             logo: information-builders-mdm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Tamr MDM
-            homepage_url: 'https://www.tamr.com/'
+            homepage_url: https://www.tamr.com/
             logo: tamr-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tamr'
+            crunchbase: https://www.crunchbase.com/organization/tamr
           - item:
             name: CluedIn MDM
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-mdm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: Informatica Master Data Management
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-mdm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
       - subcategory:
         name: Data Quality
         items:
           - item:
             name: Informatica Data Quality
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica-dq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: HEDDA.IO
-            homepage_url: 'https://hedda.io/'
+            homepage_url: https://hedda.io/
             logo: hedda-io-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/oh22data'
+            crunchbase: https://www.crunchbase.com/organization/oh22data
           - item:
             name: Talend Data Quality
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend-dq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Alteryx Data Quality
-            homepage_url: 'https://www.alteryx.com/'
+            homepage_url: https://www.alteryx.com/
             logo: Alteryx-data-dq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
           - item:
             name: CluedIn Data Quality
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-dq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: Information Builders Data Quality
-            homepage_url: 'https://www.ibi.com/analytics-platform/'
+            homepage_url: https://www.ibi.com/analytics-platform/
             logo: information-builders-dq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Ab Initio Data Quality
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
       - subcategory:
         name: Data Modelling
         items:
           - item:
             name: SqlDBM
-            homepage_url: 'https://sqldbm.com/Home/'
+            homepage_url: https://sqldbm.com/Home/
             logo: sqldmb-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sqldbm'
+            crunchbase: https://www.crunchbase.com/organization/sqldbm
   - category:
     name: Data Ops
     subcategories:
@@ -859,93 +859,93 @@ landscape:
         items:
           - item:
             name: Azure DevOps
-            homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
+            homepage_url: https://azure.microsoft.com/en-us/services/devops/
             project: infrastructure
             logo: azure-devops.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Pipelines
-            homepage_url: 'https://azure.microsoft.com/en-us/services/devops/'
+            homepage_url: https://azure.microsoft.com/en-us/services/devops/
             project: infrastructure
             logo: azure-devops-pipelines.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Automation
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/automation/automation-intro'
+            homepage_url: https://docs.microsoft.com/en-us/azure/automation/automation-intro
             project: infrastructure
             logo: azure-automation.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
       - subcategory:
         name: Budget
         items:
           - item:
             name: Azure Cost Management
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
+            homepage_url: https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario
             project: infrastructure
             logo: azure-cost-management.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Cost Analysis
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario'
+            homepage_url: https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario
             project: infrastructure
             logo: azure-cost-analysis.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
       - subcategory:
         name: Security
         items:
           - item:
             name: Azure Security Center
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction'
+            homepage_url: https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction
             project: infrastructure
             logo: azure-security-center.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Active Directory
-            homepage_url: 'https://azure.microsoft.com/en-us/services/active-directory/'
+            homepage_url: https://azure.microsoft.com/en-us/services/active-directory/
             project: infrastructure
             logo: azure-active-directory.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Key Vault
-            homepage_url: 'https://azure.microsoft.com/en-us/services/key-vault/'
+            homepage_url: https://azure.microsoft.com/en-us/services/key-vault/
             project: infrastructure
             logo: azure-key-vault.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
       - subcategory:
         name: Monitoring
         items:
           - item:
             name: Azure Monitor
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/overview'
+            homepage_url: https://docs.microsoft.com/en-us/azure/azure-monitor/overview
             project: infrastructure
             logo: azure-monitor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure App Insights
-            homepage_url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
+            homepage_url: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
             project: infrastructure
             logo: azure-app-insights.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: SentryOne Monitoring
-            homepage_url: 'https://www.sentryone.com/products/sentryone-platform/dw-sentry/azure-sql-data-warehouse-monitoring'
+            homepage_url: https://www.sentryone.com/products/sentryone-platform/dw-sentry/azure-sql-data-warehouse-monitoring
             logo: sentry-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+            crunchbase: https://www.crunchbase.com/organization/sentryone
       - subcategory:
         name: Compute
         items:
           - item:
             name: Azure Kubernetes Service
-            homepage_url: 'https://azure.microsoft.com/en-us/services/kubernetes-service/'
+            homepage_url: https://azure.microsoft.com/en-us/services/kubernetes-service/
             project: infrastructure
             logo: azure-kubernetes.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Azure Virtual Machine
-            homepage_url: 'https://azure.microsoft.com/en-us/services/virtual-machines/'
+            homepage_url: https://azure.microsoft.com/en-us/services/virtual-machines/
             project: infrastructure
             logo: azure-vm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: Azure Landscape Members
     subcategories:
@@ -954,261 +954,261 @@ landscape:
         items:
           - item:
             name: SAS
-            homepage_url: 'https://www.sas.com/en_us/software/viya.html'
+            homepage_url: https://www.sas.com/en_us/software/viya.html
             logo: sas.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sas'
+            crunchbase: https://www.crunchbase.com/organization/sas
           - item:
             name: Talend Inc.
-            homepage_url: 'https://www.talend.com/'
+            homepage_url: https://www.talend.com/
             logo: talend.svg
-            crunchbase: 'https://www.crunchbase.com/organization/talend'
+            crunchbase: https://www.crunchbase.com/organization/talend
           - item:
             name: Informatica Inc.
-            homepage_url: 'https://www.informatica.com/'
+            homepage_url: https://www.informatica.com/
             logo: informatica.svg
-            crunchbase: 'https://www.crunchbase.com/organization/informatica'
+            crunchbase: https://www.crunchbase.com/organization/informatica
           - item:
             name: Databricks Inc.
-            homepage_url: 'https://databricks.com/'
+            homepage_url: https://databricks.com/
             logo: azure-databricks.svg
-            crunchbase: 'https://www.crunchbase.com/organization/databricks'
+            crunchbase: https://www.crunchbase.com/organization/databricks
           - item:
             name: Snowflake Inc.
-            homepage_url: 'https://www.snowflake.com/'
+            homepage_url: https://www.snowflake.com/
             logo: snowflake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
+            crunchbase: https://www.crunchbase.com/organization/snowflake-computing
           - item:
             name: WhereScape
-            homepage_url: 'https://www.wherescape.com/'
+            homepage_url: https://www.wherescape.com/
             logo: wherescape.svg
-            crunchbase: 'https://www.crunchbase.com/organization/wherescape'
+            crunchbase: https://www.crunchbase.com/organization/wherescape
           - item:
             name: Matillion Inc.
-            homepage_url: 'https://www.matillion.com/'
+            homepage_url: https://www.matillion.com/
             logo: matillion.svg
-            crunchbase: 'https://www.crunchbase.com/organization/matillion'
+            crunchbase: https://www.crunchbase.com/organization/matillion
           - item:
             name: Privacera Inc.
-            homepage_url: 'https://privacera.com/'
+            homepage_url: https://privacera.com/
             logo: privacera.svg
-            crunchbase: 'https://www.crunchbase.com/organization/privacera'
+            crunchbase: https://www.crunchbase.com/organization/privacera
           - item:
             name: Qlik Technologies
-            homepage_url: 'https://www.qlik.com/us/'
+            homepage_url: https://www.qlik.com/us/
             logo: qlik.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qlik-technologies'
+            crunchbase: https://www.crunchbase.com/organization/qlik-technologies
           - item:
             name: Immuta Inc.
-            homepage_url: 'https://www.immuta.com/'
+            homepage_url: https://www.immuta.com/
             logo: immuta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/immuta'
+            crunchbase: https://www.crunchbase.com/organization/immuta
           - item:
             name: Dremio Corp.
-            homepage_url: 'https://www.dremio.com/'
+            homepage_url: https://www.dremio.com/
             logo: dremio.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dremio-corporation'
+            crunchbase: https://www.crunchbase.com/organization/dremio-corporation
           - item:
             name: Confluent Inc.
-            homepage_url: 'https://www.confluent.io/'
+            homepage_url: https://www.confluent.io/
             logo: confluent.svg
-            crunchbase: 'https://www.crunchbase.com/organization/confluent'
+            crunchbase: https://www.crunchbase.com/organization/confluent
           - item:
             name: Data Robot Inc.
-            homepage_url: 'https://www.datarobot.com/'
+            homepage_url: https://www.datarobot.com/
             logo: data-robot.svg
-            crunchbase: 'https://www.crunchbase.com/organization/datarobot'
+            crunchbase: https://www.crunchbase.com/organization/datarobot
           - item:
             name: Dataiku Inc.
-            homepage_url: 'https://www.dataiku.com/'
+            homepage_url: https://www.dataiku.com/
             logo: dataiku.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dataiku'
+            crunchbase: https://www.crunchbase.com/organization/dataiku
           - item:
             name: Qubole Inc.
-            homepage_url: 'https://www.qubole.com/'
+            homepage_url: https://www.qubole.com/
             logo: qubole.svg
-            crunchbase: 'https://www.crunchbase.com/organization/qubole'
+            crunchbase: https://www.crunchbase.com/organization/qubole
           - item:
             name: Tableau Corp.
-            homepage_url: 'https://www.tableau.com/'
+            homepage_url: https://www.tableau.com/
             logo: tableau.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tableau'
+            crunchbase: https://www.crunchbase.com/organization/tableau
           - item:
             name: Trifacta
-            homepage_url: 'https://www.trifacta.com/'
+            homepage_url: https://www.trifacta.com/
             logo: trifacta.svg
-            crunchbase: 'https://www.crunchbase.com/organization/trifacta'
+            crunchbase: https://www.crunchbase.com/organization/trifacta
           - item:
             name: Denodo Technologies Inc.
-            homepage_url: 'https://www.denodo.com/en'
+            homepage_url: https://www.denodo.com/en
             logo: denodo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/denodo-technologies'
+            crunchbase: https://www.crunchbase.com/organization/denodo-technologies
           - item:
             name: Varigence
-            homepage_url: 'https://varigence.com/bimlflex'
+            homepage_url: https://varigence.com/bimlflex
             logo: biml.svg
-            crunchbase: 'https://www.crunchbase.com/organization/varigence'
+            crunchbase: https://www.crunchbase.com/organization/varigence
           - item:
             name: Okera Inc.
-            homepage_url: 'https://www.okera.com/'
+            homepage_url: https://www.okera.com/
             logo: okera.svg
-            crunchbase: 'https://www.crunchbase.com/organization/okera'
+            crunchbase: https://www.crunchbase.com/organization/okera
           - item:
             name: Fivetran
-            homepage_url: 'https://fivetran.com/'
+            homepage_url: https://fivetran.com/
             logo: fivetran.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fivetran'
+            crunchbase: https://www.crunchbase.com/organization/fivetran
           - item:
             name: Collibra Inc.
-            homepage_url: 'https://www.collibra.com/'
+            homepage_url: https://www.collibra.com/
             logo: collibra-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/collibra'
+            crunchbase: https://www.crunchbase.com/organization/collibra
           - item:
             name: Alation Inc.
-            homepage_url: 'https://www.alation.com/'
+            homepage_url: https://www.alation.com/
             logo: alation-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alation'
+            crunchbase: https://www.crunchbase.com/organization/alation
           - item:
             name: Ab Initio Organization
-            homepage_url: 'https://www.abinitio.com/en/'
+            homepage_url: https://www.abinitio.com/en/
             logo: abinitio-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ab-initio'
+            crunchbase: https://www.crunchbase.com/organization/ab-initio
           - item:
             name: Dimodelo
-            homepage_url: 'https://www.dimodelo.com/'
+            homepage_url: https://www.dimodelo.com/
             logo: dimodelo-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dimodelo-solutions'
+            crunchbase: https://www.crunchbase.com/organization/dimodelo-solutions
           - item:
             name: HVR Software
-            homepage_url: 'https://www.hvr-software.com/'
+            homepage_url: https://www.hvr-software.com/
             logo: hvr-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hvr-software'
+            crunchbase: https://www.crunchbase.com/organization/hvr-software
           - item:
             name: Striim Inc.
-            homepage_url: 'https://www.striim.com/'
+            homepage_url: https://www.striim.com/
             logo: striim-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/webaction'
+            crunchbase: https://www.crunchbase.com/organization/webaction
           - item:
             name: StreamSets Inc.
-            homepage_url: 'https://streamsets.com/'
+            homepage_url: https://streamsets.com/
             logo: streamsets-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            crunchbase: https://www.crunchbase.com/organization/streamsets
           - item:
             name: SqlDBM Organization
-            homepage_url: 'https://sqldbm.com/Home/'
+            homepage_url: https://sqldbm.com/Home/
             logo: sqldmb-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sqldbm'
+            crunchbase: https://www.crunchbase.com/organization/sqldbm
           - item:
             name: Kyligence
-            homepage_url: 'https://kyligence.io/kyligence-enterprise/'
+            homepage_url: https://kyligence.io/kyligence-enterprise/
             logo: kyligence-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/kyligence'
+            crunchbase: https://www.crunchbase.com/organization/kyligence
           - item:
             name: BI Builders AS
-            homepage_url: 'https://www.bi-builders.com/'
+            homepage_url: https://www.bi-builders.com/
             logo: bi-builders.svg
-            crunchbase: 'https://www.crunchbase.com/organization/bi-builders'
+            crunchbase: https://www.crunchbase.com/organization/bi-builders
           - item:
             name: Information Builders
-            homepage_url: 'https://www.ibi.com/'
+            homepage_url: https://www.ibi.com/
             logo: information-builders-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/information-builders'
+            crunchbase: https://www.crunchbase.com/organization/information-builders
           - item:
             name: Tamr
-            homepage_url: 'https://www.tamr.com/'
+            homepage_url: https://www.tamr.com/
             logo: tamr-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tamr'
+            crunchbase: https://www.crunchbase.com/organization/tamr
           - item:
             name: Dundas
-            homepage_url: 'https://www.dundas.com/'
+            homepage_url: https://www.dundas.com/
             logo: dundas-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/dundas-data-visualization'
+            crunchbase: https://www.crunchbase.com/organization/dundas-data-visualization
           - item:
             name: CluedIn
-            homepage_url: 'https://www.cluedin.com/'
+            homepage_url: https://www.cluedin.com/
             logo: cluedin-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cluedin'
+            crunchbase: https://www.crunchbase.com/organization/cluedin
           - item:
             name: CData Software
-            homepage_url: 'https://www.cdata.com/'
+            homepage_url: https://www.cdata.com/
             logo: cdata-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cdata-software'
+            crunchbase: https://www.crunchbase.com/organization/cdata-software
           - item:
             name: oh22data
-            homepage_url: 'https://hedda.io/'
+            homepage_url: https://hedda.io/
             logo: hedda-io-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/oh22data'
+            crunchbase: https://www.crunchbase.com/organization/oh22data
           - item:
             name: MicroStrategy
-            homepage_url: 'https://www.microstrategy.com/en'
+            homepage_url: https://www.microstrategy.com/en
             logo: MicroStrategy-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/microstrategy'
+            crunchbase: https://www.crunchbase.com/organization/microstrategy
           - item:
             name: TimeXtender
-            homepage_url: 'https://www.timextender.com/'
+            homepage_url: https://www.timextender.com/
             logo: timextender-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/timextender'
+            crunchbase: https://www.crunchbase.com/organization/timextender
           - item:
             name: H2O Inc.
-            homepage_url: 'https://www.h2o.ai/'
+            homepage_url: https://www.h2o.ai/
             logo: h2o-ai.svg
-            crunchbase: 'https://www.crunchbase.com/organization/h2o-2'
+            crunchbase: https://www.crunchbase.com/organization/h2o-2
           - item:
             name: Alteryx Inc.
-            homepage_url: 'https://www.alteryx.com/'
+            homepage_url: https://www.alteryx.com/
             logo: Alteryx-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alteryx'
+            crunchbase: https://www.crunchbase.com/organization/alteryx
           - item:
             name: XPlenty
-            homepage_url: 'https://www.xplenty.com/is/'
+            homepage_url: https://www.xplenty.com/is/
             logo: xplenty-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/xplenty'
+            crunchbase: https://www.crunchbase.com/organization/xplenty
           - item:
             name: Looker Data Sciences Inc.
-            homepage_url: 'https://looker.com/'
+            homepage_url: https://looker.com/
             logo: looker-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/looker'
+            crunchbase: https://www.crunchbase.com/organization/looker
           - item:
-            name: 'Mode Analytics, Inc.'
-            homepage_url: 'https://mode.com/'
+            name: Mode Analytics, Inc.
+            homepage_url: https://mode.com/
             logo: mode-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/mode-analytics'
+            crunchbase: https://www.crunchbase.com/organization/mode-analytics
           - item:
             name: SiSense Ltd.
-            homepage_url: 'https://www.sisense.com/n'
+            homepage_url: https://www.sisense.com/n
             logo: sisense-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sisense'
+            crunchbase: https://www.crunchbase.com/organization/sisense
           - item:
             name: Precisely
-            homepage_url: 'https://www.precisely.com/'
+            homepage_url: https://www.precisely.com/
             logo: precisely-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/precisely-write'
+            crunchbase: https://www.crunchbase.com/organization/precisely-write
           - item:
             name: Lyftron
-            homepage_url: 'https://lyftron.com/'
+            homepage_url: https://lyftron.com/
             logo: lyftron-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyftron'
+            crunchbase: https://www.crunchbase.com/organization/lyftron
           - item:
             name: Segment
-            homepage_url: 'https://segment.com/'
+            homepage_url: https://segment.com/
             logo: segment-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/segment-io'
+            crunchbase: https://www.crunchbase.com/organization/segment-io
           - item:
             name: SentryOne
-            homepage_url: 'https://www.sentryone.com/'
+            homepage_url: https://www.sentryone.com/
             logo: sentry-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sentryone'
+            crunchbase: https://www.crunchbase.com/organization/sentryone
           - item:
             name: Incorta
-            homepage_url: 'https://www.incorta.com/'
+            homepage_url: https://www.incorta.com/
             logo: incorta-logo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/incorta'
+            crunchbase: https://www.crunchbase.com/organization/incorta
           - item:
             name: Fishtown Analytics
-            homepage_url: 'https://www.fishtownanalytics.com/'
+            homepage_url: https://www.fishtownanalytics.com/
             logo: dbt.svg
-            crunchbase: 'https://www.crunchbase.com/organization/fishtown-analytics'
+            crunchbase: https://www.crunchbase.com/organization/fishtown-analytics
           - item:
             name: SnapLogic
-            homepage_url: 'https://www.snaplogic.com/'
+            homepage_url: https://www.snaplogic.com/
             logo: snaplogic.svg
-            crunchbase: 'https://www.crunchbase.com/organization/snaplogic'
+            crunchbase: https://www.crunchbase.com/organization/snaplogic
